@@ -22,7 +22,7 @@ How do we pick the projects?
 - (Optional) Reasonable test coverage
 
 Overall, I tend to pick decent or promising libraries that closely related to systematic trading instead of including as many libraries as possible.
-Please raise a PR if you found some good fit projects for this repo or remove some outdated projects. Thanks!
+**Please raise a PR if you found some good fit projects for this repo or remove some outdated projects. Thanks!**
 
 - [Awesome Systematic Trading](#awesome-systematic-trading)
   - [Backtest + live trading](#backtest--live-trading)
