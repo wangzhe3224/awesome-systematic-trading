@@ -32,6 +32,7 @@ Overall, I tend to pick decent or promising libraries that closely related to sy
   - [Basic libraries](#basic-libraries)
     - [Fundamental libraries](#fundamental-libraries)
     - [Alternative libraries](#alternative-libraries)
+      - [Numpy Alternatives](#numpy-alternatives)
       - [Pandas Alternatives](#pandas-alternatives)
   - [Analytic tools](#analytic-tools)
     - [Metrics compution](#metrics-compution)
@@ -89,6 +90,10 @@ Overall, I tend to pick decent or promising libraries that closely related to sy
 - [PyMC](https://github.com/pymc-devs/pymc) | `Python` | - Probabilistic Programming in Python: Bayesian Modeling and Probabilistic Machine Learning with Aesara
 
 ### Alternative libraries
+
+#### Numpy Alternatives
+
+- [ndarray](https://github.com/rust-ndarray/ndarray) | `Rust` | - ndarray: an N-dimensional array with array views, multidimensional slicing, and efficient operations
 
 #### Pandas Alternatives
 
