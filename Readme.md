@@ -22,13 +22,17 @@ How do we pick the projects?
 - (Optional) Reasonable test coverage
 
 Overall, I tend to pick decent or promising libraries that closely related to systematic trading instead of including as many libraries as possible.
-**Please raise a PR if you found some good fit projects for this repo or remove some outdated projects. Thanks!**
+
+ **Please raise a PR if you found some good fit projects for this repo or remove some outdated projects. Thanks!**
 
 - [Awesome Systematic Trading](#awesome-systematic-trading)
   - [Backtest + live trading](#backtest--live-trading)
     - [General purpose](#general-purpose)
     - [Crypto currency focus](#crypto-currency-focus)
   - [Basic libraries](#basic-libraries)
+    - [Fundamental libraries](#fundamental-libraries)
+    - [Alternative libraries](#alternative-libraries)
+      - [Pandas Alternatives](#pandas-alternatives)
   - [Analytic tools](#analytic-tools)
     - [Metrics compution](#metrics-compution)
     - [Indicators](#indicators)
@@ -72,16 +76,26 @@ Overall, I tend to pick decent or promising libraries that closely related to sy
 
 ## Basic libraries
 
+### Fundamental libraries
+
 - [Cvxpy](https://github.com/cvxpy/cvxpy) | `Python`, `C++` | - A Python-embedded modeling language for convex optimization problems.
 - [Numpy](https://github.com/numpy/numpy) | `Python`, `C` | - The fundamental package for scientific computing with Python
 - [Scipy](https://github.com/scipy/scipy) | `Python`, `C` | - Fundamental algorithms for scientific computing in Python
 - [Pandas](https://github.com/pandas-dev/pandas) | `Python`, `Cython` | - Flexible and powerful data analysis / manipulation library for Python, providing labeled data structures similar to R data.frame objects, statistical functions, and much more
-- [Polars](https://github.com/pola-rs/polars) | `Rust`, `Python` | - Polars is a blazingly fast DataFrames library implemented in Rust using Apache Arrow Columnar Format as memory model.
 - [Sikit-learn](https://github.com/scikit-learn/scikit-learn) | `Python`, `Cython` | - Machine learning in Python
 - [Keras](https://github.com/keras-team/keras) | `Python` | - The most user friendly Deep Learning for humans in Python
 - [TensorFlow](https://github.com/tensorflow/tensorflow) | `Python`, `C++` | - More low level Deep Learning framework
 - [Pytorch](https://github.com/pytorch/pytorch) | `Python` | - Tensors and Dynamic neural networks in Python with strong GPU acceleration
 - [PyMC](https://github.com/pymc-devs/pymc) | `Python` | - Probabilistic Programming in Python: Bayesian Modeling and Probabilistic Machine Learning with Aesara
+
+### Alternative libraries
+
+#### Pandas Alternatives
+
+- [Polars](https://github.com/pola-rs/polars) | `Rust`, `Python` | - Polars is a blazingly fast DataFrames library implemented in Rust using Apache Arrow Columnar Format as memory model.
+- [Dask](https://github.com/dask/dask) | `Python` | - Parallel computing with task scheduling in Python with a Pandas like API
+- [Modin](https://github.com/modin-project/modin) | `Python` |  - Modin: Speed up your Pandas workflows by changing a single line of code
+- [Koalas](https://github.com/databricks/koalas) | `Python` | - Koalas: pandas API on Apache Spark
 
 ## Analytic tools
 
