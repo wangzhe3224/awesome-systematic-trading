@@ -31,6 +31,7 @@ Overall, I tend to pick decent or promising libraries that closely related to sy
     - [Crypto currency focus](#crypto-currency-focus)
   - [Basic libraries](#basic-libraries)
     - [Fundamental libraries](#fundamental-libraries)
+    - [Computation Graph](#computation-graph)
     - [Alternative libraries](#alternative-libraries)
       - [Numpy Alternatives](#numpy-alternatives)
       - [Pandas Alternatives](#pandas-alternatives)
@@ -52,21 +53,26 @@ Overall, I tend to pick decent or promising libraries that closely related to sy
 
 ### General purpose
 
+> Event Driven Frameworks
+
 - [aat](https://github.com/AsyncAlgoTrading/aat) | `Python`, `C++` | - an asynchronous, event-driven framework for writing algorithmic trading strategies in python with optional acceleration in C++. It is designed to be modular and extensible, with support for a wide variety of instruments and strategies, live trading across (and between) multiple exchanges.
 - [backtesting.py](https://github.com/kernc/backtesting.py) | `Python` | - Backtesting.py is a Python framework for inferring viability of trading strategies on historical (past) data. Improved upon the vision of Backtrader, and by all means surpassingly comparable to other accessible alternatives, Backtesting.py is lightweight, fast, user-friendly, intuitive, interactive, intelligent and, hopefully, future-proof.
 - [backtrader](https://github.com/mementum/backtrader) | `Python` | - Event driven Python Backtesting library for trading strategies
-- [bt](https://github.com/pmorissette/bt) | `Python` | -  Flexible backtesting for Python based on Algo and Strategy Tree
 - [FinRL](https://github.com/AI4Finance-Foundation/FinRL) | `Python` | - FinRL is the first open-source framework to demonstrate the great potential of applying deep reinforcement learning in quantitative finance.
 - [nautilus_trader](https://github.com/nautechsystems/nautilus_trader) | `Python`, `Cython` | - A high-performance algorithmic trading platform and event-driven backtester
 - [QLib (Microsoft)](https://github.com/microsoft/qlib) | `Python`, `Cython` | - Qlib is an AI-oriented quantitative investment platform, which aims to realize the potential, empower the research, and create the value of AI technologies in quantitative investment. With Qlib, you can easily try your ideas to create better Quant investment strategies. An increasing number of SOTA Quant research works/papers are released in Qlib.
 - [QuantConnect](https://github.com/QuantConnect/Lean) | `C#`, `.NET` | - Lean Algorithmic Trading Engine by QuantConnect (Python, C#)
 - [QUANTAXIS](https://github.com/QUANTAXIS/QUANTAXIS) | `Python` | - QUANTAXIS 支持任务调度 分布式部署的 股票/期货/期权/港股/虚拟货币 数据/回测/模拟/交易/可视化/多账户 纯本地量化解决方案
 - [Rqalpha](https://github.com/ricequant/rqalpha) | `Python` | - A extendable, replaceable Python algorithmic backtest && trading framework supporting multiple securities
-- [pysystemtrade](https://github.com/robcarver17/pysystemtrade) | `Python` | - Systematic Trading in python from book <Systematic Trading> by Rob Carver
-- [vectorbt](https://github.com/polakowo/vectorbt) | `Python`, `numba` | - vectorbt takes a novel approach to backtesting: it operates entirely on pandas and NumPy objects, and is accelerated by Numba to analyze any data at speed and scale. This allows for testing of many thousands of strategies in seconds.
 - [vnpy](https://github.com/vnpy/vnpy) | `Python`, `Stock`, `Futures`, `Crypto` | - Python-based open source quantitative trading system development framework, officially released in January 2015, has grown step by step into a full-featured quantitative trading platform
 - [zvt](https://github.com/zvtvz/zvt) | `Python`, `Stock`, `Backtest` | - Modular quant framework
 - [zipline](https://github.com/quantopian/zipline) | `Python` | - Zipline is a Pythonic algorithmic trading library. It is an event-driven system for backtesting.
+
+> Vector Based Frameworks
+
+- [bt](https://github.com/pmorissette/bt) | `Python` | -  Flexible backtesting for Python based on Algo and Strategy Tree
+- [pysystemtrade](https://github.com/robcarver17/pysystemtrade) | `Python` | - Systematic Trading in python from book <Systematic Trading> by Rob Carver
+- [vectorbt](https://github.com/polakowo/vectorbt) | `Python`, `numba` | - vectorbt takes a novel approach to backtesting: it operates entirely on pandas and NumPy objects, and is accelerated by Numba to analyze any data at speed and scale. This allows for testing of many thousands of strategies in seconds.
 
 ### Crypto currency focus
 
@@ -75,6 +81,7 @@ Overall, I tend to pick decent or promising libraries that closely related to sy
 - [Jesse](https://github.com/jesse-ai/jesse) | `Python` | - Jesse is an advanced crypto trading framework which aims to simplify researching and defining trading strategies.
 - [OctoBot](https://github.com/Drakkar-Software/OctoBot) | `Python`, `Cython`| - Cryptocurrency trading bot for TA, arbitrage and social trading with an advanced web interface
 - [Kelp](https://github.com/stellar/kelp) | `Go` | - Kelp is a free and open-source trading bot for the Stellar DEX and 100+ centralized exchanges
+
 
 ## Basic libraries
 
@@ -90,6 +97,12 @@ Overall, I tend to pick decent or promising libraries that closely related to sy
 - [Pytorch](https://github.com/pytorch/pytorch) | `Python` | - Tensors and Dynamic neural networks in Python with strong GPU acceleration
 - [PyMC](https://github.com/pymc-devs/pymc) | `Python` | - Probabilistic Programming in Python: Bayesian Modeling and Probabilistic Machine Learning with Aesara
 
+### Computation Graph
+
+- [Dask](https://github.com/dask/dask) | `Python` | - Parallel computing with task scheduling in Python with a Pandas like API
+- [Incremental (JaneStreet)](https://github.com/janestreet/incremental) | `Ocaml` | - Incremental is a library that gives you a way of building complex computations that can update efficiently in response to their inputs changing, inspired by the work of Umut Acar et. al. on self-adjusting computations. Incremental can be useful in a number of applications
+- [GraphKit](https://github.com/yahoo/graphkit) | `Python` | - A lightweight Python module for creating and running ordered graphs of computations. 
+
 ### Alternative libraries
 
 #### Numpy Alternatives
@@ -99,7 +112,6 @@ Overall, I tend to pick decent or promising libraries that closely related to sy
 #### Pandas Alternatives
 
 - [Polars](https://github.com/pola-rs/polars) | `Rust`, `Python` | - Polars is a blazingly fast DataFrames library implemented in Rust using Apache Arrow Columnar Format as memory model.
-- [Dask](https://github.com/dask/dask) | `Python` | - Parallel computing with task scheduling in Python with a Pandas like API
 - [Modin](https://github.com/modin-project/modin) | `Python` |  - Modin: Speed up your Pandas workflows by changing a single line of code
 - [Koalas](https://github.com/databricks/koalas) | `Python` | - Koalas: pandas API on Apache Spark
 
@@ -170,6 +182,8 @@ Overall, I tend to pick decent or promising libraries that closely related to sy
 ### Books
 
 - [Algorithmic Trading with Python (2020) by Chris Conlan](https://github.com/chrisconlan/algorithmic-trading-with-python)
+- [Python for Algorithmic Trading (2020) by Dr. Yves J. Hilpisch](https://github.com/yhilpisch/py4at)
+- [Systematic Trading: A unique new method for designing trading and investing systems by Robert Carver](https://github.com/robcarver17/pysystemtrade)
 - More is coming... (PR welcome)
 
 ### Courses
