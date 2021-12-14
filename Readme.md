@@ -45,9 +45,11 @@ Overall, I tend to pick decent or promising libraries that closely related to sy
   - [Visualization](#visualization)
   - [Databases](#databases)
   - [Data Source](#data-source)
+  - [Broker APIs](#broker-apis)
   - [Resources](#resources)
     - [Books](#books)
     - [Courses](#courses)
+  - [Relevant Projects](#relevant-projects)
 
 ## Backtest + live trading
 
@@ -81,7 +83,6 @@ Overall, I tend to pick decent or promising libraries that closely related to sy
 - [Jesse](https://github.com/jesse-ai/jesse) | `Python` | - Jesse is an advanced crypto trading framework which aims to simplify researching and defining trading strategies.
 - [OctoBot](https://github.com/Drakkar-Software/OctoBot) | `Python`, `Cython`| - Cryptocurrency trading bot for TA, arbitrage and social trading with an advanced web interface
 - [Kelp](https://github.com/stellar/kelp) | `Go` | - Kelp is a free and open-source trading bot for the Stellar DEX and 100+ centralized exchanges
-
 
 ## Basic libraries
 
@@ -165,6 +166,7 @@ Overall, I tend to pick decent or promising libraries that closely related to sy
 ## Databases
 
 - [Arctic (Man Group)](https://github.com/man-group/arctic) | `Python` | - High performance datastore for time series and tick data
+- [Marketstore](https://github.com/alpacahq/marketstore) | `Go` | - DataFrame Server for Financial Timeseries Data
 
 ## Data Source
 
@@ -177,6 +179,11 @@ Overall, I tend to pick decent or promising libraries that closely related to sy
 - [AkShare](https://github.com/akfamily/akshare) |`Python`| - AKShare is an elegant and simple financial data interface library for Python, built for human beings! 开源财经数据接口库
 - [Cryptofeed](https://github.com/bmoscon/cryptofeed) |`Python`| - Cryptocurrency Exchange Websocket Data Feed Handler with Asyncio
 
+## Broker APIs
+
+- [Ib_insync](https://github.com/erdewit/ib_insync) | `Python` | - Python sync/async framework for Interactive Brokers API
+- More is coming... (PR welcome)
+
 ## Resources
 
 ### Books
@@ -184,9 +191,14 @@ Overall, I tend to pick decent or promising libraries that closely related to sy
 - [Algorithmic Trading with Python (2020) by Chris Conlan](https://github.com/chrisconlan/algorithmic-trading-with-python)
 - [Python for Algorithmic Trading (2020) by Dr. Yves J. Hilpisch](https://github.com/yhilpisch/py4at)
 - [Systematic Trading: A unique new method for designing trading and investing systems by Robert Carver](https://github.com/robcarver17/pysystemtrade)
+- [Machine Learning for Algorithmic Trading: Predictive models to extract signals from market and alternative data for systematic trading strategies with Python](https://github.com/stefan-jansen/machine-learning-for-trading)
 - More is coming... (PR welcome)
 
 ### Courses
 
 - [Hudson and Thames Quantitative Research](https://github.com/hudson-and-thames) - Our mission is to promote the scientific method within investment management by codifying frameworks, algorithms, and best practices.
 - More is coming... (PR welcome)
+
+## Relevant Projects
+
+- [Awesome Quant 中文](https://github.com/thuquant/awesome-quant)
