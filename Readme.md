@@ -36,7 +36,7 @@ Overall, I tend to pick decent or promising libraries that closely related to sy
       - [Numpy Alternatives](#numpy-alternatives)
       - [Pandas Alternatives](#pandas-alternatives)
   - [Analytic tools](#analytic-tools)
-    - [Metrics compution](#metrics-compution)
+    - [Metrics computation](#metrics-computation)
     - [Indicators](#indicators)
     - [Pricing](#pricing)
     - [Risk](#risk)
@@ -62,7 +62,7 @@ Overall, I tend to pick decent or promising libraries that closely related to sy
 - [backtrader](https://github.com/mementum/backtrader) | `Python` | - Event driven Python Backtesting library for trading strategies
 - [FinRL](https://github.com/AI4Finance-Foundation/FinRL) | `Python` | - FinRL is the first open-source framework to demonstrate the great potential of applying deep reinforcement learning in quantitative finance.
 - [lumibot](https://github.com/Lumiwealth/lumibot/tree/8da88cadfe9ee35399dd69c94aa5ed3cf995f417) | `Python` | - A very simple yet useful backtesting and sample based live trading framework
-- [nautilus_trader](https://github.com/nautechsystems/nautilus_trader) | `Python`, `Cython` | - A high-performance algorithmic trading platform and event-driven backtester
+- [nautilus_trader](https://github.com/nautechsystems/nautilus_trader) | `Python`, `Cython`, `Rust` | - A high-performance algorithmic trading platform and event-driven backtester
 - [QLib (Microsoft)](https://github.com/microsoft/qlib) | `Python`, `Cython` | - Qlib is an AI-oriented quantitative investment platform, which aims to realize the potential, empower the research, and create the value of AI technologies in quantitative investment. With Qlib, you can easily try your ideas to create better Quant investment strategies. An increasing number of SOTA Quant research works/papers are released in Qlib.
 - [QuantConnect](https://github.com/QuantConnect/Lean) | `C#`, `.NET` | - Lean Algorithmic Trading Engine by QuantConnect (Python, C#)
 - [QUANTAXIS](https://github.com/QUANTAXIS/QUANTAXIS) | `Python` | - QUANTAXIS 支持任务调度 分布式部署的 股票/期货/期权/港股/虚拟货币 数据/回测/模拟/交易/可视化/多账户 纯本地量化解决方案
@@ -119,7 +119,7 @@ Overall, I tend to pick decent or promising libraries that closely related to sy
 
 ## Analytic tools
 
-### Metrics compution
+### Metrics computation
 
 - [ffn](https://github.com/pmorissette/ffn) | `Python` | - A financial function library for Python
 - [quantstats](https://github.com/ranaroussi/quantstats) | `Python` | - Portfolio analytics for quants, written in Python
