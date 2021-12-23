@@ -31,6 +31,7 @@ Overall, I tend to pick decent or promising libraries that closely related to sy
   - [Backtest + live trading](#backtest--live-trading)
     - [General purpose](#general-purpose)
     - [Crypto currency focus](#crypto-currency-focus)
+  - [Alpha Collections](#alpha-collections)
   - [Basic libraries](#basic-libraries)
     - [Fundamental libraries](#fundamental-libraries)
     - [Computation Graph](#computation-graph)
@@ -88,6 +89,10 @@ Overall, I tend to pick decent or promising libraries that closely related to sy
 - [Jesse](https://github.com/jesse-ai/jesse) | `Python` | - Jesse is an advanced crypto trading framework which aims to simplify researching and defining trading strategies.
 - [OctoBot](https://github.com/Drakkar-Software/OctoBot) | `Python`, `Cython`| - Cryptocurrency trading bot for TA, arbitrage and social trading with an advanced web interface
 - [Kelp](https://github.com/stellar/kelp) | `Go` | - Kelp is a free and open-source trading bot for the Stellar DEX and 100+ centralized exchanges
+
+## Alpha Collections
+
+- [analyzingalpha](analyzingalphaanalyzingalpha)
 
 ## Basic libraries
 
