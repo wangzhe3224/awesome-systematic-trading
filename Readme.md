@@ -31,6 +31,7 @@ Overall, I tend to pick decent or promising libraries that closely related to sy
   - [Backtest + live trading](#backtest--live-trading)
     - [General purpose](#general-purpose)
     - [Crypto currency focus](#crypto-currency-focus)
+    - [Machine Learning / Reinforcement Learning Focused](#machine-learning--reinforcement-learning-focused)
   - [Alpha Collections](#alpha-collections)
   - [Basic libraries](#basic-libraries)
     - [Fundamental libraries](#fundamental-libraries)
@@ -69,15 +70,14 @@ Search page by languages you are interested in to find related libraries. For ex
 - [backtesting.py](https://github.com/kernc/backtesting.py) | `Python` | - Backtesting.py is a Python framework for inferring viability of trading strategies on historical (past) data. Improved upon the vision of Backtrader, and by all means surpassingly comparable to other accessible alternatives, Backtesting.py is lightweight, fast, user-friendly, intuitive, interactive, intelligent and, hopefully, future-proof.
 - [backtrader](https://github.com/mementum/backtrader) | `Python`, `Live Trading` | - Event driven Python Backtesting library for trading strategies
 - [FinRL](https://github.com/AI4Finance-Foundation/FinRL) | `Python` | - FinRL is the first open-source framework to demonstrate the great potential of applying deep reinforcement learning in quantitative finance.
-- [finmarketpy](https://github.com/cuemacro/finmarketpy) | `Python` | - Python library for backtesting trading strategies & analyzing financial markets (formerly pythalesians) 
-- [gobacktest](https://github.com/gobacktest/gobacktest) | `Go` | - A Go implementation of event-driven backtesting framework 
+- [finmarketpy](https://github.com/cuemacro/finmarketpy) | `Python` | - Python library for backtesting trading strategies & analyzing financial markets (formerly pythalesians)
+- [gobacktest](https://github.com/gobacktest/gobacktest) | `Go` | - A Go implementation of event-driven backtesting framework
 - [lumibot](https://github.com/Lumiwealth/lumibot/tree/8da88cadfe9ee35399dd69c94aa5ed3cf995f417) | `Python` | - A very simple yet useful backtesting and sample based live trading framework
 - [nautilus_trader](https://github.com/nautechsystems/nautilus_trader) | `Python`, `Cython`, `Rust`, `Live Trading` | - A high-performance algorithmic trading platform and event-driven backtester
-- [QLib (Microsoft)](https://github.com/microsoft/qlib) | `Python`, `Cython` | - Qlib is an AI-oriented quantitative investment platform, which aims to realize the potential, empower the research, and create the value of AI technologies in quantitative investment. With Qlib, you can easily try your ideas to create better Quant investment strategies. An increasing number of SOTA Quant research works/papers are released in Qlib.
 - [QuantConnect](https://github.com/QuantConnect/Lean) | `C#`, `.NET`, `Live Trading` | - Lean Algorithmic Trading Engine by QuantConnect (Python, C#)
 - [QUANTAXIS](https://github.com/QUANTAXIS/QUANTAXIS) | `Python`, `Live Trading` | - QUANTAXIS 支持任务调度 分布式部署的 股票/期货/期权/港股/虚拟货币 数据/回测/模拟/交易/可视化/多账户 纯本地量化解决方案
 - [Rqalpha](https://github.com/ricequant/rqalpha) | `Python` | - A extendable, replaceable Python algorithmic backtest && trading framework supporting multiple securities
-- [quanttrader](https://github.com/letianzj/quanttrader) | `Python` | - Backtest and live trading in Python. Event based. Similar to backtesting.py. 
+- [quanttrader](https://github.com/letianzj/quanttrader) | `Python` | - Backtest and live trading in Python. Event based. Similar to backtesting.py.
 - [sdoosa-algo-trade-python](https://github.com/sreenivasdoosa/sdoosa-algo-trade-python) | `Python` | - This project is mainly for newbies into algo trading who are interested in learning to code their own trading algo using python interpreter.
 - [vnpy](https://github.com/vnpy/vnpy) | `Python`, `Stock`, `Futures`, `Crypto`, `Live Trading` | - Python-based open source quantitative trading system development framework, officially released in January 2015, has grown step by step into a full-featured quantitative trading platform
 - [zvt](https://github.com/zvtvz/zvt) | `Python`, `Stock`, `Backtest` | - Modular quant framework
@@ -96,6 +96,13 @@ Search page by languages you are interested in to find related libraries. For ex
 - [Jesse](https://github.com/jesse-ai/jesse) | `Python` | - Jesse is an advanced crypto trading framework which aims to simplify researching and defining trading strategies.
 - [OctoBot](https://github.com/Drakkar-Software/OctoBot) | `Python`, `Cython`| - Cryptocurrency trading bot for TA, arbitrage and social trading with an advanced web interface
 - [Kelp](https://github.com/stellar/kelp) | `Go` | - Kelp is a free and open-source trading bot for the Stellar DEX and 100+ centralized exchanges
+
+### Machine Learning / Reinforcement Learning Focused
+
+> ML, RL
+
+- [QLib (Microsoft)](https://github.com/microsoft/qlib) | `Python`, `Cython` | - Qlib is an AI-oriented quantitative investment platform, which aims to realize the potential, empower the research, and create the value of AI technologies in quantitative investment. With Qlib, you can easily try your ideas to create better Quant investment strategies. An increasing number of SOTA Quant research works/papers are released in Qlib.
+- [TradingGym](https://github.com/Yvictor/TradingGym) | `Python`, `Live Trading` | - Trading and Backtesting environment for training reinforcement learning agent or simple rule base algo.
 
 ## Alpha Collections
 
@@ -119,7 +126,7 @@ Search page by languages you are interested in to find related libraries. For ex
 
 - [Dask](https://github.com/dask/dask) | `Python` | - Parallel computing with task scheduling in Python with a Pandas like API
 - [Incremental (JaneStreet)](https://github.com/janestreet/incremental) | `Ocaml` | - Incremental is a library that gives you a way of building complex computations that can update efficiently in response to their inputs changing, inspired by the work of Umut Acar et. al. on self-adjusting computations. Incremental can be useful in a number of applications
-- [GraphKit](https://github.com/yahoo/graphkit) | `Python` | - A lightweight Python module for creating and running ordered graphs of computations. 
+- [GraphKit](https://github.com/yahoo/graphkit) | `Python` | - A lightweight Python module for creating and running ordered graphs of computations.
 
 ### Alternative libraries
 
