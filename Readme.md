@@ -52,6 +52,7 @@ Overall, I tend to pick decent or promising libraries that closely related to sy
   - [Broker APIs](#broker-apis)
   - [Resources](#resources)
     - [Books](#books)
+    - [Tutorials](#tutorials)
     - [Courses](#courses)
   - [Relevant Projects](#relevant-projects)
 
@@ -219,6 +220,10 @@ Search page by languages you are interested in to find related libraries. For ex
 - [Systematic Trading: A unique new method for designing trading and investing systems by Robert Carver](https://github.com/robcarver17/pysystemtrade)
 - [Machine Learning for Algorithmic Trading: Predictive models to extract signals from market and alternative data for systematic trading strategies with Python](https://github.com/stefan-jansen/machine-learning-for-trading)
 - More is coming... (PR welcome)
+
+### Tutorials
+
+- [Algorithmic Trading for Cryptocurrencies in Python](https://github.com/tudorelu/tudorials/tree/master/trading) - A simple yet practical experiment tutorial for cryto trading.
 
 ### Courses
 
