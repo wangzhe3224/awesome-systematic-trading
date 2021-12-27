@@ -18,6 +18,11 @@
 
 A curated list of awesome libraries, packages and resources for Systematic Trading (Quantitative Trading)
 
+> Open access: all rights granted for use and re-use of any kind, by anyone, at no cost, under your choice of either the free MIT License or Creative Commons CC-BY International Public License.
+> 
+> © 2021 Zhe Wang ( [知乎](https://www.zhihu.com/people/wangzhetju) | [wangzhetju@gmail.com](mailto:wangzhetju@gmai.com))
+
+
 How do we pick the projects?
 
 - Fit in Systematic Trading / Quantitative Trading domain
@@ -59,6 +64,7 @@ Overall, I tend to pick decent or promising libraries that closely related to sy
     - [Tutorials](#tutorials)
     - [Courses](#courses)
   - [Relevant Projects](#relevant-projects)
+  - [Buy me a coffee?](#buy-me-a-coffee)
 
 ## Backtest + live trading
 
@@ -242,4 +248,17 @@ Search page by languages you are interested in to find related libraries. For ex
 
 ## Relevant Projects
 
-- [Awesome Quant 中文](https://github.com/thuquant/awesome-quant)
+- [Awesome Quant 中文](https://github.com/thuquant/awesome-quant) -  中国的Quant相关资源索引
+- [awesome-deep-trading](https://github.com/cbailes/awesome-deep-trading) - List of awesome resources for machine learning-based algorithmic trading
+
+## Buy me a coffee?
+
+It takes time to produce videos, articals, and maintains the repositories.
+Feel free to support me :) thanks.
+
+- [Patreon](https://www.patreon.com/funcoder777)
+- ETH: 0xb5fEE7B6776877bB78C2b7594802C6a09f52D9B7
+- BTC: bc1qrjrffv7aaf5f4f6dydkt4yaukt4297vedd6w6p
+- 支付宝
+
+![支付宝](assets/IMG_0825.jpg =200x)
