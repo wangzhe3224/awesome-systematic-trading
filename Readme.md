@@ -51,6 +51,8 @@ Overall, I tend to pick decent or promising libraries that closely related to sy
   - [Visualization](#visualization)
   - [Databases](#databases)
   - [Data Source](#data-source)
+    - [Stocks and General](#stocks-and-general)
+    - [Crypto](#crypto)
   - [Broker APIs](#broker-apis)
   - [Resources](#resources)
     - [Books](#books)
@@ -198,6 +200,8 @@ Search page by languages you are interested in to find related libraries. For ex
 
 ## Data Source
 
+### Stocks and General 
+
 - [findatapy](https://github.com/cuemacro/findatapy) |`Python`| - findatapy creates an easy to use Python API to download market data from many sources including Quandl, Bloomberg, Yahoo, Google etc. using a unified high level interface.  
 - [yfinance](https://github.com/ranaroussi/yfinance) |`Python`| - yfinance offers a threaded and Pythonic way to download market data from Yahoo!Ⓡ finance.
 - [pandas-datareader](https://github.com/pydata/pandas-datareader) |`Python`| - Up to date remote data access for pandas, works for multiple versions of pandas.
@@ -205,8 +209,12 @@ Search page by languages you are interested in to find related libraries. For ex
 - [TuShare](https://github.com/waditu/tushare) |`Python`| - TuShare is a utility for crawling historical data of China stocks
 - [Investpy](https://github.com/alvarobartt/investpy) - Financial Data Extraction from Investing.com with Python
 - [AkShare](https://github.com/akfamily/akshare) |`Python`| - AKShare is an elegant and simple financial data interface library for Python, built for human beings! 开源财经数据接口库
-- [Cryptofeed](https://github.com/bmoscon/cryptofeed) |`Python`| - Cryptocurrency Exchange Websocket Data Feed Handler with Asyncio
 - [Fundamental Analysis Data](https://github.com/JerBouma/FundamentalAnalysis) | `Python` | - Fully-fledged Fundamental Analysis package capable of collecting 20 years of Company Profiles, Financial Statements, Ratios and Stock Data of 20.000+ companies.
+
+### Crypto
+
+- [Cryptofeed](https://github.com/bmoscon/cryptofeed) |`Python`| - Cryptocurrency Exchange Websocket Data Feed Handler with Asyncio
+- [ccxt](https://github.com/ccxt/ccxt) | `Python`, `JavaScript` | - A JavaScript / Python / PHP cryptocurrency trading API with support for more than 100 bitcoin/altcoin exchanges
 
 ## Broker APIs
 
