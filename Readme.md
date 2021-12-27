@@ -109,7 +109,7 @@ Search page by languages you are interested in to find related libraries. For ex
 
 ## Alpha Collections
 
-- [analyzingalpha](analyzingalphaanalyzingalpha)
+- [analyzingalpha](https://github.com/leosmigel/analyzingalpha)
 
 ## Basic libraries
 
