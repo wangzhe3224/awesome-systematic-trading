@@ -19,9 +19,8 @@
 A curated list of awesome libraries, packages and resources for Systematic Trading (Quantitative Trading)
 
 > Open access: all rights granted for use and re-use of any kind, by anyone, at no cost, under your choice of either the free MIT License or Creative Commons CC-BY International Public License.
-> 
+>
 > © 2021 Zhe Wang ( [知乎](https://www.zhihu.com/people/wangzhetju) | [wangzhetju@gmail.com](mailto:wangzhetju@gmai.com))
-
 
 How do we pick the projects?
 
@@ -33,6 +32,8 @@ How do we pick the projects?
 Overall, I tend to pick decent or promising libraries that closely related to systematic trading instead of including as many libraries as possible.
 
  **Please raise a PR if you found some good fit projects for this repo or remove some outdated projects. Thanks!**
+
+Search page by languages you are interested in to find related libraries. For example: `Ctrl+F`, `Rust`
 
 - [Awesome Systematic Trading](#awesome-systematic-trading)
   - [Backtest + live trading](#backtest--live-trading)
@@ -75,15 +76,12 @@ Overall, I tend to pick decent or promising libraries that closely related to sy
 Note: the one marked as `Live Trading` has reasonable live trading support for at least 1 broker. Otherwise, backtest
  function only.
 
-Search page by languages you are interested in to find related libraries. For example: `Ctrl+F`, `Rust`
-
 - [aat](https://github.com/AsyncAlgoTrading/aat) | `Python`, `C++`, `Live Trading`| - an asynchronous, event-driven framework for writing algorithmic trading strategies in python with optional acceleration in C++. It is designed to be modular and extensible, with support for a wide variety of instruments and strategies, live trading across (and between) multiple exchanges.
 - [backtesting.py](https://github.com/kernc/backtesting.py) | `Python` | - Backtesting.py is a Python framework for inferring viability of trading strategies on historical (past) data. Improved upon the vision of Backtrader, and by all means surpassingly comparable to other accessible alternatives, Backtesting.py is lightweight, fast, user-friendly, intuitive, interactive, intelligent and, hopefully, future-proof.
 - [backtrader](https://github.com/mementum/backtrader) | `Python`, `Live Trading` | - Event driven Python Backtesting library for trading strategies
-- [FinRL](https://github.com/AI4Finance-Foundation/FinRL) | `Python` | - FinRL is the first open-source framework to demonstrate the great potential of applying deep reinforcement learning in quantitative finance.
 - [finmarketpy](https://github.com/cuemacro/finmarketpy) | `Python` | - Python library for backtesting trading strategies & analyzing financial markets (formerly pythalesians)
 - [gobacktest](https://github.com/gobacktest/gobacktest) | `Go` | - A Go implementation of event-driven backtesting framework
-- [lumibot](https://github.com/Lumiwealth/lumibot/tree/8da88cadfe9ee35399dd69c94aa5ed3cf995f417) | `Python` | - A very simple yet useful backtesting and sample based live trading framework
+- [lumibot](https://github.com/Lumiwealth/lumibot/tree/8da88cadfe9ee35399dd69c94aa5ed3cf995f417) | `Python` | - A very simple yet useful backtesting and sample based live trading framework (a bit slow to run...)
 - [nautilus_trader](https://github.com/nautechsystems/nautilus_trader) | `Python`, `Cython`, `Rust`, `Live Trading` | - A high-performance algorithmic trading platform and event-driven backtester
 - [QuantConnect](https://github.com/QuantConnect/Lean) | `C#`, `.NET`, `Live Trading` | - Lean Algorithmic Trading Engine by QuantConnect (Python, C#)
 - [QUANTAXIS](https://github.com/QUANTAXIS/QUANTAXIS) | `Python`, `Live Trading` | - QUANTAXIS 支持任务调度 分布式部署的 股票/期货/期权/港股/虚拟货币 数据/回测/模拟/交易/可视化/多账户 纯本地量化解决方案
@@ -103,15 +101,16 @@ Search page by languages you are interested in to find related libraries. For ex
 ### Crypto currency focus
 
 - [Freqtrade](https://github.com/freqtrade/freqtrade) | `Python` | - Freqtrade is a free and open source crypto trading bot written in Python. It is designed to support all major exchanges and be controlled via Telegram. It contains backtesting, plotting and money management tools as well as strategy optimization by machine learning.
-- [Hummingbot](https://github.com/CoinAlpha/hummingbot) | `Python`, `Cython` | - A client for crypto market making
+- [Hummingbot](https://github.com/CoinAlpha/hummingbot) | `Python`, `Cython`, `Live Trading` | - A client for crypto market making
 - [Jesse](https://github.com/jesse-ai/jesse) | `Python` | - Jesse is an advanced crypto trading framework which aims to simplify researching and defining trading strategies.
-- [OctoBot](https://github.com/Drakkar-Software/OctoBot) | `Python`, `Cython`| - Cryptocurrency trading bot for TA, arbitrage and social trading with an advanced web interface
-- [Kelp](https://github.com/stellar/kelp) | `Go` | - Kelp is a free and open-source trading bot for the Stellar DEX and 100+ centralized exchanges
+- [OctoBot](https://github.com/Drakkar-Software/OctoBot) | `Python`, `Cython`, `Live Trading`| - Cryptocurrency trading bot for TA, arbitrage and social trading with an advanced web interface
+- [Kelp](https://github.com/stellar/kelp) | `Go`, `Live Trading` | - Kelp is a free and open-source trading bot for the Stellar DEX and 100+ centralized exchanges
 
 ### Machine Learning / Reinforcement Learning Focused
 
 > ML, RL
 
+- [FinRL](https://github.com/AI4Finance-Foundation/FinRL) | `Python` | - FinRL is the first open-source framework to demonstrate the great potential of applying deep reinforcement learning in quantitative finance.
 - [QLib (Microsoft)](https://github.com/microsoft/qlib) | `Python`, `Cython` | - Qlib is an AI-oriented quantitative investment platform, which aims to realize the potential, empower the research, and create the value of AI technologies in quantitative investment. With Qlib, you can easily try your ideas to create better Quant investment strategies. An increasing number of SOTA Quant research works/papers are released in Qlib.
 - [TradingGym](https://github.com/Yvictor/TradingGym) | `Python`, `Live Trading` | - Trading and Backtesting environment for training reinforcement learning agent or simple rule base algo.
 
@@ -206,7 +205,7 @@ Search page by languages you are interested in to find related libraries. For ex
 
 ## Data Source
 
-### Stocks and General 
+### Stocks and General
 
 - [findatapy](https://github.com/cuemacro/findatapy) |`Python`| - findatapy creates an easy to use Python API to download market data from many sources including Quandl, Bloomberg, Yahoo, Google etc. using a unified high level interface.  
 - [yfinance](https://github.com/ranaroussi/yfinance) |`Python`| - yfinance offers a threaded and Pythonic way to download market data from Yahoo!Ⓡ finance.
@@ -220,11 +219,11 @@ Search page by languages you are interested in to find related libraries. For ex
 ### Crypto
 
 - [Cryptofeed](https://github.com/bmoscon/cryptofeed) |`Python`| - Cryptocurrency Exchange Websocket Data Feed Handler with Asyncio
-- [ccxt](https://github.com/ccxt/ccxt) | `Python`, `JavaScript` | - A JavaScript / Python / PHP cryptocurrency trading API with support for more than 100 bitcoin/altcoin exchanges
 
 ## Broker APIs
 
 - [Ib_insync](https://github.com/erdewit/ib_insync) | `Python` | - Python sync/async framework for Interactive Brokers API
+- [ccxt](https://github.com/ccxt/ccxt) | `Python`, `JavaScript` | - A JavaScript / Python / PHP cryptocurrency trading API with support for more than 100 bitcoin/altcoin exchanges
 - More is coming... (PR welcome)
 
 ## Resources
