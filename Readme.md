@@ -248,6 +248,7 @@ Note: the one marked as `Live Trading` has reasonable live trading support for a
 
 ## Relevant Projects
 
+- [量化交易知识集 @ 泛程序员](https://github.com/wangzhe3224/systematic-trading-knowledge-collection) - Collect knowledge around systematic trading, including software design, trading strategies, statistical skill. 量化交易/系统化交易知识集
 - [Awesome Quant 中文](https://github.com/thuquant/awesome-quant) -  中国的Quant相关资源索引
 - [awesome-deep-trading](https://github.com/cbailes/awesome-deep-trading) - List of awesome resources for machine learning-based algorithmic trading
 
