@@ -254,7 +254,7 @@ Note: the one marked as `Live Trading` has reasonable live trading support for a
 
 ## Buy me a coffee?
 
-It takes time to produce videos, articals, and maintains the repositories.
+It takes time to produce videos, articles, and maintains the repositories.
 Feel free to support me :) thanks.
 
 - [Patreon](https://www.patreon.com/funcoder777)
