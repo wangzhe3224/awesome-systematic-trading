@@ -105,6 +105,7 @@ Note: the one marked as `Live Trading` has reasonable live trading support for a
 - [Jesse](https://github.com/jesse-ai/jesse) | `Python` | - Jesse is an advanced crypto trading framework which aims to simplify researching and defining trading strategies.
 - [OctoBot](https://github.com/Drakkar-Software/OctoBot) | `Python`, `Cython`, `Live Trading`| - Cryptocurrency trading bot for TA, arbitrage and social trading with an advanced web interface
 - [Kelp](https://github.com/stellar/kelp) | `Go`, `Live Trading` | - Kelp is a free and open-source trading bot for the Stellar DEX and 100+ centralized exchanges
+- [bTrader](https://github.com/gabriel-milan/btrader) | `Rust` | - Triangle arbitrage trading bot for Binance
 
 ### Machine Learning / Reinforcement Learning Focused
 
@@ -163,6 +164,7 @@ Note: the one marked as `Live Trading` has reasonable live trading support for a
   - [Python Wrapper](https://github.com/mrjbq7/ta-lib) | `Python` |
   - [Go Port](https://github.com/markcheno/go-talib) | `Go` |
   - [Rust Wrapper](https://github.com/CLevasseur/ta-lib-rust) | `Rust` |
+- [ta-rust](https://github.com/greyblake/ta-rs) | `Rust` | - Technical analysis library for Rust language
 - [finta](https://github.com/peerchemist/finta) | `Python` | - Common financial technical indicators implemented in Pandas
 - [pandas-ta](https://github.com/twopirllc/pandas-ta) | `Python` | - Pandas Technical Analysis (Pandas TA) is an easy to use library that leverages the Pandas package with more than 130 Indicators and Utility functions and more than 60 TA Lib Candlestick Patterns.
 
@@ -225,6 +227,7 @@ Note: the one marked as `Live Trading` has reasonable live trading support for a
 
 - [Ib_insync](https://github.com/erdewit/ib_insync) | `Python` | - Python sync/async framework for Interactive Brokers API
 - [ccxt](https://github.com/ccxt/ccxt) | `Python`, `JavaScript` | - A JavaScript / Python / PHP cryptocurrency trading API with support for more than 100 bitcoin/altcoin exchanges
+- [Coinnect](https://github.com/hugues31/coinnect) | `Rust` | - Coinnect is a Rust library aiming to provide a complete access to main crypto currencies exchanges via REST API.
 - More is coming... (PR welcome)
 
 ## Resources
@@ -251,6 +254,7 @@ Note: the one marked as `Live Trading` has reasonable live trading support for a
 - [量化交易知识集 @ 泛程序员](https://github.com/wangzhe3224/systematic-trading-knowledge-collection) - Collect knowledge around systematic trading, including software design, trading strategies, statistical skill. 量化交易/系统化交易知识集
 - [Awesome Quant 中文](https://github.com/thuquant/awesome-quant) -  中国的Quant相关资源索引
 - [awesome-deep-trading](https://github.com/cbailes/awesome-deep-trading) - List of awesome resources for machine learning-based algorithmic trading
+- [Awesome Crypto Trading Bots](https://github.com/botcrypto-io/awesome-crypto-trading-bots)
 
 ## Buy me a coffee?
 
