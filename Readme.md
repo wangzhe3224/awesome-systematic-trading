@@ -41,6 +41,8 @@ Search page by languages you are interested in to find related libraries. For ex
     - [Crypto currency focus](#crypto-currency-focus)
     - [Machine Learning / Reinforcement Learning Focused](#machine-learning--reinforcement-learning-focused)
   - [Alpha Collections](#alpha-collections)
+    - [Alpha](#alpha)
+    - [Arbitrage](#arbitrage)
   - [Basic libraries](#basic-libraries)
     - [Fundamental libraries](#fundamental-libraries)
     - [Computation Graph](#computation-graph)
@@ -117,7 +119,16 @@ Note: the one marked as `Live Trading` has reasonable live trading support for a
 
 ## Alpha Collections
 
+### Alpha
+
 - [analyzingalpha](https://github.com/leosmigel/analyzingalpha)
+
+### Arbitrage
+
+> Note: these bots are old and not maintained. I put them here just to show some logic of crypto arbitrage.
+  
+- [Blackbird](https://github.com/butor/blackbird) | `C++` | - Blackbird Bitcoin Arbitrage: a long/short market-neutral strategy 
+- [bitcoin-arbitrage](https://github.com/maxme/bitcoin-arbitrage) | `Python` | - Bitcoin arbitrage - opportunity detector 
 
 ## Basic libraries
 
