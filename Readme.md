@@ -20,7 +20,7 @@ A curated list of awesome libraries, packages and resources for Systematic Tradi
 
 > Open access: all rights granted for use and re-use of any kind, by anyone, at no cost, under your choice of either the free MIT License or Creative Commons CC-BY International Public License.
 >
-> © 2021 Zhe Wang ( [知乎](https://www.zhihu.com/people/wangzhetju) | [wangzhetju@gmail.com](mailto:wangzhetju@gmai.com))
+> © 2021 Zhe Wang ([知乎](https://www.zhihu.com/people/wangzhetju) | [wangzhetju@gmail.com](mailto:wangzhetju@gmai.com))
 
 How do we pick the projects?
 
@@ -42,7 +42,7 @@ Search page by languages you are interested in to find related libraries. For ex
     - [Machine Learning / Reinforcement Learning Focused](#machine-learning--reinforcement-learning-focused)
   - [Alpha Collections](#alpha-collections)
     - [Alpha](#alpha)
-    - [Arbitrage](#arbitrage)
+    - [Arbitrage (Crypto)](#arbitrage-crypto)
   - [Basic libraries](#basic-libraries)
     - [Fundamental libraries](#fundamental-libraries)
     - [Computation Graph](#computation-graph)
@@ -123,12 +123,13 @@ Note: the one marked as `Live Trading` has reasonable live trading support for a
 
 - [analyzingalpha](https://github.com/leosmigel/analyzingalpha)
 
-### Arbitrage
+### Arbitrage (Crypto)
 
 > Note: these bots are old and not maintained. I put them here just to show some logic of crypto arbitrage.
   
 - [Blackbird](https://github.com/butor/blackbird) | `C++` | - Blackbird Bitcoin Arbitrage: a long/short market-neutral strategy 
 - [bitcoin-arbitrage](https://github.com/maxme/bitcoin-arbitrage) | `Python` | - Bitcoin arbitrage - opportunity detector 
+- [R2 Bitcoin Arbitrager](https://github.com/bitrinjani/r2) | `TypeScript` | - R2 Bitcoin Arbitrager is an automatic arbitrage trading system powered by Node.js + TypeScript.
 
 ## Basic libraries
 
