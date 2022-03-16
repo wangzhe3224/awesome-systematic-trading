@@ -1,6 +1,6 @@
 # Awesome Systematic Trading
 
-> or Quantitative Trading
+> or Quantitative Trading + a bit data science infra
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
@@ -149,10 +149,11 @@ Note: the one marked as `Live Trading` has reasonable live trading support for a
 ### Computation Graph
 
 - [Dask](https://github.com/dask/dask) | `Python` | - Parallel computing with task scheduling in Python with a Pandas like API
+- [Ray](https://github.com/ray-project/ray) | `Python`, `C++` | - An open source framework that provides a simple, universal API for building distributed applications.
 - [Incremental (JaneStreet)](https://github.com/janestreet/incremental) | `Ocaml` | - Incremental is a library that gives you a way of building complex computations that can update efficiently in response to their inputs changing, inspired by the work of Umut Acar et. al. on self-adjusting computations. Incremental can be useful in a number of applications
 - [GraphKit](https://github.com/yahoo/graphkit) | `Python` | - A lightweight Python module for creating and running ordered graphs of computations.
 - [Man MDF](https://github.com/man-group/mdf) | `Python` | - Data-flow programming toolkit for Python 
-- [Tributary](https://github.com/timkpaine/tributary) | `Python` | - Streaming reactive and dataflow graphs in Python 
+- [Tributary](https://github.com/timkpaine/tributary) | `Python` | - Streaming reactive and dataflow graphs in Python
 
 ### Alternative libraries
 
@@ -163,6 +164,7 @@ Note: the one marked as `Live Trading` has reasonable live trading support for a
 #### Pandas Alternatives
 
 - [Polars](https://github.com/pola-rs/polars) | `Rust`, `Python` | - Polars is a blazingly fast DataFrames library implemented in Rust using Apache Arrow Columnar Format as memory model.
+- [Vaex](https://github.com/vaexio/vaex) | `Python`, `C++` | - Out-of-Core hybrid Apache Arrow/NumPy DataFrame for Python, ML, visualization and exploration of big tabular data at a billion rows per second
 - [Modin](https://github.com/modin-project/modin) | `Python` |  - Modin: Speed up your Pandas workflows by changing a single line of code
 - [Koalas](https://github.com/databricks/koalas) | `Python` | - Koalas: pandas API on Apache Spark
 
