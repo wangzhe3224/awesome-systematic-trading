@@ -64,6 +64,7 @@ Search page by languages you are interested in to find related libraries. For ex
   - [Broker APIs](#broker-apis)
   - [Resources](#resources)
     - [Books](#books)
+    - [Blogs](#blogs)
     - [Tutorials](#tutorials)
     - [Courses](#courses)
   - [Relevant Projects](#relevant-projects)
@@ -79,6 +80,7 @@ Note: the one marked as `Live Trading` has reasonable live trading support for a
  function only.
 
 - [aat](https://github.com/AsyncAlgoTrading/aat) | `Python`, `C++`, `Live Trading`| - an asynchronous, event-driven framework for writing algorithmic trading strategies in python with optional acceleration in C++. It is designed to be modular and extensible, with support for a wide variety of instruments and strategies, live trading across (and between) multiple exchanges.
+- [barter-rs](https://gitlab.com/open-source-keir/financial-modelling/trading/barter-rs) | `Rust` | - Open-source Rust framework for building event-driven live-trading & backtesting systems. Algorithmic trade with the peace of mind that comes from knowing your strategies have been backtested with a near-identical trading Engine.
 - [backtesting.py](https://github.com/kernc/backtesting.py) | `Python` | - Backtesting.py is a Python framework for inferring viability of trading strategies on historical (past) data. Improved upon the vision of Backtrader, and by all means surpassingly comparable to other accessible alternatives, Backtesting.py is lightweight, fast, user-friendly, intuitive, interactive, intelligent and, hopefully, future-proof.
 - [backtrader](https://github.com/mementum/backtrader) | `Python`, `Live Trading` | - Event driven Python Backtesting library for trading strategies
 - [FlashFunk](https://github.com/HFQR/FlashFunk) | `Rust` | -  High Performance Runtime in Rust
@@ -104,12 +106,15 @@ Note: the one marked as `Live Trading` has reasonable live trading support for a
 
 ### Crypto currency focus
 
+- [bTrader](https://github.com/gabriel-milan/btrader) | `Rust` | - Triangle arbitrage trading bot for Binance
+- [crypto-crawler-rs](https://github.com/crypto-crawler/crypto-crawler-rs) | `Rust` | - Crawl orderbook and trade messages from crypto exchanges
+- [cryptotrader-core](https://github.com/monomadic/cryptotrader-core) | `Rust` | - Simple to use Crypto Exchange REST API client in rust. 
+- [openlimits](https://github.com/nash-io/openlimits) | `Rust` | - A Rust high performance cryptocurrency trading API with support for multiple exchanges and language wrappers. 
 - [Freqtrade](https://github.com/freqtrade/freqtrade) | `Python` | - Freqtrade is a free and open source crypto trading bot written in Python. It is designed to support all major exchanges and be controlled via Telegram. It contains backtesting, plotting and money management tools as well as strategy optimization by machine learning.
 - [Hummingbot](https://github.com/CoinAlpha/hummingbot) | `Python`, `Cython`, `Live Trading` | - A client for crypto market making
 - [Jesse](https://github.com/jesse-ai/jesse) | `Python` | - Jesse is an advanced crypto trading framework which aims to simplify researching and defining trading strategies.
 - [OctoBot](https://github.com/Drakkar-Software/OctoBot) | `Python`, `Cython`, `Live Trading`| - Cryptocurrency trading bot for TA, arbitrage and social trading with an advanced web interface
 - [Kelp](https://github.com/stellar/kelp) | `Go`, `Live Trading` | - Kelp is a free and open-source trading bot for the Stellar DEX and 100+ centralized exchanges
-- [bTrader](https://github.com/gabriel-milan/btrader) | `Rust` | - Triangle arbitrage trading bot for Binance
 
 ### Machine Learning / Reinforcement Learning Focused
 
@@ -258,7 +263,13 @@ Note: the one marked as `Live Trading` has reasonable live trading support for a
 - [Python for Algorithmic Trading (2020) by Dr. Yves J. Hilpisch](https://github.com/yhilpisch/py4at)
 - [Systematic Trading: A unique new method for designing trading and investing systems by Robert Carver](https://github.com/robcarver17/pysystemtrade)
 - [Machine Learning for Algorithmic Trading: Predictive models to extract signals from market and alternative data for systematic trading strategies with Python](https://github.com/stefan-jansen/machine-learning-for-trading)
+- [Advances in Financial Machine Learning](https://github.com/BlackArbsCEO/Adv_Fin_ML_Exercises)
+- [Machine Learning for Asset Managers](https://github.com/emoen/Machine-Learning-for-Asset-Managers)
 - More is coming... (PR welcome)
+
+### Blogs
+
+- [Proof Engineering: The Algorithmic Trading Platform](https://medium.com/prooftrading/proof-engineering-the-algorithmic-trading-platform-b9c2f195433d)
 
 ### Tutorials
 
