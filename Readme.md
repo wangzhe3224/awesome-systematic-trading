@@ -35,6 +35,8 @@ Overall, I tend to pick decent or promising libraries that closely related to sy
 
 Search page by languages you are interested in to find related libraries. For example: `Ctrl+F`, `Rust`
 
+And I count crypto as whole new category: [>> Click ME to Systematic Crypto](crypto_focus.md).
+
 - [Awesome Systematic Trading](#awesome-systematic-trading)
   - [Backtest + live trading](#backtest--live-trading)
     - [General purpose](#general-purpose)
@@ -123,12 +125,15 @@ Note: the one marked as `Live Trading` has reasonable live trading support for a
 - [FinRL](https://github.com/AI4Finance-Foundation/FinRL) | `Python` | - FinRL is the first open-source framework to demonstrate the great potential of applying deep reinforcement learning in quantitative finance.
 - [QLib (Microsoft)](https://github.com/microsoft/qlib) | `Python`, `Cython` | - Qlib is an AI-oriented quantitative investment platform, which aims to realize the potential, empower the research, and create the value of AI technologies in quantitative investment. With Qlib, you can easily try your ideas to create better Quant investment strategies. An increasing number of SOTA Quant research works/papers are released in Qlib.
 - [TradingGym](https://github.com/Yvictor/TradingGym) | `Python`, `Live Trading` | - Trading and Backtesting environment for training reinforcement learning agent or simple rule base algo.
+- [Stock Trading Bot using Deep Q-Learning](https://github.com/pskrunner14/trading-bot) | `Python` | - Stock Trading Bot using Deep Q-Learning 
 
 ## Alpha Collections
 
 ### Alpha
 
 - [analyzingalpha](https://github.com/leosmigel/analyzingalpha)
+- [ThetaGang](https://github.com/brndnmtthws/thetagang) - ThetaGang is an IBKR bot for collecting money 
+  - https://www.reddit.com/r/options/comments/a36k4j/the_wheel_aka_triple_income_strategy_explained/
 
 ### Arbitrage (Crypto)
 
