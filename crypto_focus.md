@@ -1,6 +1,7 @@
 # Awesome Systematic Trading for Crypto + DeFi
 
 - [perp-arbitrageur](https://github.com/perpetual-protocol/perp-arbitrageur) | `Python` | - An arbitrage bot that executes automated trading strategies between Perpetual Protocol and FTX
+- [FTX_and_four_other_exchange_futures_and_funding_arbitrage_scanner](https://github.com/staccDOTsol/FTX_and_four_other_exchange_futures_and_funding_arbitrage_scanner) | `Python` | - ?
 - [T-1000 Advanced Prototype](https://github.com/Draichi/T-1000) | `Python` | - Bot using deep learning with Ray API
 - [Tai - Orchestrate Your Trading](https://github.com/fremantle-industries/tai) | `Elixir` |  - A composable, real time, market data and trade execution toolkit. Built with Elixir, runs on the Erlang virtual machine 
 - [bTrader](https://github.com/gabriel-milan/btrader) | `Rust` | - Triangle arbitrage trading bot for Binance
