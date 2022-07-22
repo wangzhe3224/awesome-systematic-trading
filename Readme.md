@@ -131,6 +131,7 @@ Note: the one marked as `Live Trading` has reasonable live trading support for a
 
 ### Alpha
 
+- [OpenBB Terminal](https://github.com/OpenBB-finance/OpenBBTerminal) | `Python` | - Investment Research for Everyone, Anywhere.
 - [analyzingalpha](https://github.com/leosmigel/analyzingalpha)
 - [ThetaGang](https://github.com/brndnmtthws/thetagang) - ThetaGang is an IBKR bot for collecting money 
   - https://www.reddit.com/r/options/comments/a36k4j/the_wheel_aka_triple_income_strategy_explained/
