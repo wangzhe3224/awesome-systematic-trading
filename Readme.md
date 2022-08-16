@@ -25,9 +25,9 @@ A curated list of awesome libraries, packages and resources for Systematic Tradi
 How do we pick the projects?
 
 - Fit in Systematic Trading / Quantitative Trading domain
+- Under active development
 - Good coding style and software architecture
 - (Optional) Reasonable test coverage
-- (Optional) Under active development
 
 Overall, I tend to pick decent or promising libraries that closely related to systematic trading instead of including as many libraries as possible.
 
@@ -99,7 +99,6 @@ Note: the one marked as `Live Trading` has reasonable live trading support for a
 - [WonderTrader](https://github.com/wondertrader/wondertrader) | `C++`, `Python` | - WonderTrader——量化研发交易一站式框架 
 - [zvt](https://github.com/zvtvz/zvt) | `Python`, `Stock`, `Backtest` | - Modular quant framework
 - [zipline](https://github.com/quantopian/zipline) | `Python` | - Zipline is a Pythonic algorithmic trading library. It is an event-driven system for backtesting.
-- [ScreeningTale](https://www.screeningtale.com) | `Web` | - A Website for quickly backtesting screening strategies
 
 > Vector Based Frameworks
 
@@ -137,6 +136,7 @@ Note: the one marked as `Live Trading` has reasonable live trading support for a
 - [ThetaGang](https://github.com/brndnmtthws/thetagang) - ThetaGang is an IBKR bot for collecting money 
   - https://www.reddit.com/r/options/comments/a36k4j/the_wheel_aka_triple_income_strategy_explained/
 - [PyTrendFollow](https://github.com/chrism2671/PyTrendFollow) | `Python` | - PyTrendFollow - systematic futures trading using trend following 
+- [czsc - 缠中说禅技术分析工具](https://github.com/waditu/czsc) | `Python` | - 缠中说禅技术分析工具；缠论；股票；期货；Quant；量化交易 
 
 ### Arbitrage (Crypto)
 
