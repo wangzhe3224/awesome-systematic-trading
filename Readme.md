@@ -12,7 +12,9 @@
 ![Go](https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white)
 ![Jupyter Notebook](https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=for-the-badge&logo=jupyter&logoColor=white)
 
-[Start Tracker](https://seladb.github.io/StarTrack-js/#/preload?r=wangzhe3224,awesome-systematic-trading)
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=wangzhe3224/awesome-systematic-trading&type=Timeline)](https://star-history.com/#wangzhe3224/awesome-systematic-trading&Timeline)
 
 [希望阅读中文版？点我](./Readme_cn.md)
 
