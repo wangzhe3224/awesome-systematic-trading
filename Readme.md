@@ -261,6 +261,7 @@ Note: the one marked as `Live Trading` has reasonable live trading support for a
 ## Broker APIs
 
 - [Ib_insync](https://github.com/erdewit/ib_insync) | `Python` | - Python sync/async framework for Interactive Brokers API
+- [PENDAX](https://github.com/CompendiumFi/PENDAX-SDK) | `JavaScript` | - A free Javascript library allowing simplified interaction with trading and data commands on a growing list of cryptocurrency exchanges like FTX, OKX, ByBit, & more.
 - [ccxt](https://github.com/ccxt/ccxt) | `Python`, `JavaScript` | - A JavaScript / Python / PHP cryptocurrency trading API with support for more than 100 bitcoin/altcoin exchanges
 - [Coinnect](https://github.com/hugues31/coinnect) | `Rust` | - Coinnect is a Rust library aiming to provide a complete access to main crypto currencies exchanges via REST API.
 - More is coming... (PR welcome)
