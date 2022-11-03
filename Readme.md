@@ -40,6 +40,7 @@ Search page by languages you are interested in to find related libraries. For ex
 And I count crypto as whole new category: [>> Click ME to Systematic Crypto](crypto_focus.md).
 
 - [Awesome Systematic Trading](#awesome-systematic-trading)
+  - [Star History](#star-history)
   - [Backtest + live trading](#backtest--live-trading)
     - [General purpose](#general-purpose)
     - [Crypto currency focus](#crypto-currency-focus)
@@ -91,6 +92,7 @@ Note: the one marked as `Live Trading` has reasonable live trading support for a
 - [FlashFunk](https://github.com/HFQR/FlashFunk) | `Rust` | -  High Performance Runtime in Rust
 - [finmarketpy](https://github.com/cuemacro/finmarketpy) | `Python` | - Python library for backtesting trading strategies & analyzing financial markets (formerly pythalesians)
 - [gobacktest](https://github.com/gobacktest/gobacktest) | `Go` | - A Go implementation of event-driven backtesting framework
+- [Hikyuu](https://github.com/fasiondog/hikyuu) | `C++`, `Python`| - Hikyuu Quant Framework 基于C++/Python的开源量化交易研究框架
 - [lumibot](https://github.com/Lumiwealth/lumibot/tree/8da88cadfe9ee35399dd69c94aa5ed3cf995f417) | `Python` | - A very simple yet useful backtesting and sample based live trading framework (a bit slow to run...)
 - [* nautilus_trader](https://github.com/nautechsystems/nautilus_trader) | `Python`, `Cython`, `Rust`, `Live Trading` | - A high-performance algorithmic trading platform and event-driven backtester
 - [QuantConnect](https://github.com/QuantConnect/Lean) | `C#`, `.NET`, `Live Trading` | - Lean Algorithmic Trading Engine by QuantConnect (Python, C#)
