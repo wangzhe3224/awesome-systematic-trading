@@ -122,6 +122,7 @@ Note: the one marked as `Live Trading` has reasonable live trading support for a
 - [Jesse](https://github.com/jesse-ai/jesse) | `Python` | - Jesse is an advanced crypto trading framework which aims to simplify researching and defining trading strategies.
 - [* OctoBot](https://github.com/Drakkar-Software/OctoBot) | `Python`, `Cython`, `Live Trading`| - Cryptocurrency trading bot for TA, arbitrage and social trading with an advanced web interface
 - [Kelp](https://github.com/stellar/kelp) | `Go`, `Live Trading` | - Kelp is a free and open-source trading bot for the Stellar DEX and 100+ centralized exchanges
+- [exc](https://github.com/Nouzan/exc) | `Rust` | - The abstraction layer of exchanges.
 
 ### Machine Learning / Reinforcement Learning Focused
 
