@@ -112,6 +112,7 @@ Note: 如果标有`Live Trading` 表示具有实时交易功能（至少一个�
 - [Jesse](https://github.com/jesse-ai/jesse) | `Python` | - Jesse 是一个先进的加密交易框架，旨在简化交易策略的研究和定义。
 - [OctoBot](https://github.com/Drakkar-Software/OctoBot) | `Python`, `Cython`, `Live Trading`| - 具有高级 Web 界面的用于 TA、套利和社交交易的加密货币交易机器人
 - [Kelp](https://github.com/stellar/kelp) | `Go`, `Live Trading` | - Kelp 是一个免费的开源交易机器人，适用于 Stellar DEX 和 100 多个中心化交易所
+- [exc](https://github.com/Nouzan/exc) | `Rust` | - Exc 是一个加密货币交易所API抽象层实现，旨在让使用者更关注于策略实现。
 
 ###  机器学习/强化学习
 
