@@ -27,8 +27,8 @@ A curated list of awesome libraries, packages and resources for Systematic Tradi
 How do we pick the projects?
 
 - Fit in Systematic Trading / Quantitative Trading domain
-- Under active development
 - Good coding style and software architecture
+- (Optional) Under active development
 - (Optional) Reasonable test coverage
 
 Overall, I tend to pick decent or promising libraries that closely related to systematic trading instead of including as many libraries as possible.
