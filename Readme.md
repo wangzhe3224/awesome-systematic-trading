@@ -67,6 +67,7 @@ And I count crypto as whole new category: [>> Click ME to Systematic Crypto](cry
     - [Stocks and General](#stocks-and-general)
     - [Crypto](#crypto)
   - [Broker APIs](#broker-apis)
+  - [🔥 Quant Shops Code and Blog](#-quant-shops-code-and-blog)
   - [Resources](#resources)
     - [Books](#books)
     - [Blogs](#blogs)
@@ -269,6 +270,26 @@ Note: the one marked as `Live Trading` has reasonable live trading support for a
 - [ccxt](https://github.com/ccxt/ccxt) | `Python`, `JavaScript` | - A JavaScript / Python / PHP cryptocurrency trading API with support for more than 100 bitcoin/altcoin exchanges
 - [Coinnect](https://github.com/hugues31/coinnect) | `Rust` | - Coinnect is a Rust library aiming to provide a complete access to main crypto currencies exchanges via REST API.
 - More is coming... (PR welcome)
+
+## 🔥 Quant Shops Code and Blog
+
+- **JaneStreet**
+  - [Janestreet Tech Blog](https://blog.janestreet.com/)
+  - [Open Source](https://opensource.janestreet.com/)
+    - Tech stack: Ocaml, C, F#
+- **Man AHL**
+  - [Man Group Tech Blog](https://www.man.com/tech-articles-all)
+  - [Open Source](https://github.com/man-group)
+    - Tech stack: Python, JavaScript, Java, C, Go
+- **DE Show**
+  - [Open Source](https://github.com/deshaw)
+    - Tech stack: Python, TypeScript, JavaScript, Rust, Nix
+- **Two Sigma**
+  - [Two Signal Engineering](https://www.twosigma.com/topic/engineering/)
+  - [Open Source](https://github.com/twosigma)
+    - Tech stack: Python, Java, C, Clojure, Rust
+- **Hudson River Trading - HRT**
+  - [HRT Engineering](https://www.hudsonrivertrading.com/hrtbeat/category/engineering/)
 
 ## Resources
 
