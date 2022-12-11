@@ -274,11 +274,14 @@ Note: the one marked as `Live Trading` has reasonable live trading support for a
 ## 🔥 Quant Shops Code and Blog
 
 - **JaneStreet**
-  - [Janestreet Tech Blog](https://blog.janestreet.com/)
+  - [JaneStreet Tech Blog](https://blog.janestreet.com/)
+  - [JaneStreet Tech Podcast](https://signalsandthreads.com/)
+  - [Tech Talks](https://www.janestreet.com/tech-talks/)
   - [Open Source](https://opensource.janestreet.com/)
     - Tech stack: Ocaml, C, F#
 - **Man AHL**
   - [Man Group Tech Blog](https://www.man.com/tech-articles-all)
+  - [Podcast](https://www.man.com/maninstitute/podcasts)
   - [Open Source](https://github.com/man-group)
     - Tech stack: Python, JavaScript, Java, C, Go
 - **DE Show**
