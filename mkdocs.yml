@@ -79,3 +79,12 @@ markdown_extensions:
 extra_javascript:
   - https://polyfill.io/v3/polyfill.min.js?features=es6
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
+extra:
+  analytics:
+    provider: google
+    property: G-KJC6F9YNGT
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/wangzhe3224 
+  generator: false
