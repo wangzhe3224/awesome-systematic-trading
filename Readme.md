@@ -176,6 +176,7 @@ Note: the one marked as `Live Trading` has reasonable live trading support for a
 - [GraphKit](https://github.com/yahoo/graphkit) | `Python` | - A lightweight Python module for creating and running ordered graphs of computations.
 - [Man MDF](https://github.com/man-group/mdf) | `Python` | - Data-flow programming toolkit for Python 
 - [Tributary](https://github.com/timkpaine/tributary) | `Python` | - Streaming reactive and dataflow graphs in Python
+- [Hamilton](https://github.com/stitchfix/hamilton) | `Python` | - A scalable general purpose micro-framework for defining dataflows. You can use it to build dataframes, numpy matrices, python objects, ML models, etc. Embed Hamilton anywhere python runs, e.g. spark, airflow, jupyter, fastapi, python scripts, etc.
 
 ### Alternative libraries
 
