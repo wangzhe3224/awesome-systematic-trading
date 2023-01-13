@@ -334,7 +334,6 @@ It takes time to produce videos, articles, and maintains the repositories.
 Feel free to support me :) thanks.
 
 - [Patreon](https://www.patreon.com/funcoder777)
-- ETH: 0xb5fEE7B6776877bB78C2b7594802C6a09f52D9B7
 - BTC: bc1qrjrffv7aaf5f4f6dydkt4yaukt4297vedd6w6p
 - 支付宝
 
