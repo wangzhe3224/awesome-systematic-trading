@@ -177,6 +177,9 @@ Note: the one marked as `Live Trading` has reasonable live trading support for a
 - [Man MDF](https://github.com/man-group/mdf) | `Python` | - Data-flow programming toolkit for Python 
 - [Tributary](https://github.com/timkpaine/tributary) | `Python` | - Streaming reactive and dataflow graphs in Python
 - [Hamilton](https://github.com/stitchfix/hamilton) | `Python` | - A scalable general purpose micro-framework for defining dataflows. You can use it to build dataframes, numpy matrices, python objects, ML models, etc. Embed Hamilton anywhere python runs, e.g. spark, airflow, jupyter, fastapi, python scripts, etc.
+- [loman](https://github.com/janushendersonassetallocation/loman) | `Python` | - Loman is a Python library designed to allow quantitative researchers to control complex live updating calculation processes
+- [Anchors - C++](https://github.com/oluwatimilehin/anchors) | `C++` | - C++ library for incremental computing
+- [Anchors - Rust](https://github.com/lord/anchors) | `Rust` | - self adjusting computations in rust
 
 ### Alternative libraries
 
