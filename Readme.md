@@ -148,6 +148,7 @@ Note: the one marked as `Live Trading` has reasonable live trading support for a
   - https://www.reddit.com/r/options/comments/a36k4j/the_wheel_aka_triple_income_strategy_explained/
 - [PyTrendFollow](https://github.com/chrism2671/PyTrendFollow) | `Python` | - PyTrendFollow - systematic futures trading using trend following 
 - [czsc - 缠中说禅技术分析工具](https://github.com/waditu/czsc) | `Python` | - 缠中说禅技术分析工具；缠论；股票；期货；Quant；量化交易 
+- [volest](https://github.com/jasonstrimpel/volatility-trading) || - A complete set of volatility estimators based on Euan Sinclair's Volatility Trading
 
 ### Arbitrage (Crypto)
 
