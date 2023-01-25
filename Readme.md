@@ -115,6 +115,7 @@ Note: the one marked as `Live Trading` has reasonable live trading support for a
 - [bt](https://github.com/pmorissette/bt) | `Python` | -  Flexible backtesting for Python based on Algo and Strategy Tree
 - [pysystemtrade](https://github.com/robcarver17/pysystemtrade) | `Python`, `Live Trading` | - Systematic Trading in python from book <Systematic Trading> by Rob Carver
 - [vectorbt](https://github.com/polakowo/vectorbt) | `Python`, `numba` | - vectorbt takes a novel approach to backtesting: it operates entirely on pandas and NumPy objects, and is accelerated by Numba to analyze any data at speed and scale. This allows for testing of many thousands of strategies in seconds.
+- [fund-strategy](https://github.com/SunshowerC/fund-strategy) | `TypeScript` | - 一个简单实用的基金投资策略分析，基金回测工具
 
 ### Crypto currency focus
 
