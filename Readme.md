@@ -5,7 +5,6 @@
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/wangzhe3224/awesome-systematic-trading/master)
 
-
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white)
 ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white)
@@ -19,6 +18,8 @@
 [![Star History Chart](https://api.star-history.com/svg?repos=wangzhe3224/awesome-systematic-trading&type=Timeline)](https://star-history.com/#wangzhe3224/awesome-systematic-trading&Timeline)
 
 [希望阅读中文版？点我](./Readme_cn.md)
+
+[Interested in systematic trading? Check QuantBox](https://quant.funcoder.net/)
 
 A curated list of awesome libraries, packages and resources for Systematic Trading (Quantitative Trading)
 
