@@ -319,6 +319,7 @@ Note: the one marked as `Live Trading` has reasonable live trading support for a
 
 ### Blogs
 
+- [QuantBox - Systematic trading toolbox](https://quant.funcoder.net/)
 - [Proof Engineering: The Algorithmic Trading Platform](https://medium.com/prooftrading/proof-engineering-the-algorithmic-trading-platform-b9c2f195433d)
 
 ### Tutorials
