@@ -68,6 +68,7 @@ And I count crypto as whole new category: [>> Click ME to Systematic Crypto](cry
   - [Databases](#databases)
   - [Data Source](#data-source)
     - [Stocks and General](#stocks-and-general)
+    - [Alternative](#alternative)
     - [Crypto](#crypto)
   - [Broker APIs](#broker-apis)
   - [🔥 Quant Shops Code and Blog](#-quant-shops-code-and-blog)
@@ -269,6 +270,10 @@ Note: the one marked as `Live Trading` has reasonable live trading support for a
 - [Investpy](https://github.com/alvarobartt/investpy) - Financial Data Extraction from Investing.com with Python
 - [AkShare](https://github.com/akfamily/akshare) |`Python`| - AKShare is an elegant and simple financial data interface library for Python, built for human beings! 开源财经数据接口库
 - [Fundamental Analysis Data](https://github.com/JerBouma/FundamentalAnalysis) | `Python` | - Fully-fledged Fundamental Analysis package capable of collecting 20 years of Company Profiles, Financial Statements, Ratios and Stock Data of 20.000+ companies.
+
+### Alternative
+
+- [SEC EDGAR Filing API](https://github.com/janlukasschroeder/sec-api-python)
 
 ### Crypto
 
