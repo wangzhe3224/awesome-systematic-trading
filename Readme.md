@@ -153,6 +153,7 @@ Note: the one marked as `Live Trading` has reasonable live trading support for a
 - [czsc - 缠中说禅技术分析工具](https://github.com/waditu/czsc) | `Python` | - 缠中说禅技术分析工具；缠论；股票；期货；Quant；量化交易 
 - [volest](https://github.com/jasonstrimpel/volatility-trading) || - A complete set of volatility estimators based on Euan Sinclair's Volatility Trading
 - [quant-trading](https://github.com/je-suis-tm/quant-trading) | `Python` | - Python quantitative trading strategies including VIX Calculator, Pattern Recognition, Commodity Trading Advisor, Monte Carlo, Options Straddle, Shooting Star, London Breakout, Heikin-Ashi, Pair Trading, RSI, Bollinger Bands, Parabolic SAR, Dual Thrust, Awesome, MACD
+- [一个中文策略合集](https://github.com/fmzquant/strategies) | `Python` | 
 
 ### Arbitrage (Crypto)
 
