@@ -158,6 +158,8 @@ Note: the one marked as `Live Trading` has reasonable live trading support for a
 - [一个中文策略合集](https://github.com/fmzquant/strategies) | `Python` | 
 - [一个实盘的股票趋势策略](https://github.com/BigBrotherTrade/trader) | `Python` | - 
 - [Quantitative-analysis](https://github.com/hugo2046/QuantsPlaybook) | `Python` | - 量化研究-券商金工研报复现
+- [torchquantum](https://github.com/nymath/torchquantum) | `Cython`, `C`, `Python` | - TorchQuantum is a backtesting framework that integrates the structure of PyTorch and WorldQuant's Operator for efficient quantitative financial analysis.
+- [OpenAlpha](https://github.com/caoruicn/openalpha) | `C++` | - An open source equity statistical arbitrage backtest simulator, use the same API as WorldQuant's WebSim
 
 ### Arbitrage (Crypto)
 
