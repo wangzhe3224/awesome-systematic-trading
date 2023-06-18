@@ -119,6 +119,7 @@ Note: the one marked as `Live Trading` has reasonable live trading support for a
 - [finmarketpy](https://github.com/cuemacro/finmarketpy) | `Python` | - Python library for backtesting trading strategies & analyzing financial markets (formerly pythalesians)
 - [vectorbt](https://github.com/polakowo/vectorbt) | `Python`, `numba` | - vectorbt takes a novel approach to backtesting: it operates entirely on pandas and NumPy objects, and is accelerated by Numba to analyze any data at speed and scale. This allows for testing of many thousands of strategies in seconds.
 - [fund-strategy](https://github.com/SunshowerC/fund-strategy) | `TypeScript` | - 一个简单实用的基金投资策略分析，基金回测工具
+- [fastquant](https://github.com/enzoampil/fastquant) | `Python` | - Backtest and optimize your ML trading strategies with only 3 lines of code
 
 ### Crypto currency focus
 
