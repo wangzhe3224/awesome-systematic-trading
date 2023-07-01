@@ -54,6 +54,7 @@ And I count crypto as whole new category: [>> Click ME to Systematic Crypto](cry
   - [Basic libraries](#basic-libraries)
     - [Fundamental libraries](#fundamental-libraries)
     - [Computation Graph](#computation-graph)
+    - [Performance Booster](#performance-booster)
     - [Alternative libraries](#alternative-libraries)
       - [Numpy Alternatives](#numpy-alternatives)
       - [Pandas Alternatives](#pandas-alternatives)
@@ -149,12 +150,12 @@ Note: the one marked as `Live Trading` has reasonable live trading support for a
 ### Alpha
 
 - [Python quantitative trading strategies including VIX Calculator, Pattern Recognition, Commodity Trading Advisor, Monte Carlo, Options Straddle, Shooting Star, London Breakout, Heikin-Ashi, Pair Trading, RSI, Bollinger Bands, Parabolic SAR, Dual Thrust, Awesome, MACD](https://github.com/je-suis-tm/quant-trading#15-vix-calculator)
-- [analyzingalpha](https://github.com/leosmigel/analyzingalpha)
+- [analyzingalpha](https://github.com/leosmigel/analyzingalpha) 
 - [ThetaGang](https://github.com/brndnmtthws/thetagang) - ThetaGang is an IBKR bot for collecting money 
   - https://www.reddit.com/r/options/comments/a36k4j/the_wheel_aka_triple_income_strategy_explained/
 - [PyTrendFollow](https://github.com/chrism2671/PyTrendFollow) | `Python` | - PyTrendFollow - systematic futures trading using trend following 
 - [czsc - 缠中说禅技术分析工具](https://github.com/waditu/czsc) | `Python` | - 缠中说禅技术分析工具；缠论；股票；期货；Quant；量化交易 
-- [volest](https://github.com/jasonstrimpel/volatility-trading) || - A complete set of volatility estimators based on Euan Sinclair's Volatility Trading
+- [volest](https://github.com/jasonstrimpel/volatility-trading) | `Python` | - A complete set of volatility estimators based on Euan Sinclair's Volatility Trading
 - [quant-trading](https://github.com/je-suis-tm/quant-trading) | `Python` | - Python quantitative trading strategies including VIX Calculator, Pattern Recognition, Commodity Trading Advisor, Monte Carlo, Options Straddle, Shooting Star, London Breakout, Heikin-Ashi, Pair Trading, RSI, Bollinger Bands, Parabolic SAR, Dual Thrust, Awesome, MACD
 - [一个中文策略合集](https://github.com/fmzquant/strategies) | `Python` | 
 - [一个实盘的股票趋势策略](https://github.com/BigBrotherTrade/trader) | `Python` | - 
@@ -175,10 +176,10 @@ Note: the one marked as `Live Trading` has reasonable live trading support for a
 
 ### Fundamental libraries
 
-- [Cvxpy](https://github.com/cvxpy/cvxpy) | `Python`, `C++` | - A Python-embedded modeling language for convex optimization problems.
-- [Numpy](https://github.com/numpy/numpy) | `Python`, `C` | - The fundamental package for scientific computing with Python
+- [Cvxpy](https://github.com/cvxpy/cvxpy) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/cvxpy/cvxpy/master) | `Python`, `C++` | - A Python-embedded modeling language for convex optimization problems.
+- [Numpy](https://github.com/numpy/numpy) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/numpy/numpy/main)| `Python`, `C` | - The fundamental package for scientific computing with Python
+- [Pandas](https://github.com/pandas-dev/pandas) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/pandas-dev/pandas/main) | `Python`, `Cython` | - Flexible and powerful data analysis / manipulation library for Python, providing labeled data structures similar to R data.frame objects, statistical functions, and much more
 - [Scipy](https://github.com/scipy/scipy) | `Python`, `C` | - Fundamental algorithms for scientific computing in Python
-- [Pandas](https://github.com/pandas-dev/pandas) | `Python`, `Cython` | - Flexible and powerful data analysis / manipulation library for Python, providing labeled data structures similar to R data.frame objects, statistical functions, and much more
 - [Sikit-learn](https://github.com/scikit-learn/scikit-learn) | `Python`, `Cython` | - Machine learning in Python
 - [Keras](https://github.com/keras-team/keras) | `Python` | - The most user friendly Deep Learning for humans in Python
 - [TensorFlow](https://github.com/tensorflow/tensorflow) | `Python`, `C++` | - More low level Deep Learning framework
@@ -187,8 +188,8 @@ Note: the one marked as `Live Trading` has reasonable live trading support for a
 
 ### Computation Graph
 
-- [Dask](https://github.com/dask/dask) | `Python` | - Parallel computing with task scheduling in Python with a Pandas like API
-- [Ray](https://github.com/ray-project/ray) | `Python`, `C++` | - An open source framework that provides a simple, universal API for building distributed applications.
+- [Ray](https://github.com/ray-project/ray) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/ray-project/ray/master) | `Python`, `C++` | - An open source framework that provides a simple, universal API for building distributed applications.
+- [Dask](https://github.com/dask/dask) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/dask/dask/main) | `Python` | - Parallel computing with task scheduling in Python with a Pandas like API
 - [Incremental (JaneStreet)](https://github.com/janestreet/incremental) | `Ocaml` | - Incremental is a library that gives you a way of building complex computations that can update efficiently in response to their inputs changing, inspired by the work of Umut Acar et. al. on self-adjusting computations. Incremental can be useful in a number of applications
 - [GraphKit](https://github.com/yahoo/graphkit) | `Python` | - A lightweight Python module for creating and running ordered graphs of computations.
 - [Man MDF](https://github.com/man-group/mdf) | `Python` | - Data-flow programming toolkit for Python 
@@ -197,6 +198,12 @@ Note: the one marked as `Live Trading` has reasonable live trading support for a
 - [loman](https://github.com/janushendersonassetallocation/loman) | `Python` | - Loman is a Python library designed to allow quantitative researchers to control complex live updating calculation processes
 - [Anchors - C++](https://github.com/oluwatimilehin/anchors) | `C++` | - C++ library for incremental computing
 - [Anchors - Rust](https://github.com/lord/anchors) | `Rust` | - self adjusting computations in rust
+
+### Performance Booster
+
+- [cython](https://github.com/cython/cython) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/cython/cython/master) | `C` | - Cython is a Python compiler that makes writing C extensions for Python as easy as Python itself. Cython is based on Pyrex, but supports more cutting edge functionality and optimizations.
+- [numba](https://github.com/numba/numba) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/numba/numba/main) - NumPy aware dynamic Python compiler using LLVM
+- [pyo3](https://github.com/PyO3/pyo3)  ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/numba/numba/main) - Rust bindings for the Python interpreter
 
 ### Alternative libraries
 
