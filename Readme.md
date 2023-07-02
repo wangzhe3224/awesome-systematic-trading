@@ -51,10 +51,10 @@ And I count crypto as whole new category: [>> Click ME to Systematic Crypto](cry
   - [Alpha Collections](#alpha-collections)
     - [Alpha](#alpha)
     - [Arbitrage (Crypto)](#arbitrage-crypto)
-  - [Basic libraries](#basic-libraries)
+  - [Basic Components](#basic-components)
     - [Fundamental libraries](#fundamental-libraries)
     - [Computation Graph](#computation-graph)
-    - [Performance Booster](#performance-booster)
+    - [Python Performance Booster](#python-performance-booster)
     - [Alternative libraries](#alternative-libraries)
       - [Numpy Alternatives](#numpy-alternatives)
       - [Pandas Alternatives](#pandas-alternatives)
@@ -99,7 +99,7 @@ Note: the one marked as `Live Trading` has reasonable live trading support for a
 - [gobacktest](https://github.com/gobacktest/gobacktest) | `Go` | - A Go implementation of event-driven backtesting framework
 - [Hikyuu](https://github.com/fasiondog/hikyuu) | `C++`, `Python`| - Hikyuu Quant Framework 基于C++/Python的开源量化交易研究框架
 - [lumibot](https://github.com/Lumiwealth/lumibot/tree/8da88cadfe9ee35399dd69c94aa5ed3cf995f417) | `Python` | - A very simple yet useful backtesting and sample based live trading framework (a bit slow to run...)
-- [* nautilus_trader](https://github.com/nautechsystems/nautilus_trader) | `Python`, `Cython`, `Rust`, `Live Trading` | - A high-performance algorithmic trading platform and event-driven backtester
+- [* nautilus_trader](https://github.com/nautechsystems/nautilus_trader) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/nautechsystems/nautilus_trader/master)| `Python`, `Cython`, `Rust`, `Live Trading` | - A high-performance algorithmic trading platform and event-driven backtester
 - [QuantConnect](https://github.com/QuantConnect/Lean) | `C#`, `.NET`, `Live Trading` | - Lean Algorithmic Trading Engine by QuantConnect (Python, C#)
 - [QUANTAXIS](https://github.com/QUANTAXIS/QUANTAXIS) | `Python`, `Rust`, `Live Trading` | - QUANTAXIS 支持任务调度 分布式部署的 股票/期货/期权/港股/虚拟货币 数据/回测/模拟/交易/可视化/多账户 纯本地量化解决方案
 - [Rqalpha](https://github.com/ricequant/rqalpha) | `Python` | - A extendable, replaceable Python algorithmic backtest && trading framework supporting multiple securities
@@ -172,7 +172,7 @@ Note: the one marked as `Live Trading` has reasonable live trading support for a
 - [bitcoin-arbitrage](https://github.com/maxme/bitcoin-arbitrage) | `Python` | - Bitcoin arbitrage - opportunity detector 
 - [R2 Bitcoin Arbitrager](https://github.com/bitrinjani/r2) | `TypeScript` | - R2 Bitcoin Arbitrager is an automatic arbitrage trading system powered by Node.js + TypeScript.
 
-## Basic libraries
+## Basic Components
 
 ### Fundamental libraries
 
@@ -190,19 +190,20 @@ Note: the one marked as `Live Trading` has reasonable live trading support for a
 
 - [Ray](https://github.com/ray-project/ray) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/ray-project/ray/master) | `Python`, `C++` | - An open source framework that provides a simple, universal API for building distributed applications.
 - [Dask](https://github.com/dask/dask) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/dask/dask/main) | `Python` | - Parallel computing with task scheduling in Python with a Pandas like API
-- [Incremental (JaneStreet)](https://github.com/janestreet/incremental) | `Ocaml` | - Incremental is a library that gives you a way of building complex computations that can update efficiently in response to their inputs changing, inspired by the work of Umut Acar et. al. on self-adjusting computations. Incremental can be useful in a number of applications
-- [GraphKit](https://github.com/yahoo/graphkit) | `Python` | - A lightweight Python module for creating and running ordered graphs of computations.
-- [Man MDF](https://github.com/man-group/mdf) | `Python` | - Data-flow programming toolkit for Python 
+- [Hamilton](https://github.com/dagworks-inc/hamilton) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/dagworks-inc/hamilton/main)| `Python` | - A scalable general purpose micro-framework for defining dataflows. You can use it to build dataframes, numpy matrices, python objects, ML models, etc. Embed Hamilton anywhere python runs, e.g. spark, airflow, jupyter, fastapi, python scripts, etc.
+- [Incremental (JaneStreet)](https://github.com/janestreet/incremental) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/janestreet/incremental/master) | `Ocaml` | - Incremental is a library that gives you a way of building complex computations that can update efficiently in response to their inputs changing, inspired by the work of Umut Acar et. al. on self-adjusting computations. Incremental can be useful in a number of applications
 - [Tributary](https://github.com/timkpaine/tributary) | `Python` | - Streaming reactive and dataflow graphs in Python
-- [Hamilton](https://github.com/stitchfix/hamilton) | `Python` | - A scalable general purpose micro-framework for defining dataflows. You can use it to build dataframes, numpy matrices, python objects, ML models, etc. Embed Hamilton anywhere python runs, e.g. spark, airflow, jupyter, fastapi, python scripts, etc.
-- [loman](https://github.com/janushendersonassetallocation/loman) | `Python` | - Loman is a Python library designed to allow quantitative researchers to control complex live updating calculation processes
-- [Anchors - C++](https://github.com/oluwatimilehin/anchors) | `C++` | - C++ library for incremental computing
-- [Anchors - Rust](https://github.com/lord/anchors) | `Rust` | - self adjusting computations in rust
+- [GraphKit(No activity)](https://github.com/yahoo/graphkit) | `Python` | - A lightweight Python module for creating and running ordered graphs of computations.
+- [Man MDF (No activity)](https://github.com/man-group/mdf) | `Python` | - Data-flow programming toolkit for Python 
+- [Anchors - C++(No activity)](https://github.com/oluwatimilehin/anchors) | `C++` | - C++ library for incremental computing
+- [Anchors - Rust(No activity)](https://github.com/lord/anchors) | `Rust` | - self adjusting computations in rust
+- [Loman (No activity)](https://github.com/janushendersonassetallocation/loman) | `Python` | - Loman is a Python library designed to allow quantitative researchers to control complex live updating calculation processes
 
-### Performance Booster
+### Python Performance Booster
 
-- [cython](https://github.com/cython/cython) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/cython/cython/master) | `C` | - Cython is a Python compiler that makes writing C extensions for Python as easy as Python itself. Cython is based on Pyrex, but supports more cutting edge functionality and optimizations.
+- [cython](https://github.com/cython/cython) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/cython/cython/master) - Cython is a Python compiler that makes writing C extensions for Python as easy as Python itself. Cython is based on Pyrex, but supports more cutting edge functionality and optimizations.
 - [numba](https://github.com/numba/numba) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/numba/numba/main) - NumPy aware dynamic Python compiler using LLVM
+- [pybind11](https://github.com/pybind/pybind11) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/pybind/pybind11/master) - Seamless operability between C++11 and Python
 - [pyo3](https://github.com/PyO3/pyo3)  ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/numba/numba/main) - Rust bindings for the Python interpreter
 
 ### Alternative libraries
