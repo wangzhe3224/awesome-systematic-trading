@@ -53,7 +53,7 @@ And I count crypto as whole new category: [>> Click ME to Systematic Crypto](cry
     - [Arbitrage (Crypto)](#arbitrage-crypto)
   - [Basic Components](#basic-components)
     - [Fundamental libraries](#fundamental-libraries)
-    - [Computation Graph](#computation-graph)
+    - [Computation](#computation)
     - [Python Performance Booster](#python-performance-booster)
     - [Alternative libraries](#alternative-libraries)
       - [Numpy Alternatives](#numpy-alternatives)
@@ -186,10 +186,11 @@ Note: the one marked as `Live Trading` has reasonable live trading support for a
 - [Pytorch](https://github.com/pytorch/pytorch) | `Python` | - Tensors and Dynamic neural networks in Python with strong GPU acceleration
 - [PyMC](https://github.com/pymc-devs/pymc) | `Python` | - Probabilistic Programming in Python: Bayesian Modeling and Probabilistic Machine Learning with Aesara
 
-### Computation Graph
+### Computation
 
 - [Ray](https://github.com/ray-project/ray) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/ray-project/ray/master) | `Python`, `C++` | - An open source framework that provides a simple, universal API for building distributed applications.
 - [Dask](https://github.com/dask/dask) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/dask/dask/main) | `Python` | - Parallel computing with task scheduling in Python with a Pandas like API
+- [Spark](https://github.com/apache/spark) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/apache/spark/master) | `Scala` | - Apache Spark - A unified analytics engine for large-scale data processing
 - [Hamilton](https://github.com/dagworks-inc/hamilton) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/dagworks-inc/hamilton/main)| `Python` | - A scalable general purpose micro-framework for defining dataflows. You can use it to build dataframes, numpy matrices, python objects, ML models, etc. Embed Hamilton anywhere python runs, e.g. spark, airflow, jupyter, fastapi, python scripts, etc.
 - [Incremental (JaneStreet)](https://github.com/janestreet/incremental) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/janestreet/incremental/master) | `Ocaml` | - Incremental is a library that gives you a way of building complex computations that can update efficiently in response to their inputs changing, inspired by the work of Umut Acar et. al. on self-adjusting computations. Incremental can be useful in a number of applications
 - [Tributary](https://github.com/timkpaine/tributary) | `Python` | - Streaming reactive and dataflow graphs in Python
