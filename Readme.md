@@ -275,6 +275,7 @@ Note: the one marked as `Live Trading` has reasonable live trading support for a
 
 - [ArcticDB (Man Group)](https://github.com/man-group/ArcticDB) | `C++`, `Python` | - ArcticDB is a high performance, serverless DataFrame database built for the Python Data Science ecosystem.
 - [Arctic (Man Group)](https://github.com/man-group/arctic) | `Python` | - High performance datastore for time series and tick data
+- [pylance](https://github.com/lancedb/lance)  ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/lancedb/lance/main)  | `Rust` | - Modern columnar data format for ML and LLMs implemented in Rust. Convert from parquet in 2 lines of code for 100x faster random access, vector index, and data versioning. Compatible with Pandas, DuckDB, Polars, Pyarrow
 - [Marketstore](https://github.com/alpacahq/marketstore) | `Go` | - DataFrame Server for Financial Timeseries Data
 - [Tectonicdb](https://github.com/0b01/tectonicdb) | `Rust` | - Tectonicdb is a fast, highly compressed standalone database and streaming protocol for order book ticks.
 
