@@ -49,7 +49,8 @@ And I count crypto as whole new category: [>> Click ME to Systematic Crypto](cry
     - [Crypto currency focus](#crypto-currency-focus)
     - [Machine Learning / Reinforcement Learning Focused](#machine-learning--reinforcement-learning-focused)
   - [Alpha Collections](#alpha-collections)
-    - [Alpha](#alpha)
+    - [General Alpha](#general-alpha)
+    - [Expression based alpha](#expression-based-alpha)
     - [Arbitrage (Crypto)](#arbitrage-crypto)
   - [Basic Components](#basic-components)
     - [Fundamental libraries](#fundamental-libraries)
@@ -107,7 +108,7 @@ Note: the one marked as `Live Trading` has reasonable live trading support for a
 - [qf-lib](https://github.com/quarkfin/qf-lib) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/quarkfin/qf-lib/master) | `Python` | - Modular Python library that provides an advanced event driven backtester and a set of high quality tools for quantitative finance. Integrated with various data vendors and brokers, supports Crypto, Stocks and Futures.
 - [sdoosa-algo-trade-python](https://github.com/sreenivasdoosa/sdoosa-algo-trade-python) | `Python` | - This project is mainly for newbies into algo trading who are interested in learning to code their own trading algo using python interpreter.
 - [* vnpy](https://github.com/vnpy/vnpy) | `Python`, `Stock`, `Futures`, `Crypto`, `Live Trading` | - Python-based open source quantitative trading system development framework, officially released in January 2015, has grown step by step into a full-featured quantitative trading platform
-- [WonderTrader](https://github.com/wondertrader/wondertrader) | `C++`, `Python` | - WonderTrader——量化研发交易一站式框架 
+- [WonderTrader](https://github.com/wondertrader/wondertrader) | `C++`, `Python` | - WonderTrader——量化研发交易一站式框架
 - [zvt](https://github.com/zvtvz/zvt) | `Python`, `Stock`, `Backtest` | - Modular quant framework
 - [zipline](https://github.com/quantopian/zipline) | `Python` | - Zipline is a Pythonic algorithmic trading library. It is an event-driven system for backtesting.
 - [PandoraTrader](https://github.com/pegasusTrader/PandoraTrader) | `C++` | - CTP 高频量化交易平台 C++ Trade Platform for quant developer
@@ -127,8 +128,8 @@ Note: the one marked as `Live Trading` has reasonable live trading support for a
 - [triangular-arbitrage2](https://github.com/zlq4863947/triangular-arbitrage2) | `TypeScript` | - a server side application for perform triangular arbitrage.
 - [bTrader](https://github.com/gabriel-milan/btrader) | `Rust` | - Triangle arbitrage trading bot for Binance
 - [crypto-crawler-rs](https://github.com/crypto-crawler/crypto-crawler-rs) | `Rust` | - Crawl orderbook and trade messages from crypto exchanges
-- [cryptotrader-core](https://github.com/monomadic/cryptotrader-core) | `Rust` | - Simple to use Crypto Exchange REST API client in rust. 
-- [openlimits](https://github.com/nash-io/openlimits) | `Rust` | - A Rust high performance cryptocurrency trading API with support for multiple exchanges and language wrappers. 
+- [cryptotrader-core](https://github.com/monomadic/cryptotrader-core) | `Rust` | - Simple to use Crypto Exchange REST API client in rust.
+- [openlimits](https://github.com/nash-io/openlimits) | `Rust` | - A Rust high performance cryptocurrency trading API with support for multiple exchanges and language wrappers.
 - [Freqtrade](https://github.com/freqtrade/freqtrade) | `Python` | - Freqtrade is a free and open source crypto trading bot written in Python. It is designed to support all major exchanges and be controlled via Telegram. It contains backtesting, plotting and money management tools as well as strategy optimization by machine learning.
 - [* Hummingbot](https://github.com/CoinAlpha/hummingbot) | `Python`, `Cython`, `Live Trading` | - A client for crypto market making
 - [Jesse](https://github.com/jesse-ai/jesse) | `Python` | - Jesse is an advanced crypto trading framework which aims to simplify researching and defining trading strategies.
@@ -143,23 +144,26 @@ Note: the one marked as `Live Trading` has reasonable live trading support for a
 - [FinRL](https://github.com/AI4Finance-Foundation/FinRL) | `Python` | - FinRL is the first open-source framework to demonstrate the great potential of applying deep reinforcement learning in quantitative finance.
 - [* QLib (Microsoft)](https://github.com/microsoft/qlib) | `Python`, `Cython` | - Qlib is an AI-oriented quantitative investment platform, which aims to realize the potential, empower the research, and create the value of AI technologies in quantitative investment. With Qlib, you can easily try your ideas to create better Quant investment strategies. An increasing number of SOTA Quant research works/papers are released in Qlib.
 - [TradingGym](https://github.com/Yvictor/TradingGym) | `Python`, `Live Trading` | - Trading and Backtesting environment for training reinforcement learning agent or simple rule base algo.
-- [Stock Trading Bot using Deep Q-Learning](https://github.com/pskrunner14/trading-bot) | `Python` | - Stock Trading Bot using Deep Q-Learning 
+- [Stock Trading Bot using Deep Q-Learning](https://github.com/pskrunner14/trading-bot) | `Python` | - Stock Trading Bot using Deep Q-Learning
 
 ## Alpha Collections
 
-### Alpha
+### General Alpha
 
 - [Python quantitative trading strategies including VIX Calculator, Pattern Recognition, Commodity Trading Advisor, Monte Carlo, Options Straddle, Shooting Star, London Breakout, Heikin-Ashi, Pair Trading, RSI, Bollinger Bands, Parabolic SAR, Dual Thrust, Awesome, MACD](https://github.com/je-suis-tm/quant-trading#15-vix-calculator)
-- [analyzingalpha](https://github.com/leosmigel/analyzingalpha) 
-- [ThetaGang](https://github.com/brndnmtthws/thetagang) - ThetaGang is an IBKR bot for collecting money 
-  - https://www.reddit.com/r/options/comments/a36k4j/the_wheel_aka_triple_income_strategy_explained/
-- [PyTrendFollow](https://github.com/chrism2671/PyTrendFollow) | `Python` | - PyTrendFollow - systematic futures trading using trend following 
-- [czsc - 缠中说禅技术分析工具](https://github.com/waditu/czsc) | `Python` | - 缠中说禅技术分析工具；缠论；股票；期货；Quant；量化交易 
+- [analyzingalpha](https://github.com/leosmigel/analyzingalpha)
+- [ThetaGang](https://github.com/brndnmtthws/thetagang) - ThetaGang is an IBKR bot for collecting money
+  - <https://www.reddit.com/r/options/comments/a36k4j/the_wheel_aka_triple_income_strategy_explained/>
+- [PyTrendFollow](https://github.com/chrism2671/PyTrendFollow) | `Python` | - PyTrendFollow - systematic futures trading using trend following
+- [czsc - 缠中说禅技术分析工具](https://github.com/waditu/czsc) | `Python` | - 缠中说禅技术分析工具；缠论；股票；期货；Quant；量化交易
 - [volest](https://github.com/jasonstrimpel/volatility-trading) | `Python` | - A complete set of volatility estimators based on Euan Sinclair's Volatility Trading
 - [quant-trading](https://github.com/je-suis-tm/quant-trading) | `Python` | - Python quantitative trading strategies including VIX Calculator, Pattern Recognition, Commodity Trading Advisor, Monte Carlo, Options Straddle, Shooting Star, London Breakout, Heikin-Ashi, Pair Trading, RSI, Bollinger Bands, Parabolic SAR, Dual Thrust, Awesome, MACD
-- [一个中文策略合集](https://github.com/fmzquant/strategies) | `Python` | 
-- [一个实盘的股票趋势策略](https://github.com/BigBrotherTrade/trader) | `Python` | - 
+- [一个中文策略合集](https://github.com/fmzquant/strategies) | `Python` |
+- [一个实盘的股票趋势策略](https://github.com/BigBrotherTrade/trader) | `Python` | -
 - [Quantitative-analysis](https://github.com/hugo2046/QuantsPlaybook) | `Python` | - 量化研究-券商金工研报复现
+
+### Expression based alpha
+
 - [torchquantum](https://github.com/nymath/torchquantum) | `Cython`, `C`, `Python` | - TorchQuantum is a backtesting framework that integrates the structure of PyTorch and WorldQuant's Operator for efficient quantitative financial analysis.
 - [OpenAlpha](https://github.com/caoruicn/openalpha) | `C++` | - An open source equity statistical arbitrage backtest simulator, use the same API as WorldQuant's WebSim
 - [stock](https://github.com/xcycharles/stock) | `Python` | - 一些因子挖掘的代码 A 股
@@ -168,8 +172,8 @@ Note: the one marked as `Live Trading` has reasonable live trading support for a
 
 > Note: these bots are old and not maintained. I put them here just to show some logic of crypto arbitrage.
   
-- [Blackbird](https://github.com/butor/blackbird) | `C++` | - Blackbird Bitcoin Arbitrage: a long/short market-neutral strategy 
-- [bitcoin-arbitrage](https://github.com/maxme/bitcoin-arbitrage) | `Python` | - Bitcoin arbitrage - opportunity detector 
+- [Blackbird](https://github.com/butor/blackbird) | `C++` | - Blackbird Bitcoin Arbitrage: a long/short market-neutral strategy
+- [bitcoin-arbitrage](https://github.com/maxme/bitcoin-arbitrage) | `Python` | - Bitcoin arbitrage - opportunity detector
 - [R2 Bitcoin Arbitrager](https://github.com/bitrinjani/r2) | `TypeScript` | - R2 Bitcoin Arbitrager is an automatic arbitrage trading system powered by Node.js + TypeScript.
 
 ## Basic Components
@@ -179,7 +183,8 @@ Note: the one marked as `Live Trading` has reasonable live trading support for a
 - [Cvxpy](https://github.com/cvxpy/cvxpy) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/cvxpy/cvxpy/master) | `Python`, `C++` | - A Python-embedded modeling language for convex optimization problems.
 - [Numpy](https://github.com/numpy/numpy) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/numpy/numpy/main)| `Python`, `C` | - The fundamental package for scientific computing with Python
 - [Pandas](https://github.com/pandas-dev/pandas) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/pandas-dev/pandas/main) | `Python`, `Cython` | - Flexible and powerful data analysis / manipulation library for Python, providing labeled data structures similar to R data.frame objects, statistical functions, and much more
-- [Scipy](https://github.com/scipy/scipy) | `Python`, `C` | - Fundamental algorithms for scientific computing in Python
+- [Polars](https://github.com/pola-rs/polars) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/pola-rs/polars/main)| `Rust`, `Python` | - Polars is a blazingly fast DataFrames library implemented in Rust using Apache Arrow Columnar Format as memory model.
+- [Scipy](https://github.com/scipy/scipy) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/scipy/scipy/main)| `Python`, `C` | - Fundamental algorithms for scientific computing in Python
 - [Sikit-learn](https://github.com/scikit-learn/scikit-learn) | `Python`, `Cython` | - Machine learning in Python
 - [Keras](https://github.com/keras-team/keras) | `Python` | - The most user friendly Deep Learning for humans in Python
 - [TensorFlow](https://github.com/tensorflow/tensorflow) | `Python`, `C++` | - More low level Deep Learning framework
@@ -195,7 +200,7 @@ Note: the one marked as `Live Trading` has reasonable live trading support for a
 - [Incremental (JaneStreet)](https://github.com/janestreet/incremental) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/janestreet/incremental/master) | `Ocaml` | - Incremental is a library that gives you a way of building complex computations that can update efficiently in response to their inputs changing, inspired by the work of Umut Acar et. al. on self-adjusting computations. Incremental can be useful in a number of applications
 - [Tributary](https://github.com/timkpaine/tributary) | `Python` | - Streaming reactive and dataflow graphs in Python
 - [GraphKit(No activity)](https://github.com/yahoo/graphkit) | `Python` | - A lightweight Python module for creating and running ordered graphs of computations.
-- [Man MDF (No activity)](https://github.com/man-group/mdf) | `Python` | - Data-flow programming toolkit for Python 
+- [Man MDF (No activity)](https://github.com/man-group/mdf) | `Python` | - Data-flow programming toolkit for Python
 - [Anchors - C++(No activity)](https://github.com/oluwatimilehin/anchors) | `C++` | - C++ library for incremental computing
 - [Anchors - Rust(No activity)](https://github.com/lord/anchors) | `Rust` | - self adjusting computations in rust
 - [Loman (No activity)](https://github.com/janushendersonassetallocation/loman) | `Python` | - Loman is a Python library designed to allow quantitative researchers to control complex live updating calculation processes
@@ -215,7 +220,6 @@ Note: the one marked as `Live Trading` has reasonable live trading support for a
 
 #### Pandas Alternatives
 
-- [Polars](https://github.com/pola-rs/polars) | `Rust`, `Python` | - Polars is a blazingly fast DataFrames library implemented in Rust using Apache Arrow Columnar Format as memory model.
 - [Vaex](https://github.com/vaexio/vaex) | `Python`, `C++` | - Out-of-Core hybrid Apache Arrow/NumPy DataFrame for Python, ML, visualization and exploration of big tabular data at a billion rows per second
 - [Modin](https://github.com/modin-project/modin) | `Python` |  - Modin: Speed up your Pandas workflows by changing a single line of code
 - [Koalas](https://github.com/databricks/koalas) | `Python` | - Koalas: pandas API on Apache Spark
@@ -273,9 +277,9 @@ Note: the one marked as `Live Trading` has reasonable live trading support for a
 
 ## Databases
 
-- [ArcticDB (Man Group)](https://github.com/man-group/ArcticDB) | `C++`, `Python` | - ArcticDB is a high performance, serverless DataFrame database built for the Python Data Science ecosystem.
-- [Arctic (Man Group)](https://github.com/man-group/arctic) | `Python` | - High performance datastore for time series and tick data
-- [pylance](https://github.com/lancedb/lance)  ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/lancedb/lance/main)  | `Rust` | - Modern columnar data format for ML and LLMs implemented in Rust. Convert from parquet in 2 lines of code for 100x faster random access, vector index, and data versioning. Compatible with Pandas, DuckDB, Polars, Pyarrow
+- [ArcticDB (Man Group)](https://github.com/man-group/ArcticDB) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/man-group/ArcticDB/master)| `C++`, `Python` | - ArcticDB is a high performance, serverless DataFrame database built for the Python Data Science ecosystem.
+- [pylance](https://github.com/lancedb/lance) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/lancedb/lance/main)  | `Rust` | - Modern columnar data format for ML and LLMs implemented in Rust. Convert from parquet in 2 lines of code for 100x faster random access, vector index, and data versioning. Compatible with Pandas, DuckDB, Polars, Pyarrow
+- [Arctic (Man Group)](https://github.com/man-group/arctic) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/man-group/arctic/master) | `Python` | - High performance datastore for time series and tick data
 - [Marketstore](https://github.com/alpacahq/marketstore) | `Go` | - DataFrame Server for Financial Timeseries Data
 - [Tectonicdb](https://github.com/0b01/tectonicdb) | `Rust` | - Tectonicdb is a fast, highly compressed standalone database and streaming protocol for order book ticks.
 
@@ -300,7 +304,7 @@ Note: the one marked as `Live Trading` has reasonable live trading support for a
 
 ### Crypto
 
-- [Cryptofeed](https://github.com/bmoscon/cryptofeed) |`Python`| - Cryptocurrency Exchange Websocket Data Feed Handler with Asyncio
+- [Cryptofeed](https://github.com/bmoscon/cryptofeed) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/bmoscon/cryptofeed/master)|`Python`| - Cryptocurrency Exchange Websocket Data Feed Handler with Asyncio
 
 ## Broker APIs
 
