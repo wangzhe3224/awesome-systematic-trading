@@ -169,6 +169,10 @@ Note: the one marked as `Live Trading` has reasonable live trading support for a
 - [OpenAlpha](https://github.com/caoruicn/openalpha) | `C++` | - An open source equity statistical arbitrage backtest simulator, use the same API as WorldQuant's WebSim
 - [stock](https://github.com/xcycharles/stock) | `Python` | - 一些因子挖掘的代码 A 股
 
+### Stock picking
+
+- [InvesTool](https://github.com/axiaoxin-com/investool) | `Go` | - Golang实现财报分析、个股基本面检测、基本面选股、4433法则基金筛选与检测、基金持仓相似度、股票选基、基金经理筛选
+
 ### Arbitrage (Crypto)
 
 > Note: these bots are old and not maintained. I put them here just to show some logic of crypto arbitrage.
