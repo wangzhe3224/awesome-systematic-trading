@@ -51,6 +51,7 @@ And I count crypto as whole new category: [>> Click ME to Systematic Crypto](cry
   - [Alpha Collections](#alpha-collections)
     - [General Alpha](#general-alpha)
     - [Expression based alpha](#expression-based-alpha)
+    - [Stock picking](#stock-picking)
     - [Arbitrage (Crypto)](#arbitrage-crypto)
   - [Basic Components](#basic-components)
     - [Fundamental libraries](#fundamental-libraries)
@@ -293,6 +294,7 @@ Note: the one marked as `Live Trading` has reasonable live trading support for a
 ### Stocks and General
 
 - [* OpenBB Terminal](https://github.com/OpenBB-finance/OpenBBTerminal) | `Python` | - Investment Research for Everyone, Anywhere.
+- [FinanceDatabase](https://github.com/JerBouma/FinanceDatabase) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/JerBouma/FinanceDatabase/main) - This is a database of 300.000+ symbols containing Equities, ETFs, Funds, Indices, Currencies, Cryptocurrencies and Money Markets.
 - [AkShare](https://github.com/akfamily/akshare) |`Python`| - AKShare is an elegant and simple financial data interface library for Python, built for human beings! 开源财经数据接口库
 - [findatapy](https://github.com/cuemacro/findatapy) |`Python`| - findatapy creates an easy to use Python API to download market data from many sources including Quandl, Bloomberg, Yahoo, Google etc. using a unified high level interface.  
 - [yfinance](https://github.com/ranaroussi/yfinance) |`Python`| - yfinance offers a threaded and Pythonic way to download market data from Yahoo!Ⓡ finance.
