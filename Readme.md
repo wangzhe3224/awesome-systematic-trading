@@ -68,6 +68,7 @@ And I count crypto as whole new category: [>> Click ME to Systematic Crypto](cry
     - [Optimization](#optimization)
     - [TimeSeries Analysis](#timeseries-analysis)
   - [Visualization](#visualization)
+  - [Message Queues](#message-queues)
   - [Databases](#databases)
   - [Data Source](#data-source)
     - [Stocks and General](#stocks-and-general)
@@ -277,9 +278,16 @@ Note: the one marked as `Live Trading` has reasonable live trading support for a
 
 ## Visualization
 
+- [Matplotlib](https://github.com/matplotlib/matplotlib) | `Python` | - matplotlib: plotting with Python
+- [pylatex](https://github.com/JelteF/PyLaTeX/) | `Python` | - A Python library for creating LaTeX files
 - [D-Tale (Man Group)](ht：tps://github.com/man-group/dtale) | `JavaScript`, `Python` | - D-Tale is the combination of a Flask back-end and a React front-end to bring you an easy way to view & analyze Pandas data structures.
 - [mplfinance](https://github.com/matplotlib/mplfinance) | `Python` | - Financial Markets Data Visualization using Matplotlib
 - [btplotting](https://github.com/happydasch/btplotting) | `Python`, `bokeh` | - btplotting provides plotting for backtests, optimization results and live data from backtrader.
+
+## Message Queues
+
+- [Kafka](https://github.com/apache/kafka) | `Java` | - Mirror of Apache Kafka
+- [BlazingMQ](https://github.com/bloomberg/blazingmq) | `C++` | - A modern high-performance open source message queuing system
 
 ## Databases
 
@@ -288,6 +296,8 @@ Note: the one marked as `Live Trading` has reasonable live trading support for a
 - [Arctic (Man Group)](https://github.com/man-group/arctic) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/man-group/arctic/master) | `Python` | - High performance datastore for time series and tick data
 - [Marketstore](https://github.com/alpacahq/marketstore) | `Go` | - DataFrame Server for Financial Timeseries Data
 - [Tectonicdb](https://github.com/0b01/tectonicdb) | `Rust` | - Tectonicdb is a fast, highly compressed standalone database and streaming protocol for order book ticks.
+- [Redis](https://github.com/redis/redis) | `C` | - Redis is an in-memory database that persists on disk.
+- [kdb](https://github.com/KxSystems) | `q` | - Companion files to kdb+ and q
 
 ## Data Source
 
