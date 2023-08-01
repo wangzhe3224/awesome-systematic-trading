@@ -192,11 +192,14 @@ Note: the one marked as `Live Trading` has reasonable live trading support for a
 - [Pandas](https://github.com/pandas-dev/pandas) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/pandas-dev/pandas/main) | `Python`, `Cython` | - Flexible and powerful data analysis / manipulation library for Python, providing labeled data structures similar to R data.frame objects, statistical functions, and much more
 - [Polars](https://github.com/pola-rs/polars) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/pola-rs/polars/main)| `Rust`, `Python` | - Polars is a blazingly fast DataFrames library implemented in Rust using Apache Arrow Columnar Format as memory model.
 - [Scipy](https://github.com/scipy/scipy) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/scipy/scipy/main)| `Python`, `C` | - Fundamental algorithms for scientific computing in Python
-- [Sikit-learn](https://github.com/scikit-learn/scikit-learn) | `Python`, `Cython` | - Machine learning in Python
-- [Keras](https://github.com/keras-team/keras) | `Python` | - The most user friendly Deep Learning for humans in Python
-- [TensorFlow](https://github.com/tensorflow/tensorflow) | `Python`, `C++` | - More low level Deep Learning framework
-- [Pytorch](https://github.com/pytorch/pytorch) | `Python` | - Tensors and Dynamic neural networks in Python with strong GPU acceleration
 - [PyMC](https://github.com/pymc-devs/pymc) | `Python` | - Probabilistic Programming in Python: Bayesian Modeling and Probabilistic Machine Learning with Aesara
+- Machine Learning
+  - [Sikit-learn](https://github.com/scikit-learn/scikit-learn) | `Python`, `Cython` | - Machine learning in Python
+  - [Keras](https://github.com/keras-team/keras) | `Python` | - The most user friendly Deep Learning for humans in Python
+  - [TensorFlow](https://github.com/tensorflow/tensorflow) | `Python`, `C++` | - More low level Deep Learning framework
+  - [Pytorch](https://github.com/pytorch/pytorch) | `Python` | - Tensors and Dynamic neural networks in Python with strong GPU acceleration
+  - [Hugging Face](https://github.com/huggingface/) - The AI community building the future.
+  - [LangChain](https://github.com/langchain-ai/langchain) - Building applications with LLMs through composability
 
 ### Computation
 
