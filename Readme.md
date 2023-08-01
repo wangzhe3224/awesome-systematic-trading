@@ -298,6 +298,7 @@ Note: the one marked as `Live Trading` has reasonable live trading support for a
 - [ArcticDB (Man Group)](https://github.com/man-group/ArcticDB) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/man-group/ArcticDB/master)| `C++`, `Python` | - ArcticDB is a high performance, serverless DataFrame database built for the Python Data Science ecosystem.
 - [pylance](https://github.com/lancedb/lance) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/lancedb/lance/main)  | `Rust` | - Modern columnar data format for ML and LLMs implemented in Rust. Convert from parquet in 2 lines of code for 100x faster random access, vector index, and data versioning. Compatible with Pandas, DuckDB, Polars, Pyarrow
 - [Arctic (Man Group)](https://github.com/man-group/arctic) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/man-group/arctic/master) | `Python` | - High performance datastore for time series and tick data
+- [PyStore](https://github.com/ranaroussi/pystore) | `Python` | - Fast data store for Pandas time-series data
 - [Marketstore](https://github.com/alpacahq/marketstore) | `Go` | - DataFrame Server for Financial Timeseries Data
 - [Tectonicdb](https://github.com/0b01/tectonicdb) | `Rust` | - Tectonicdb is a fast, highly compressed standalone database and streaming protocol for order book ticks.
 - [Redis](https://github.com/redis/redis) | `C` | - Redis is an in-memory database that persists on disk.
