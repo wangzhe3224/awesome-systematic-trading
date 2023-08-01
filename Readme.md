@@ -24,8 +24,6 @@
 A curated list of awesome libraries, packages and resources for Systematic Trading (Quantitative Trading)
 
 > Open access: all rights granted for use and re-use of any kind, by anyone, at no cost, under your choice of either the free MIT License or Creative Commons CC-BY International Public License.
->
-> © 2021 Zhe Wang ([知乎](https://www.zhihu.com/people/wangzhetju) | [wangzhetju@gmail.com](mailto:wangzhetju@gmai.com))
 
 How do we pick the projects?
 
