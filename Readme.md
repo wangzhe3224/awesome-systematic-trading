@@ -188,8 +188,9 @@ Note: the one marked as `Live Trading` has reasonable live trading support for a
 - [Cvxpy](https://github.com/cvxpy/cvxpy) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/cvxpy/cvxpy/master) | `Python`, `C++` | - A Python-embedded modeling language for convex optimization problems.
 - [Numpy](https://github.com/numpy/numpy) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/numpy/numpy/main)| `Python`, `C` | - The fundamental package for scientific computing with Python
 - Modelling
-  - [PyMC](https://github.com/pymc-devs/pymc) | `Python` | - Probabilistic Programming in Python: Bayesian Modeling and Probabilistic Machine Learning with Aesara
   - [Scipy](https://github.com/scipy/scipy) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/scipy/scipy/main)| `Python`, `C` | - Fundamental algorithms for scientific computing in Python
+  - [statsmodels](https://github.com/statsmodels/statsmodels/) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/statsmodels/statsmodels/main) - Python module that allows users to explore data, estimate statistical models, and perform statistical tests.
+  - [PyMC](https://github.com/pymc-devs/pymc) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/statsmodels/statsmodels/main)| `Python` | - Probabilistic Programming in Python: Bayesian Modeling and Probabilistic Machine Learning with Aesara
 - DataFrame
   - [Pandas](https://github.com/pandas-dev/pandas) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/pandas-dev/pandas/main) | `Python`, `Cython` | - Flexible and powerful data analysis / manipulation library for Python, providing labeled data structures similar to R data.frame objects, statistical functions, and much more
   - [Polars](https://github.com/pola-rs/polars) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/pola-rs/polars/main)| `Rust`, `Python` | - Polars is a blazingly fast DataFrames library implemented in Rust using Apache Arrow Columnar Format as memory model.
@@ -238,6 +239,7 @@ Note: the one marked as `Live Trading` has reasonable live trading support for a
 
 ### Metrics computation
 
+- [alphalens (Fork)](https://github.com/wangzhe3224/alphalens) | `Python` | - Performance analysis of predictive (alpha) stock factors
 - [ffn](https://github.com/pmorissette/ffn) | `Python` | - A financial function library for Python
 - [quantstats](https://github.com/ranaroussi/quantstats) | `Python` | - Portfolio analytics for quants, written in Python
 
@@ -274,7 +276,6 @@ Note: the one marked as `Live Trading` has reasonable live trading support for a
 
 ### TimeSeries Analysis
 
-- [statsmodels](http://statsmodels.sourceforge.net) - Python module that allows users to explore data, estimate statistical models, and perform statistical tests.
 - [tsfresh](https://github.com/blue-yonder/tsfresh) - Automatic extraction of relevant features from time series.
 - [Facebook Prophet](https://github.com/facebook/prophet) - Tool for producing high quality forecasts for time series data that has multiple seasonality with linear or non-linear growth.
 - [pmdarima](https://github.com/alkaline-ml/pmdarima) - A statistical library designed to fill the void in Python's time series analysis capabilities, including the equivalent of R's auto.arima function.
