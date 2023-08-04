@@ -234,6 +234,7 @@ Note: the one marked as `Live Trading` has reasonable live trading support for a
 - [Vaex](https://github.com/vaexio/vaex) | `Python`, `C++` | - Out-of-Core hybrid Apache Arrow/NumPy DataFrame for Python, ML, visualization and exploration of big tabular data at a billion rows per second
 - [Modin](https://github.com/modin-project/modin) | `Python` |  - Modin: Speed up your Pandas workflows by changing a single line of code
 - [Koalas](https://github.com/databricks/koalas) | `Python` | - Koalas: pandas API on Apache Spark
+- [pandarallel](https://github.com/nalepae/pandarallel) | `Python` | - A simple and efficient tool to parallelize Pandas operations on all available CPUs
 
 ## Analytic tools
 
