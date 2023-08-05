@@ -92,7 +92,7 @@ Note: the one marked as `Live Trading` has reasonable live trading support for a
 
 - [aat](https://github.com/AsyncAlgoTrading/aat) | `Python`, `C++`, `Live Trading`| - an asynchronous, event-driven framework for writing algorithmic trading strategies in python with optional acceleration in C++. It is designed to be modular and extensible, with support for a wide variety of instruments and strategies, live trading across (and between) multiple exchanges.
 - [* barter-rs](https://github.com/barter-rs/barter-rs) | `Rust` | - Open-source Rust framework for building event-driven live-trading & backtesting systems. Algorithmic trade with the peace of mind that comes from knowing your strategies have been backtested with a near-identical trading Engine.
-- [Better Quant](https://github.com/byrnexu/betterquant) | `C++`, `Live Trading` | - Better quant today, best quant tomorrow. 💪
+- [Better Quant](https://github.com/byrnexu/betterquant) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/byrnexu/betterquant/master)| `C++`, `Live Trading` | - Better quant today, best quant tomorrow. 💪
 - [Botvana](https://github.com/featherenvy/botvana) | `Rust` | - high-performance and event-driven trading system built using Rust
 - [backtrader](https://github.com/mementum/backtrader) | `Python`, `Live Trading` | - Event driven Python Backtesting library for trading strategies
 - [backtesting.py](https://github.com/kernc/backtesting.py) | `Python` | - Backtesting.py is a Python framework for inferring viability of trading strategies on historical (past) data. Improved upon the vision of Backtrader, and by all means surpassingly comparable to other accessible alternatives, Backtesting.py is lightweight, fast, user-friendly, intuitive, interactive, intelligent and, hopefully, future-proof.
@@ -125,7 +125,7 @@ Note: the one marked as `Live Trading` has reasonable live trading support for a
 
 ### Crypto currency focus
 
-- [c-binance-future-quant](https://github.com/Melelery/c-binance-future-quant/tree/main)  ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/Melelery/c-binance-future-quant/main) | `Python` | - 低成本，高效率，简单实现的币安合约量化系统架构
+- [c-binance-future-quant](https://github.com/Melelery/c-binance-future-quant/tree/main) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/Melelery/c-binance-future-quant/main) | `Python` | - 低成本，高效率，简单实现的币安合约量化系统架构
 - [triangular-arbitrage2](https://github.com/zlq4863947/triangular-arbitrage2) | `TypeScript` | - a server side application for perform triangular arbitrage.
 - [bTrader](https://github.com/gabriel-milan/btrader) | `Rust` | - Triangle arbitrage trading bot for Binance
 - [crypto-crawler-rs](https://github.com/crypto-crawler/crypto-crawler-rs) | `Rust` | - Crawl orderbook and trade messages from crypto exchanges
