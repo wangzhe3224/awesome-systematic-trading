@@ -285,6 +285,7 @@ Note: the one marked as `Live Trading` has reasonable live trading support for a
 
 - [Matplotlib](https://github.com/matplotlib/matplotlib) | `Python` | - matplotlib: plotting with Python
 - [pylatex](https://github.com/JelteF/PyLaTeX/) | `Python` | - A Python library for creating LaTeX files
+- [Perspective ](https://github.com/finos/perspective) | `C++`, `Python` | - A data visualization and analytics component, especially well-suited for large and/or streaming datasets.
 - [D-Tale (Man Group)](ht：tps://github.com/man-group/dtale) | `JavaScript`, `Python` | - D-Tale is the combination of a Flask back-end and a React front-end to bring you an easy way to view & analyze Pandas data structures.
 - [mplfinance](https://github.com/matplotlib/mplfinance) | `Python` | - Financial Markets Data Visualization using Matplotlib
 - [btplotting](https://github.com/happydasch/btplotting) | `Python`, `bokeh` | - btplotting provides plotting for backtests, optimization results and live data from backtrader.
