@@ -222,6 +222,8 @@ Note: the one marked as `Live Trading` has reasonable live trading support for a
 - [numba](https://github.com/numba/numba) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/numba/numba/main) - NumPy aware dynamic Python compiler using LLVM
 - [pybind11](https://github.com/pybind/pybind11) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/pybind/pybind11/master) - Seamless operability between C++11 and Python
 - [pyo3](https://github.com/PyO3/pyo3)  ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/numba/numba/main) - Rust bindings for the Python interpreter
+- [Bottleneck](https://github.com/pydata/bottleneck) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/pydata/bottleneck/master) | `Python`, `C` | - Fast NumPy array functions written in C
+- [NumExpr](https://github.com/pydata/numexpr)![GitHub last commit (branch)](https://img.shields.io/github/last-commit/pydata/numexpr/master) | `Python`, `C++` | - Fast numerical array expression evaluator for Python, NumPy, PyTables, pandas, bcolz and more
 
 ### Alternative libraries
 
