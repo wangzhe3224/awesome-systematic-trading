@@ -302,6 +302,7 @@ Note: the one marked as `Live Trading` has reasonable live trading support for a
 ## Databases
 
 - [ArcticDB (Man Group)](https://github.com/man-group/ArcticDB) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/man-group/ArcticDB/master)| `C++`, `Python` | - ArcticDB is a high performance, serverless DataFrame database built for the Python Data Science ecosystem.
+- [DuckDB](https://github.com/duckdb/duckdb) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/duckdb/duckdb/main) | `C++`, `Python` | - ArcticDB is a high performance, serverless DataFrame database built for the Python Data Science ecosystem.
 - [pylance](https://github.com/lancedb/lance) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/lancedb/lance/main)  | `Rust` | - Modern columnar data format for ML and LLMs implemented in Rust. Convert from parquet in 2 lines of code for 100x faster random access, vector index, and data versioning. Compatible with Pandas, DuckDB, Polars, Pyarrow
 - [Arctic (Man Group)](https://github.com/man-group/arctic) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/man-group/arctic/master) | `Python` | - High performance datastore for time series and tick data
 - [PyStore](https://github.com/ranaroussi/pystore) | `Python` | - Fast data store for Pandas time-series data
