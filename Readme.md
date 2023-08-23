@@ -92,6 +92,7 @@ Note: the one marked as `Live Trading` has reasonable live trading support for a
 
 - [aat](https://github.com/AsyncAlgoTrading/aat) | `Python`, `C++`, `Live Trading`| - an asynchronous, event-driven framework for writing algorithmic trading strategies in python with optional acceleration in C++. It is designed to be modular and extensible, with support for a wide variety of instruments and strategies, live trading across (and between) multiple exchanges.
 - [* barter-rs](https://github.com/barter-rs/barter-rs) | `Rust` | - Open-source Rust framework for building event-driven live-trading & backtesting systems. Algorithmic trade with the peace of mind that comes from knowing your strategies have been backtested with a near-identical trading Engine.
+- [* bt](https://github.com/pmorissette/bt) | `Python` | -  Flexible backtesting for Python based on Algo and Strategy Tree
 - [Better Quant](https://github.com/byrnexu/betterquant) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/byrnexu/betterquant/master)| `C++`, `Live Trading` | - Better quant today, best quant tomorrow. 💪
 - [Botvana](https://github.com/featherenvy/botvana) | `Rust` | - high-performance and event-driven trading system built using Rust
 - [backtrader](https://github.com/mementum/backtrader) | `Python`, `Live Trading` | - Event driven Python Backtesting library for trading strategies
@@ -101,19 +102,19 @@ Note: the one marked as `Live Trading` has reasonable live trading support for a
 - [Hikyuu](https://github.com/fasiondog/hikyuu) | `C++`, `Python`| - Hikyuu Quant Framework 基于C++/Python的开源量化交易研究框架
 - [lumibot](https://github.com/Lumiwealth/lumibot/tree/8da88cadfe9ee35399dd69c94aa5ed3cf995f417) | `Python` | - A very simple yet useful backtesting and sample based live trading framework (a bit slow to run...)
 - [* nautilus_trader](https://github.com/nautechsystems/nautilus_trader) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/nautechsystems/nautilus_trader/master)| `Python`, `Cython`, `Rust`, `Live Trading` | - A high-performance algorithmic trading platform and event-driven backtester
+- [PyBroker](https://github.com/edtechre/pybroker) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/edtechre/pybroker/master) | `Python` | - Algorithmic Trading in Python with Machine Learning
 - [QuantConnect](https://github.com/QuantConnect/Lean) | `C#`, `.NET`, `Live Trading` | - Lean Algorithmic Trading Engine by QuantConnect (Python, C#)
 - [QUANTAXIS](https://github.com/QUANTAXIS/QUANTAXIS) | `Python`, `Rust`, `Live Trading` | - QUANTAXIS 支持任务调度 分布式部署的 股票/期货/期权/港股/虚拟货币 数据/回测/模拟/交易/可视化/多账户 纯本地量化解决方案
 - [Rqalpha](https://github.com/ricequant/rqalpha) | `Python` | - A extendable, replaceable Python algorithmic backtest && trading framework supporting multiple securities
 - [quanttrader](https://github.com/letianzj/quanttrader) | `Python` | - Backtest and live trading in Python. Event based. Similar to backtesting.py.
 - [qf-lib](https://github.com/quarkfin/qf-lib) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/quarkfin/qf-lib/master) | `Python` | - Modular Python library that provides an advanced event driven backtester and a set of high quality tools for quantitative finance. Integrated with various data vendors and brokers, supports Crypto, Stocks and Futures.
 - [sdoosa-algo-trade-python](https://github.com/sreenivasdoosa/sdoosa-algo-trade-python) | `Python` | - This project is mainly for newbies into algo trading who are interested in learning to code their own trading algo using python interpreter.
-- [* vnpy](https://github.com/vnpy/vnpy) | `Python`, `Stock`, `Futures`, `Crypto`, `Live Trading` | - Python-based open source quantitative trading system development framework, officially released in January 2015, has grown step by step into a full-featured quantitative trading platform
+- [* vnpy](https://github.com/vnpy/vnpy) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/vnpy/vnpy/master) | `Python`, `Stock`, `Futures`, `Crypto`, `Live Trading` | - Python-based open source quantitative trading system development framework, officially released in January 2015, has grown step by step into a full-featured quantitative trading platform
 - [WonderTrader](https://github.com/wondertrader/wondertrader) | `C++`, `Python` | - WonderTrader——量化研发交易一站式框架
 - [zvt](https://github.com/zvtvz/zvt) | `Python`, `Stock`, `Backtest` | - Modular quant framework
 - [zipline](https://github.com/quantopian/zipline) | `Python` | - Zipline is a Pythonic algorithmic trading library. It is an event-driven system for backtesting.
 - [PandoraTrader](https://github.com/pegasusTrader/PandoraTrader) | `C++` | - CTP 高频量化交易平台 C++ Trade Platform for quant developer
-- [hftbacktest](https://github.com/nkaz001/hftbacktest) | `Python` | - A high-frequency trading and market-making backtesting tool accounts for limit orders, queue positions, and latencies, utilizing full tick data for trades and order books.
-- [* bt](https://github.com/pmorissette/bt) | `Python` | -  Flexible backtesting for Python based on Algo and Strategy Tree
+- [hftbacktest](https://github.com/nkaz001/hftbacktest) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/nkaz001/hftbacktest/master) | `Python`, `numba` | - A high-frequency trading and market-making backtesting tool accounts for limit orders, queue positions, and latencies, utilizing full tick data for trades and order books.
 
 > Vector Based Frameworks
 
