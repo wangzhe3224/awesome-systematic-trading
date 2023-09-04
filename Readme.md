@@ -287,6 +287,7 @@ Note: the one marked as `Live Trading` has reasonable live trading support for a
 ## Visualization
 
 - [Matplotlib](https://github.com/matplotlib/matplotlib) | `Python` | - matplotlib: plotting with Python
+- [Seaborn](https://github.com/mwaskom/seaborn) | `Python` | - Statistical data visualization in Python
 - [Dash](https://github.com/plotly/dash) | `Python` | - Data Apps & Dashboards for Python. No JavaScript Required.
 - [Perspective](https://github.com/finos/perspective) | `C++`, `Python` | - A data visualization and analytics component, especially well-suited for large and/or streaming datasets.
 - [Streamlit](https://github.com/streamlit/streamlit) | `Python` | - Streamlit — A faster way to build and share data apps.
