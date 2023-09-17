@@ -50,6 +50,7 @@ And I count crypto as whole new category: [>> Click ME to Systematic Crypto](cry
     - [General Alpha](#general-alpha)
     - [Expression based alpha](#expression-based-alpha)
     - [Stock picking](#stock-picking)
+    - [Orderbook](#orderbook)
     - [Arbitrage (Crypto)](#arbitrage-crypto)
   - [Basic Components](#basic-components)
     - [Fundamental libraries](#fundamental-libraries)
@@ -73,8 +74,9 @@ And I count crypto as whole new category: [>> Click ME to Systematic Crypto](cry
     - [Alternative](#alternative)
     - [Crypto](#crypto)
   - [Broker APIs](#broker-apis)
-  - [🔥 Quant Shops Code and Blog](#-quant-shops-code-and-blog)
+  - [Quant Shops Code and Blog](#quant-shops-code-and-blog)
   - [Resources](#resources)
+    - [Research](#research)
     - [Books](#books)
     - [Blogs](#blogs)
     - [Tutorials](#tutorials)
@@ -173,6 +175,10 @@ Note: the one marked as `Live Trading` has reasonable live trading support for a
 ### Stock picking
 
 - [InvesTool](https://github.com/axiaoxin-com/investool) | `Go` | - Golang实现财报分析、个股基本面检测、基本面选股、4433法则基金筛选与检测、基金持仓相似度、股票选基、基金经理筛选
+
+### Orderbook
+
+- [The Microprice](https://github.com/sstoikov/microprice/tree/master) - An estimator of the fair price, given the state of the order book.
 
 ### Arbitrage (Crypto)
 
@@ -346,7 +352,7 @@ Note: the one marked as `Live Trading` has reasonable live trading support for a
 - [Coinnect](https://github.com/hugues31/coinnect) | `Rust` | - Coinnect is a Rust library aiming to provide a complete access to main crypto currencies exchanges via REST API.
 - More is coming... (PR welcome)
 
-## 🔥 Quant Shops Code and Blog
+## Quant Shops Code and Blog
 
 - **JaneStreet**
   - [JaneStreet Tech Blog](https://blog.janestreet.com/)
@@ -370,6 +376,11 @@ Note: the one marked as `Live Trading` has reasonable live trading support for a
   - [HRT Engineering](https://www.hudsonrivertrading.com/hrtbeat/category/engineering/)
 
 ## Resources
+
+### Research
+
+- [RevenPack - Insight](https://www.ravenpack.com/insights/research/)
+- [Alexandria Technology - Insight](https://www.alexandriatechnology.com/insights)
 
 ### Books
 
