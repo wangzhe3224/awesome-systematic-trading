@@ -232,6 +232,7 @@ Note: the one marked as `Live Trading` has reasonable live trading support for a
 - [CuPy](https://github.com/cupy/cupy/) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/cupy/cupy/main) | `Python`, `C++`, `Cython`, `Cuda` | - CuPy is an open-source array library for GPU-accelerated computing with Python. 100x Boost for some operations
 - [Bottleneck](https://github.com/pydata/bottleneck) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/pydata/bottleneck/master) | `Python`, `C` | - Fast NumPy array functions written in C
 - [NumExpr](https://github.com/pydata/numexpr) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/pydata/numexpr/master) | `Python`, `C++` | - Fast numerical array expression evaluator for Python, NumPy, PyTables, pandas, bcolz and more
+- [pandarallel](https://github.com/nalepae/pandarallel) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/nalepae/pandarallel/master)  | `Python` | - A simple and efficient tool to parallelize Pandas operations on all available CPUs
 
 ### Alternative libraries
 
@@ -244,7 +245,6 @@ Note: the one marked as `Live Trading` has reasonable live trading support for a
 - [Vaex](https://github.com/vaexio/vaex) | `Python`, `C++` | - Out-of-Core hybrid Apache Arrow/NumPy DataFrame for Python, ML, visualization and exploration of big tabular data at a billion rows per second
 - [Modin](https://github.com/modin-project/modin) | `Python` |  - Modin: Speed up your Pandas workflows by changing a single line of code
 - [Koalas](https://github.com/databricks/koalas) | `Python` | - Koalas: pandas API on Apache Spark
-- [pandarallel](https://github.com/nalepae/pandarallel) | `Python` | - A simple and efficient tool to parallelize Pandas operations on all available CPUs
 
 ## Analytic tools
 
