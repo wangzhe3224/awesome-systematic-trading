@@ -306,6 +306,7 @@ Note: the one marked as `Live Trading` has reasonable live trading support for a
 ## Message Queues
 
 - [Kafka](https://github.com/apache/kafka) | `Java` | - Mirror of Apache Kafka
+- [RedPanda](https://github.com/redpanda-data/redpanda/) | `C++` | - Redpanda is a streaming data platform for developers. Kafka API compatible. 10x faster. No ZooKeeper. No JVM!
 - [BlazingMQ](https://github.com/bloomberg/blazingmq) | `C++` | - A modern high-performance open source message queuing system
 
 ## Databases
@@ -326,7 +327,7 @@ Note: the one marked as `Live Trading` has reasonable live trading support for a
 
 - [* OpenBB Terminal](https://github.com/OpenBB-finance/OpenBBTerminal) | `Python` | - Investment Research for Everyone, Anywhere.
 - [FinanceDatabase](https://github.com/JerBouma/FinanceDatabase) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/JerBouma/FinanceDatabase/main) - This is a database of 300.000+ symbols containing Equities, ETFs, Funds, Indices, Currencies, Cryptocurrencies and Money Markets.
-- [AkShare](https://github.com/akfamily/akshare) |`Python`| - AKShare is an elegant and simple financial data interface library for Python, built for human beings! 开源财经数据接口库
+- [AkShare](https://github.com/akfamily/akshare) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/akfamily/akshare/main) |`Python`| - AKShare is an elegant and simple financial data interface library for Python, built for human beings! 开源财经数据接口库
 - [多因子模型数据](https://github.com/hugo2046/GetAstockFactors) - 获取经典的量化多因子模型数据
 - [findatapy](https://github.com/cuemacro/findatapy) |`Python`| - findatapy creates an easy to use Python API to download market data from many sources including Quandl, Bloomberg, Yahoo, Google etc. using a unified high level interface.  
 - [yfinance](https://github.com/ranaroussi/yfinance) |`Python`| - yfinance offers a threaded and Pythonic way to download market data from Yahoo!Ⓡ finance.
