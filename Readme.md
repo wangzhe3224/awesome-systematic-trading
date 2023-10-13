@@ -240,6 +240,7 @@ Note: the one marked as `Live Trading` has reasonable live trading support for a
 #### Numpy Alternatives
 
 - [ndarray](https://github.com/rust-ndarray/ndarray) | `Rust` | - ndarray: an N-dimensional array with array views, multidimensional slicing, and efficient operations
+- [faer](https://github.com/sarah-ek/faer-rs)  ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/sarah-ek/faer-rs/main) | `Rust` | - Linear algebra foundation for the Rust programming language
 
 #### Pandas Alternatives
 
