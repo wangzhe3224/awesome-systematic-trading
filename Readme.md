@@ -208,6 +208,9 @@ Note: the one marked as `Live Trading` has reasonable live trading support for a
   - [Pytorch](https://github.com/pytorch/pytorch) | `Python` | - Tensors and Dynamic neural networks in Python with strong GPU acceleration
   - [Hugging Face](https://github.com/huggingface/) - The AI community building the future.
   - [LangChain](https://github.com/langchain-ai/langchain) - Building applications with LLMs through composability
+- DAG
+  - [Rustworkx](https://github.com/Qiskit/rustworkx/tree/main) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/Qiskit/rustworkx/main) | `Rust`, `Python` | - A high performance Python graph library implemented in Rust.
+  - [Networkx](https://github.com/networkx/networkx) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/networkx/networkx/main) | `Python` | - Network Analysis in Python
 
 ### Computation
 
