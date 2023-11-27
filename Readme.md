@@ -118,6 +118,7 @@ Note: the one marked as `Live Trading` has reasonable live trading support for a
 - [zipline](https://github.com/quantopian/zipline) | `Python` | - Zipline is a Pythonic algorithmic trading library. It is an event-driven system for backtesting.
 - [PandoraTrader](https://github.com/pegasusTrader/PandoraTrader) | `C++` | - CTP 高频量化交易平台 C++ Trade Platform for quant developer
 - [hftbacktest](https://github.com/nkaz001/hftbacktest) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/nkaz001/hftbacktest/master) | `Python`, `numba` | - A high-frequency trading and market-making backtesting tool accounts for limit orders, queue positions, and latencies, utilizing full tick data for trades and order books.
+- [Cipher](https://github.com/nanvel/cipher-bt) | `Python` | - Backtesting library with focus on position adjustment that allows testing complicated setups. Pythonic, extensible, well-structured, documented.
 
 > Vector Based Frameworks
 
