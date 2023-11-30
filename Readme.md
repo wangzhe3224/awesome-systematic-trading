@@ -250,6 +250,7 @@ Note: the one marked as `Live Trading` has reasonable live trading support for a
 
 #### Pandas Alternatives
 
+- [DataFrame](https://github.com/hosseinmoein/DataFrame) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/hosseinmoein/DataFrame/master)  | `C++` | - C++ DataFrame for statistical, Financial, and ML analysis -- in modern C++ using native types and contiguous memory storage
 - [Vaex](https://github.com/vaexio/vaex) | `Python`, `C++` | - Out-of-Core hybrid Apache Arrow/NumPy DataFrame for Python, ML, visualization and exploration of big tabular data at a billion rows per second
 - [Modin](https://github.com/modin-project/modin) | `Python` |  - Modin: Speed up your Pandas workflows by changing a single line of code
 - [Koalas](https://github.com/databricks/koalas) | `Python` | - Koalas: pandas API on Apache Spark
