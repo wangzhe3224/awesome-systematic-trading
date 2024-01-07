@@ -290,6 +290,7 @@ Note: the one marked as `Live Trading` has reasonable live trading support for a
 
 ### Optimization
 
+- [skfolio](https://github.com/skfolio/skfolio) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/skfolio/skfolio/main)  | `Python` | - Python library for portfolio optimization built on top of scikit-learn
 - [Riskfolio-Lib](https://github.com/dcajasn/Riskfolio-Lib) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/dcajasn/Riskfolio-Lib/master) | `C++`, `Python` | - Portfolio Optimization and Quantitative Strategic Asset Allocation in Python
 - [Deepdow](https://github.com/jankrepl/deepdow) | `Python` | - Python package connecting portfolio optimization and deep learning. Its goal is to facilitate research of networks that perform weight allocation in one forward pass.
 - [PyPortfolioOpt](https://github.com/robertmartin8/PyPortfolioOpt) | `Python` | - Financial portfolio optimizations in python, including classical efficient frontier, Black-Litterman, Hierarchical Risk Parity
