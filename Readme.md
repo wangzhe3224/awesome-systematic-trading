@@ -411,6 +411,7 @@ Note: the one marked as `Live Trading` has reasonable live trading support for a
 ### Blogs
 
 - [QuantBox - Systematic trading toolbox](https://quant.funcoder.net/)
+- [大富翁量化](https://github.com/zillionare/zillionare)
 - [Proof Engineering: The Algorithmic Trading Platform](https://medium.com/prooftrading/proof-engineering-the-algorithmic-trading-platform-b9c2f195433d)
 
 ### Tutorials
