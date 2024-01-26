@@ -130,6 +130,7 @@ Note: the one marked as `Live Trading` has reasonable live trading support for a
 
 ### Crypto currency focus
 
+- [basana](https://github.com/gbeced/basana) | `Python` | - A Python async and event driven framework for algorithmic trading, with a focus on crypto currencies.
 - [c-binance-future-quant](https://github.com/Melelery/c-binance-future-quant/tree/main) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/Melelery/c-binance-future-quant/main) | `Python` | - 低成本，高效率，简单实现的币安合约量化系统架构
 - [triangular-arbitrage2](https://github.com/zlq4863947/triangular-arbitrage2) | `TypeScript` | - a server side application for perform triangular arbitrage.
 - [bTrader](https://github.com/gabriel-milan/btrader) | `Rust` | - Triangle arbitrage trading bot for Binance
