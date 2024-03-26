@@ -42,6 +42,7 @@ And I count crypto as whole new category: [>> Click ME to Systematic Crypto](cry
 
 - [Awesome Systematic Trading](#awesome-systematic-trading)
   - [Star History](#star-history)
+  - [🔥 AI Powered Systematic Trading Systems](#-ai-powered-systematic-trading-systems)
   - [Backtest + live trading](#backtest--live-trading)
     - [General purpose](#general-purpose)
     - [Crypto currency focus](#crypto-currency-focus)
@@ -82,6 +83,11 @@ And I count crypto as whole new category: [>> Click ME to Systematic Crypto](cry
     - [Tutorials](#tutorials)
     - [Courses](#courses)
   - [Relevant Projects](#relevant-projects)
+
+## 🔥 AI Powered Systematic Trading Systems
+
+- [Qbot](https://github.com/UFund-Me/Qbot) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/UFund-Me/Qbot/main) | `Python` | - AI 自动量化交易机器人 AI-powered Quantitative Investment Research Platform.
+- [gpt-investor](https://github.com/mshumer/gpt-investor) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/mshumer/gpt-investor/main) | `Python` | - ...
 
 ## Backtest + live trading
 
