@@ -128,6 +128,7 @@ Note: the one marked as `Live Trading` has reasonable live trading support for a
 
 > Vector Based Frameworks
 
+- [FinHack](https://github.com/FinHackCN/finhack) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/FinHackCN/finhack/main) | `Python` | - 一个易于拓展的量化金融框架，它在当前版本中集成了数据采集、因子计算、因子挖掘、因子分析、机器学习、策略编写、量化回测、实盘接入等全流程的量化投研工作
 - [pysystemtrade](https://github.com/robcarver17/pysystemtrade) | `Python`, `Live Trading` | - Systematic Trading in python from book <Systematic Trading> by Rob Carver
 - [finmarketpy](https://github.com/cuemacro/finmarketpy) | `Python` | - Python library for backtesting trading strategies & analyzing financial markets (formerly pythalesians)
 - [vectorbt](https://github.com/polakowo/vectorbt) | `Python`, `numba` | - vectorbt takes a novel approach to backtesting: it operates entirely on pandas and NumPy objects, and is accelerated by Numba to analyze any data at speed and scale. This allows for testing of many thousands of strategies in seconds.
