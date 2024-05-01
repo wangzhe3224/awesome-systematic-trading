@@ -228,6 +228,7 @@ Note: the one marked as `Live Trading` has reasonable live trading support for a
 ### Computation
 
 - [Ray](https://github.com/ray-project/ray) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/ray-project/ray/master) | `Python`, `C++` | - An open source framework that provides a simple, universal API for building distributed applications.
+- [csp (Point72)](https://github.com/Point72/csp/tree/main) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/Point72/csp/main) | `Python`, `C++` | - csp is a high performance reactive stream processing library, written in C++ and Python
 - [Dask](https://github.com/dask/dask) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/dask/dask/main) | `Python` | - Parallel computing with task scheduling in Python with a Pandas like API
 - [Spark](https://github.com/apache/spark) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/apache/spark/master) | `Scala` | - Apache Spark - A unified analytics engine for large-scale data processing
 - [Hamilton](https://github.com/dagworks-inc/hamilton) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/dagworks-inc/hamilton/main)| `Python` | - A scalable general purpose micro-framework for defining dataflows. You can use it to build dataframes, numpy matrices, python objects, ML models, etc. Embed Hamilton anywhere python runs, e.g. spark, airflow, jupyter, fastapi, python scripts, etc.
