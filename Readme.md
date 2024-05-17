@@ -183,6 +183,8 @@ Note: the one marked as `Live Trading` has reasonable live trading support for a
 - [torchquantum](https://github.com/nymath/torchquantum) | `Cython`, `C`, `Python` | - TorchQuantum is a backtesting framework that integrates the structure of PyTorch and WorldQuant's Operator for efficient quantitative financial analysis.
 - [OpenAlpha](https://github.com/caoruicn/openalpha) | `C++` | - An open source equity statistical arbitrage backtest simulator, use the same API as WorldQuant's WebSim
 - [stock](https://github.com/xcycharles/stock) | `Python` | - 一些因子挖掘的代码 A 股
+- [AlphaGen](https://github.com/RL-MLDM/alphagen) | `Python` | - Automatic formulaic alpha generation with reinforcement learning.
+- [Genetic-Alpha](https://github.com/Morgansy/Genetic-Alpha) - A genetic programming algorithm used for generating alpha factors in the multi-factor investment strategy
 
 ### Stock picking
 
