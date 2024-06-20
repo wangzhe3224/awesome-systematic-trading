@@ -185,6 +185,7 @@ Note: the one marked as `Live Trading` has reasonable live trading support for a
 - [stock](https://github.com/xcycharles/stock) | `Python` | - 一些因子挖掘的代码 A 股
 - [AlphaGen](https://github.com/RL-MLDM/alphagen) | `Python` | - Automatic formulaic alpha generation with reinforcement learning.
 - [Genetic-Alpha](https://github.com/Morgansy/Genetic-Alpha) - A genetic programming algorithm used for generating alpha factors in the multi-factor investment strategy
+- [alpha_examples](https://github.com/wukan1986/alpha_examples) - An expression based alpha demo using Polars
 
 ### Stock picking
 
