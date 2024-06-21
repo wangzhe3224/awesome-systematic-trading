@@ -213,7 +213,8 @@ Note: the one marked as `Live Trading` has reasonable live trading support for a
 - Modelling
   - [Scipy](https://github.com/scipy/scipy) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/scipy/scipy/main)| `Python`, `C` | - Fundamental algorithms for scientific computing in Python
   - [statsmodels](https://github.com/statsmodels/statsmodels/) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/statsmodels/statsmodels/main) - Python module that allows users to explore data, estimate statistical models, and perform statistical tests.
-  - [PyMC](https://github.com/pymc-devs/pymc) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/statsmodels/statsmodels/main)| `Python` | - Probabilistic Programming in Python: Bayesian Modeling and Probabilistic Machine Learning with Aesara
+  - [PyMC](https://github.com/pymc-devs/pymc) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/statsmodels/statsmodels/main) | `Python` | - Probabilistic Programming in Python: Bayesian Modeling and Probabilistic Machine Learning with Aesara
+  - [DEAP](https://github.com/DEAP/deap) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/DEAP/deap/master) |`Python`| - Distributed Evolutionary Algorithms in Python
 - DataFrame
   - [Pandas](https://github.com/pandas-dev/pandas) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/pandas-dev/pandas/main) | `Python`, `Cython` | - Flexible and powerful data analysis / manipulation library for Python, providing labeled data structures similar to R data.frame objects, statistical functions, and much more
   - [Polars](https://github.com/pola-rs/polars) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/pola-rs/polars/main)| `Rust`, `Python` | - Polars is a blazingly fast DataFrames library implemented in Rust using Apache Arrow Columnar Format as memory model.
