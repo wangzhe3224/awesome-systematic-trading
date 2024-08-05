@@ -57,6 +57,7 @@ And I count crypto as whole new category: [>> Click ME to Systematic Crypto](cry
     - [Fundamental libraries](#fundamental-libraries)
     - [Computation](#computation)
     - [Python Performance Booster](#python-performance-booster)
+    - [Python Profilers](#python-profilers)
     - [Alternative libraries](#alternative-libraries)
       - [Numpy Alternatives](#numpy-alternatives)
       - [Pandas Alternatives](#pandas-alternatives)
@@ -257,6 +258,12 @@ Note: the one marked as `Live Trading` has reasonable live trading support for a
 - [Bottleneck](https://github.com/pydata/bottleneck) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/pydata/bottleneck/master) | `Python`, `C` | - Fast NumPy array functions written in C
 - [NumExpr](https://github.com/pydata/numexpr) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/pydata/numexpr/master) | `Python`, `C++` | - Fast numerical array expression evaluator for Python, NumPy, PyTables, pandas, bcolz and more
 - [pandarallel](https://github.com/nalepae/pandarallel) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/nalepae/pandarallel/master)  | `Python` | - A simple and efficient tool to parallelize Pandas operations on all available CPUs
+
+### Python Profilers
+
+- [py-spy](https://github.com/benfred/py-spy) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/benfred/py-spy/master) - Sampling profiler for Python programs
+- [pyinstrument](https://github.com/joerick/pyinstrument) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/joerick/pyinstrument/main) - Call stack profiler for Python. Shows you why your code is slow!
+- [Memray](https://github.com/bloomberg/memray) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/bloomberg/memray/main) - Memray is a memory profiler for Python
 
 ### Alternative libraries
 
