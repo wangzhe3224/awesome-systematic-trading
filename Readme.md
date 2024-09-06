@@ -87,8 +87,10 @@ And I count crypto as whole new category: [>> Click ME to Systematic Crypto](cry
 
 ## 🔥 AI Powered Systematic Trading Systems
 
-- [Qbot](https://github.com/UFund-Me/Qbot) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/UFund-Me/Qbot/main) | `Python` | - AI 自动量化交易机器人 AI-powered Quantitative Investment Research Platform.
-- [gpt-investor](https://github.com/mshumer/gpt-investor) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/mshumer/gpt-investor/main) | `Python` | - ...
+- [FinRL](https://github.com/AI4Finance-Foundation/FinRL) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/AI4Finance-Foundation/FinRL/master) ![GitHub Repo stars](https://img.shields.io/github/stars/AI4Finance-Foundation/FinRL?style=social) | Python | - FinRL is the first open-source framework to demonstrate the great potential of applying deep reinforcement learning in quantitative finance.
+- [FinGPT](https://github.com/AI4Finance-Foundation/FinGPT) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/AI4Finance-Foundation/FinGPT/master) ![GitHub Repo stars](https://img.shields.io/github/stars/AI4Finance-Foundation/FinGPT?style=social) - FinGPT: Open-Source Financial Large Language Models! Revolutionize 🔥 We release the trained model on HuggingFace.
+- [QLib (Microsoft)](https://github.com/microsoft/qlib) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/microsoft/qlib/main) ![GitHub Repo stars](https://img.shields.io/github/stars/microsoft/qlib?style=social) | Python, Cython | - Qlib is an AI-oriented quantitative investment platform, which aims to realize the potential, empower the research, and create the value of AI technologies in quantitative investment. With Qlib, you can easily try your ideas to create better Quant investment strategies. An increasing number of SOTA Quant research works/papers are released in Qlib.
+- [Qbot](https://github.com/UFund-Me/Qbot) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/UFund-Me/Qbot/main) ![GitHub Repo stars](https://img.shields.io/github/stars/UFund-Me/Qbot?style=social) | `Python` | - AI 自动量化交易机器人 AI-powered Quantitative Investment Research Platform.
 
 ## Backtest + live trading
 
@@ -158,8 +160,6 @@ Note: the one marked as `Live Trading` has reasonable live trading support for a
 
 > ML, RL
 
-- [FinRL](https://github.com/AI4Finance-Foundation/FinRL) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/AI4Finance-Foundation/FinRL/master) ![GitHub Repo stars](https://img.shields.io/github/stars/AI4Finance-Foundation/FinRL?style=social) | Python | - FinRL is the first open-source framework to demonstrate the great potential of applying deep reinforcement learning in quantitative finance.
-- [QLib (Microsoft)](https://github.com/microsoft/qlib) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/microsoft/qlib/main) ![GitHub Repo stars](https://img.shields.io/github/stars/microsoft/qlib?style=social) | Python, Cython | - Qlib is an AI-oriented quantitative investment platform, which aims to realize the potential, empower the research, and create the value of AI technologies in quantitative investment. With Qlib, you can easily try your ideas to create better Quant investment strategies. An increasing number of SOTA Quant research works/papers are released in Qlib.
 - [TradingGym](https://github.com/Yvictor/TradingGym) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/Yvictor/TradingGym/master) ![GitHub Repo stars](https://img.shields.io/github/stars/Yvictor/TradingGym?style=social) | Python, Live Trading | - Trading and Backtesting environment for training reinforcement learning agent or simple rule base algo.
 - [Stock Trading Bot using Deep Q-Learning](https://github.com/pskrunner14/trading-bot) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/pskrunner14/trading-bot/master) ![GitHub Repo stars](https://img.shields.io/github/stars/pskrunner14/trading-bot?style=social) | Python | - Stock Trading Bot using Deep Q-Learning
 
