@@ -211,6 +211,7 @@ Note: the one marked as `Live Trading` has reasonable live trading support for a
 ### Fundamental libraries
 
 - [Cvxpy](https://github.com/cvxpy/cvxpy) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/cvxpy/cvxpy/master) ![GitHub Repo stars](https://img.shields.io/github/stars/cvxpy/cvxpy?style=social) | Python, C++ | - A Python-embedded modeling language for convex optimization problems.
+- [jax](https://github.com/google/jax) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/google/jax/main) ![GitHub Repo stars](https://img.shields.io/github/stars/google/jax?style=social) | `Python` | - Composable transformations of Python+NumPy programs: differentiate, vectorize, JIT to GPU/TPU, and more
 - [Numpy](https://github.com/numpy/numpy) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/numpy/numpy/main) ![GitHub Repo stars](https://img.shields.io/github/stars/numpy/numpy?style=social) | Python, C | - The fundamental package for scientific computing with Python
 - Modelling
   - [Scipy](https://github.com/scipy/scipy) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/scipy/scipy/main) ![GitHub Repo stars](https://img.shields.io/github/stars/scipy/scipy?style=social) | Python, C | - Fundamental algorithms for scientific computing in Python
