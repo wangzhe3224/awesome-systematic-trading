@@ -221,6 +221,7 @@ Note: the one marked as `Live Trading` has reasonable live trading support for a
 - DataFrame
   - [Pandas](https://github.com/pandas-dev/pandas) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/pandas-dev/pandas/main) ![GitHub Repo stars](https://img.shields.io/github/stars/pandas-dev/pandas?style=social) | Python, Cython | - Flexible and powerful data analysis / manipulation library for Python, providing labeled data structures similar to R data.frame objects, statistical functions, and much more
   - [Polars](https://github.com/pola-rs/polars) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/pola-rs/polars/main) ![GitHub Repo stars](https://img.shields.io/github/stars/pola-rs/polars?style=social)| Rust, Python | - Polars is a blazingly fast DataFrames library implemented in Rust using Apache Arrow Columnar Format as memory model.
+  - [FireDucks](https://fireducks-dev.github.io/) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/fireducks-dev/fireducks/main) - Compiler Accelerated DataFrame Library for Python with fully-compatible pandas API
 - Machine Learning
   - [Hugging Face](https://github.com/huggingface/) ![GitHub Repo stars](https://img.shields.io/github/stars/huggingface?style=social) - The AI community building the future.
   - [LangChain](https://github.com/langchain-ai/langchain) ![GitHub Repo stars](https://img.shields.io/github/stars/langchain-ai/langchain?style=social) - Building applications with LLMs through composability
