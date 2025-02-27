@@ -300,6 +300,7 @@ Note: the one marked as `Live Trading` has reasonable live trading support for a
 - [ta-rust](https://github.com/greyblake/ta-rs) | `Rust` | - Technical analysis library for Rust language
 - [finta](https://github.com/peerchemist/finta) | `Python` | - Common financial technical indicators implemented in Pandas
 - [pandas-ta](https://github.com/twopirllc/pandas-ta) | `Python` | - Pandas Technical Analysis (Pandas TA) is an easy to use library that leverages the Pandas package with more than 130 Indicators and Utility functions and more than 60 TA Lib Candlestick Patterns.
+- [kand](https://github.com/rust-ta/kand) | `Rust` & `Python` | - A blazingly fast technical analysis library in Rust and Python.
 
 ### Pricing
 
