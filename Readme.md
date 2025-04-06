@@ -378,6 +378,7 @@ Note: the one marked as `Live Trading` has reasonable live trading support for a
 - [Investpy](https://github.com/alvarobartt/investpy) - Financial Data Extraction from Investing.com with Python
 - [awesome-data](https://github.com/akfamily/awesome-data) - Awesome-data shows most interesting data-source around the financial world
 - [Fundamental Analysis Data](https://github.com/JerBouma/FundamentalAnalysis) | `Python` | - Fully-fledged Fundamental Analysis package capable of collecting 20 years of Company Profiles, Financial Statements, Ratios and Stock Data of 20.000+ companies.
+- [Financial Data](https://financialdata.net/) - Stock Market and Financial Data API
 
 ### Alternative
 
