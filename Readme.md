@@ -301,6 +301,7 @@ Note: the one marked as `Live Trading` has reasonable live trading support for a
 - [finta](https://github.com/peerchemist/finta) | `Python` | - Common financial technical indicators implemented in Pandas
 - [pandas-ta](https://github.com/twopirllc/pandas-ta) | `Python` | - Pandas Technical Analysis (Pandas TA) is an easy to use library that leverages the Pandas package with more than 130 Indicators and Utility functions and more than 60 TA Lib Candlestick Patterns.
 - [kand](https://github.com/rust-ta/kand) | `Rust` & `Python` | - A blazingly fast technical analysis library in Rust and Python.
+- [chart-patterns](https://github.com/focus1691/chart-patterns) | `TypeScript` | - Technical analysis library for chart patterns, price action, and volume-based pattern detection.
 
 ### Pricing
 
@@ -387,6 +388,7 @@ Note: the one marked as `Live Trading` has reasonable live trading support for a
 ### Crypto
 
 - [Cryptofeed](https://github.com/bmoscon/cryptofeed) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/bmoscon/cryptofeed/master)|`Python`| - Cryptocurrency Exchange Websocket Data Feed Handler with Asyncio
+- [Orderflow](https://github.com/focus1691/orderflow) | `TypeScript`, `NestJS`, `TimescaleDB` | - Builds real-time Footprint Candles from WebSocket trade data across crypto exchanges.
 
 ## Broker APIs
 
