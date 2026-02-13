@@ -401,6 +401,7 @@ Note: the one marked as `Live Trading` has reasonable live trading support for a
 - [ccxt](https://github.com/ccxt/ccxt) | `Python`, `JavaScript` | - A JavaScript / Python / PHP cryptocurrency trading API with support for more than 100 bitcoin/altcoin exchanges
 - [Coinnect](https://github.com/hugues31/coinnect) | `Rust` | - Coinnect is a Rust library aiming to provide a complete access to main crypto currencies exchanges via REST API.
 - [async_rithmic](https://github.com/rundef/async_rithmic) | `Python` | - Python async framework for Rithmic Protocol Buffer API
+- [pmxt](https://github.com/pmxt-dev/pmxt) | `Python`, `JavaScript` | - A JavaScript / Python prediction markets trading API with support for major exchanges. (The ccxt for prediction markets)
 - More is coming... (PR welcome)
 
 ## Quant Shops Code and Blog
