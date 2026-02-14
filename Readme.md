@@ -306,6 +306,8 @@ Note: the one marked as `Live Trading` has reasonable live trading support for a
 - [pandas-ta](https://github.com/twopirllc/pandas-ta) | `Python` | - Pandas Technical Analysis (Pandas TA) is an easy to use library that leverages the Pandas package with more than 130 Indicators and Utility functions and more than 60 TA Lib Candlestick Patterns.
 - [kand](https://github.com/rust-ta/kand) | `Rust` & `Python` | - A blazingly fast technical analysis library in Rust and Python.
 - [chart-patterns](https://github.com/focus1691/chart-patterns) | `TypeScript` | - Technical analysis library for chart patterns, price action, and volume-based pattern detection.
+- [ChartScout](https://chartscout.io) - Real-time crypto chart pattern detection and alerts
+
 
 ### Pricing
 
