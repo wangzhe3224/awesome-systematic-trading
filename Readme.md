@@ -132,6 +132,7 @@ Note: the one marked as `Live Trading` has reasonable live trading support for a
 - [Cipher](https://github.com/nanvel/cipher-bt) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/nanvel/cipher-bt/master) ![GitHub Repo stars](https://img.shields.io/github/stars/nanvel/cipher-bt?style=social) | Python | - Backtesting library with focus on position adjustment that allows testing complicated setups. Pythonic, extensible, well-structured, documented.
 - [Gunbot Quant](https://github.com/GuntharDeNiro/gunbot-quant) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/GuntharDeNiro/gunbot-quant/master) ![GitHub Repo stars](https://img.shields.io/github/stars/GuntharDeNiro/gunbot-quant?style=social) | Python | - Standalone application for market screening and backtesting. Supports multi-asset, multi-strategy backtests. Includes user interface and CLI options.
 - [PythonTradingFramework](https://github.com/JustinGuese/python_tradingbot_framework) ![Github last commit (branch)](https://img.shields.io/github/last-commit/JustinGuese/python_tradingbot_framework/main) | Python | - Python algorithmic trading bot framework for Kubernetes: backtesting, hyperparameter optimization, 150+ technical analysis indicators (RSI, MACD, Bollinger Bands, ADX), portfolio management, PostgreSQL integration, Helm deployment, CronJob scheduling. Minimal overhead, production-ready, Yahoo Finance data.
+- [Tradingview Screener API](https://github.com/jmargieh/tradingview-screener) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/jmargieh/tradingview-screener/main) ![GitHub Repo stars](https://img.shields.io/github/stars/jmargieh/tradingview-screener?style=social) | TypeScript | - Query TradingView's financial data with a type-safe, fluent TypeScript API. Screen stocks, crypto, forex, bonds, and futures using 13,000+ data fields. The library includes a Model Context Protocol (MCP) server that lets you query financial markets using natural language in Claude Desktop. This is a unique feature that enables conversational market analysis.
 
 > Vector Based Frameworks
 
@@ -307,6 +308,8 @@ Note: the one marked as `Live Trading` has reasonable live trading support for a
 - [pandas-ta](https://github.com/twopirllc/pandas-ta) | `Python` | - Pandas Technical Analysis (Pandas TA) is an easy to use library that leverages the Pandas package with more than 130 Indicators and Utility functions and more than 60 TA Lib Candlestick Patterns.
 - [kand](https://github.com/rust-ta/kand) | `Rust` & `Python` | - A blazingly fast technical analysis library in Rust and Python.
 - [chart-patterns](https://github.com/focus1691/chart-patterns) | `TypeScript` | - Technical analysis library for chart patterns, price action, and volume-based pattern detection.
+- [ChartScout](https://chartscout.io) - Real-time crypto chart pattern detection and alerts
+
 
 ### Pricing
 
@@ -385,6 +388,7 @@ Note: the one marked as `Live Trading` has reasonable live trading support for a
 - [awesome-data](https://github.com/akfamily/awesome-data) - Awesome-data shows most interesting data-source around the financial world
 - [Fundamental Analysis Data](https://github.com/JerBouma/FundamentalAnalysis) | `Python` | - Fully-fledged Fundamental Analysis package capable of collecting 20 years of Company Profiles, Financial Statements, Ratios and Stock Data of 20.000+ companies.
 - [Financial Data](https://financialdata.net/) - Stock Market and Financial Data API
+- [goMacro.ai](https://gomacro.ai) - AI-powered economic calendar with institutional-grade macro insights and scenario planning for NFP, CPI, PPI and other data releases.
 
 ### Alternative
 
@@ -402,6 +406,7 @@ Note: the one marked as `Live Trading` has reasonable live trading support for a
 - [ccxt](https://github.com/ccxt/ccxt) | `Python`, `JavaScript` | - A JavaScript / Python / PHP cryptocurrency trading API with support for more than 100 bitcoin/altcoin exchanges
 - [Coinnect](https://github.com/hugues31/coinnect) | `Rust` | - Coinnect is a Rust library aiming to provide a complete access to main crypto currencies exchanges via REST API.
 - [async_rithmic](https://github.com/rundef/async_rithmic) | `Python` | - Python async framework for Rithmic Protocol Buffer API
+- [pmxt](https://github.com/pmxt-dev/pmxt) | `Python`, `JavaScript` | - A JavaScript / Python prediction markets trading API with support for major exchanges. (The ccxt for prediction markets)
 - More is coming... (PR welcome)
 
 ## Quant Shops Code and Blog
