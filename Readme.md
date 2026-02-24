@@ -324,6 +324,7 @@ Note: the one marked as `Live Trading` has reasonable live trading support for a
 ### Risk
 
 - [pyfolio](https://github.com/quantopian/pyfolio) | `Python` | - Portfolio and risk analytics in Python
+- [curistat](https://github.com/moxiespirit/MyClone/tree/main/volatility_platform) | `Python` | - Futures volatility forecasting for ES/NQ. Daily CVN rating (1-10), regime detection (CRC composite), directional signals, economic event impact analytics. Includes MCP server for AI agent integration.
 
 ### Optimization
 
