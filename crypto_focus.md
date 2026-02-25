@@ -20,3 +20,4 @@
 - [Peregrine](https://github.com/wardbradt/peregrine) | `Python` | - Detects arbitrage opportunities across 131 cryptocurrency exchanges in 50 countries 
 - [K](https://github.com/ctubio/Krypto-trading-bot) | `C++` | - Self-hosted crypto trading bot (automated high frequency market making) written in C++ 
 - [gocryptotrader](https://github.com/thrasher-corp/gocryptotrader) | `Go` |  - A cryptocurrency trading bot supporting multiple exchanges written in Golang.
+- [Solana SDK Tools](https://github.com/DebuggingMax/solana-sdk-tools) | `TypeScript` | - Token scanner and trading toolkit for Solana DEXs (Pump.fun, Raydium) with anti-rug analysis, copy trading, and paper trading mode
