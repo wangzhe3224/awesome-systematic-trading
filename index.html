@@ -1,0 +1,2052 @@
+
+<!doctype html>
+<html lang="zh" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Awesome Systematic Trading ">
+      
+      
+        <meta name="author" content="FunCoder">
+      
+      
+      
+      
+      
+        
+      
+      
+      <link rel="icon" href="assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.3">
+    
+    
+      
+        <title>Systematic Trading</title>
+      
+    
+    
+      <link rel="stylesheet" href="assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+  
+  
+    
+      
+      
+    
+  
+    
+      
+      
+    
+  
+    
+      
+      
+    
+  
+    
+      
+      
+    
+  
+    
+      
+      
+    
+  
+    
+      
+      
+    
+  
+    
+      
+      
+    
+  
+    
+      
+      
+    
+  
+    
+      
+      
+    
+  
+    
+      
+      
+    
+  
+    
+      
+      
+    
+  
+    
+      
+      
+    
+  
+  
+  <style>:root{--md-admonition-icon--note:url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2016%2016%22%3E%3Cpath%20d%3D%22M1%207.775V2.75C1%201.784%201.784%201%202.75%201h5.025c.464%200%20.91.184%201.238.513l6.25%206.25a1.75%201.75%200%200%201%200%202.474l-5.026%205.026a1.75%201.75%200%200%201-2.474%200l-6.25-6.25A1.75%201.75%200%200%201%201%207.775m1.5%200c0%20.066.026.13.073.177l6.25%206.25a.25.25%200%200%200%20.354%200l5.025-5.025a.25.25%200%200%200%200-.354l-6.25-6.25a.25.25%200%200%200-.177-.073H2.75a.25.25%200%200%200-.25.25ZM6%205a1%201%200%201%201%200%202%201%201%200%200%201%200-2%22/%3E%3C/svg%3E');--md-admonition-icon--abstract:url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2016%2016%22%3E%3Cpath%20d%3D%22M2.5%201.75v11.5c0%20.138.112.25.25.25h3.17a.75.75%200%200%201%200%201.5H2.75A1.75%201.75%200%200%201%201%2013.25V1.75C1%20.784%201.784%200%202.75%200h8.5C12.216%200%2013%20.784%2013%201.75v7.736a.75.75%200%200%201-1.5%200V1.75a.25.25%200%200%200-.25-.25h-8.5a.25.25%200%200%200-.25.25m13.274%209.537zl-4.557%204.45a.75.75%200%200%201-1.055-.008l-1.943-1.95a.75.75%200%200%201%201.062-1.058l1.419%201.425%204.026-3.932a.75.75%200%201%201%201.048%201.074M4.75%204h4.5a.75.75%200%200%201%200%201.5h-4.5a.75.75%200%200%201%200-1.5M4%207.75A.75.75%200%200%201%204.75%207h2a.75.75%200%200%201%200%201.5h-2A.75.75%200%200%201%204%207.75%22/%3E%3C/svg%3E');--md-admonition-icon--info:url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2016%2016%22%3E%3Cpath%20d%3D%22M0%208a8%208%200%201%201%2016%200A8%208%200%200%201%200%208m8-6.5a6.5%206.5%200%201%200%200%2013%206.5%206.5%200%200%200%200-13M6.5%207.75A.75.75%200%200%201%207.25%207h1a.75.75%200%200%201%20.75.75v2.75h.25a.75.75%200%200%201%200%201.5h-2a.75.75%200%200%201%200-1.5h.25v-2h-.25a.75.75%200%200%201-.75-.75M8%206a1%201%200%201%201%200-2%201%201%200%200%201%200%202%22/%3E%3C/svg%3E');--md-admonition-icon--tip:url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2016%2016%22%3E%3Cpath%20d%3D%22M3.499.75a.75.75%200%200%201%201.5%200v.996C5.9%202.903%206.793%203.65%207.662%204.376l.24.202c-.036-.694.055-1.422.426-2.163C9.1.873%2010.794-.045%2012.622.26%2014.408.558%2016%201.94%2016%204.25c0%201.278-.954%202.575-2.44%202.734l.146.508.065.22c.203.701.412%201.455.476%202.226.142%201.707-.4%203.03-1.487%203.898C11.714%2014.671%2010.27%2015%208.75%2015h-6a.75.75%200%200%201%200-1.5h1.376a4.5%204.5%200%200%201-.563-1.191%203.84%203.84%200%200%201-.05-2.063%204.65%204.65%200%200%201-2.025-.293.75.75%200%200%201%20.525-1.406c1.357.507%202.376-.006%202.698-.318l.009-.01a.747.747%200%200%201%201.06%200%20.75.75%200%200%201-.012%201.074c-.912.92-.992%201.835-.768%202.586.221.74.745%201.337%201.196%201.621H8.75c1.343%200%202.398-.296%203.074-.836.635-.507%201.036-1.31.928-2.602-.05-.603-.216-1.224-.422-1.93l-.064-.221c-.12-.407-.246-.84-.353-1.29a2.4%202.4%200%200%201-.507-.441%203.1%203.1%200%200%201-.633-1.248.75.75%200%200%201%201.455-.364c.046.185.144.436.31.627.146.168.353.305.712.305.738%200%201.25-.615%201.25-1.25%200-1.47-.95-2.315-2.123-2.51-1.172-.196-2.227.387-2.706%201.345-.46.92-.27%201.774.019%203.062l.042.19.01.05c.348.443.666.949.94%201.553a.75.75%200%201%201-1.365.62c-.553-1.217-1.32-1.94-2.3-2.768L6.7%205.527c-.814-.68-1.75-1.462-2.692-2.619a3.7%203.7%200%200%200-1.023.88c-.406.495-.663%201.036-.722%201.508.116.122.306.21.591.239.388.038.797-.06%201.032-.19a.75.75%200%200%201%20.728%201.31c-.515.287-1.23.439-1.906.373-.682-.067-1.473-.38-1.879-1.193L.75%205.677V5.5c0-.984.48-1.94%201.077-2.664.46-.559%201.05-1.055%201.673-1.353z%22/%3E%3C/svg%3E');--md-admonition-icon--success:url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2016%2016%22%3E%3Cpath%20d%3D%22M13.78%204.22a.75.75%200%200%201%200%201.06l-7.25%207.25a.75.75%200%200%201-1.06%200L2.22%209.28a.75.75%200%200%201%20.018-1.042.75.75%200%200%201%201.042-.018L6%2010.94l6.72-6.72a.75.75%200%200%201%201.06%200%22/%3E%3C/svg%3E');--md-admonition-icon--question:url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2016%2016%22%3E%3Cpath%20d%3D%22M0%208a8%208%200%201%201%2016%200A8%208%200%200%201%200%208m8-6.5a6.5%206.5%200%201%200%200%2013%206.5%206.5%200%200%200%200-13M6.92%206.085h.001a.749.749%200%201%201-1.342-.67c.169-.339.436-.701.849-.977C6.845%204.16%207.369%204%208%204a2.76%202.76%200%200%201%201.637.525c.503.377.863.965.863%201.725%200%20.448-.115.83-.329%201.15-.205.307-.47.513-.692.662-.109.072-.22.138-.313.195l-.006.004a6%206%200%200%200-.26.16%201%201%200%200%200-.276.245.75.75%200%200%201-1.248-.832c.184-.264.42-.489.692-.661q.154-.1.313-.195l.007-.004c.1-.061.182-.11.258-.161a1%201%200%200%200%20.277-.245C8.96%206.514%209%206.427%209%206.25a.61.61%200%200%200-.262-.525A1.27%201.27%200%200%200%208%205.5c-.369%200-.595.09-.74.187a1%201%200%200%200-.34.398M9%2011a1%201%200%201%201-2%200%201%201%200%200%201%202%200%22/%3E%3C/svg%3E');--md-admonition-icon--warning:url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2016%2016%22%3E%3Cpath%20d%3D%22M6.457%201.047c.659-1.234%202.427-1.234%203.086%200l6.082%2011.378A1.75%201.75%200%200%201%2014.082%2015H1.918a1.75%201.75%200%200%201-1.543-2.575Zm1.763.707a.25.25%200%200%200-.44%200L1.698%2013.132a.25.25%200%200%200%20.22.368h12.164a.25.25%200%200%200%20.22-.368Zm.53%203.996v2.5a.75.75%200%200%201-1.5%200v-2.5a.75.75%200%200%201%201.5%200M9%2011a1%201%200%201%201-2%200%201%201%200%200%201%202%200%22/%3E%3C/svg%3E');--md-admonition-icon--failure:url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2016%2016%22%3E%3Cpath%20d%3D%22M2.344%202.343za8%208%200%200%201%2011.314%2011.314A8.002%208.002%200%200%201%20.234%2010.089a8%208%200%200%201%202.11-7.746m1.06%2010.253a6.5%206.5%200%201%200%209.108-9.275%206.5%206.5%200%200%200-9.108%209.275M6.03%204.97%208%206.94l1.97-1.97a.749.749%200%200%201%201.275.326.75.75%200%200%201-.215.734L9.06%208l1.97%201.97a.749.749%200%200%201-.326%201.275.75.75%200%200%201-.734-.215L8%209.06l-1.97%201.97a.749.749%200%200%201-1.275-.326.75.75%200%200%201%20.215-.734L6.94%208%204.97%206.03a.75.75%200%200%201%20.018-1.042.75.75%200%200%201%201.042-.018%22/%3E%3C/svg%3E');--md-admonition-icon--danger:url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2016%2016%22%3E%3Cpath%20d%3D%22M9.504.43a1.516%201.516%200%200%201%202.437%201.713L10.415%205.5h2.123c1.57%200%202.346%201.909%201.22%203.004l-7.34%207.142a1.25%201.25%200%200%201-.871.354h-.302a1.25%201.25%200%200%201-1.157-1.723L5.633%2010.5H3.462c-1.57%200-2.346-1.909-1.22-3.004zm1.047%201.074L3.286%208.571A.25.25%200%200%200%203.462%209H6.75a.75.75%200%200%201%20.694%201.034l-1.713%204.188%206.982-6.793A.25.25%200%200%200%2012.538%207H9.25a.75.75%200%200%201-.683-1.06l2.008-4.418.003-.006-.004-.009-.006-.006-.008-.001q-.005%200-.009.004%22/%3E%3C/svg%3E');--md-admonition-icon--bug:url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2016%2016%22%3E%3Cpath%20d%3D%22M4.72.22a.75.75%200%200%201%201.06%200l1%20.999a3.5%203.5%200%200%201%202.441%200l.999-1a.748.748%200%200%201%201.265.332.75.75%200%200%201-.205.729l-.775.776c.616.63.995%201.493.995%202.444v.327q0%20.15-.025.292c.408.14.764.392%201.029.722l1.968-.787a.75.75%200%200%201%20.556%201.392L13%207.258V9h2.25a.75.75%200%200%201%200%201.5H13v.5q-.002.615-.141%201.186l2.17.868a.75.75%200%200%201-.557%201.392l-2.184-.873A5%205%200%200%201%208%2016a5%205%200%200%201-4.288-2.427l-2.183.873a.75.75%200%200%201-.558-1.392l2.17-.868A5%205%200%200%201%203%2011v-.5H.75a.75.75%200%200%201%200-1.5H3V7.258L.971%206.446a.75.75%200%200%201%20.558-1.392l1.967.787c.265-.33.62-.583%201.03-.722a1.7%201.7%200%200%201-.026-.292V4.5c0-.951.38-1.814.995-2.444L4.72%201.28a.75.75%200%200%201%200-1.06m.53%206.28a.75.75%200%200%200-.75.75V11a3.5%203.5%200%201%200%207%200V7.25a.75.75%200%200%200-.75-.75ZM6.173%205h3.654A.17.17%200%200%200%2010%204.827V4.5a2%202%200%201%200-4%200v.327c0%20.096.077.173.173.173%22/%3E%3C/svg%3E');--md-admonition-icon--example:url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2016%2016%22%3E%3Cpath%20d%3D%22M5%205.782V2.5h-.25a.75.75%200%200%201%200-1.5h6.5a.75.75%200%200%201%200%201.5H11v3.282l3.666%205.76C15.619%2013.04%2014.543%2015%2012.767%2015H3.233c-1.776%200-2.852-1.96-1.899-3.458Zm-2.4%206.565a.75.75%200%200%200%20.633%201.153h9.534a.75.75%200%200%200%20.633-1.153L12.225%2010.5h-8.45ZM9.5%202.5h-3V6c0%20.143-.04.283-.117.403L4.73%209h6.54L9.617%206.403A.75.75%200%200%201%209.5%206Z%22/%3E%3C/svg%3E');--md-admonition-icon--quote:url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2016%2016%22%3E%3Cpath%20d%3D%22M1.75%202.5h10.5a.75.75%200%200%201%200%201.5H1.75a.75.75%200%200%201%200-1.5m4%205h8.5a.75.75%200%200%201%200%201.5h-8.5a.75.75%200%200%201%200-1.5m0%205h8.5a.75.75%200%200%201%200%201.5h-8.5a.75.75%200%200%201%200-1.5M2.5%207.75v6a.75.75%200%200%201-1.5%200v-6a.75.75%200%200%201%201.5%200%22/%3E%3C/svg%3E');}</style>
+
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+  
+
+
+  
+  
+
+<script id="__analytics">function __md_analytics(){function e(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],e("js",new Date),e("config","G-KJC6F9YNGT"),document.addEventListener("DOMContentLoaded",(function(){document.forms.search&&document.forms.search.query.addEventListener("blur",(function(){this.value&&e("event","search",{search_term:this.value})}));document$.subscribe((function(){var t=document.forms.feedback;if(void 0!==t)for(var a of t.querySelectorAll("[type=submit]"))a.addEventListener("click",(function(a){a.preventDefault();var n=document.location.pathname,d=this.getAttribute("data-md-value");e("event","feedback",{page:n,data:d}),t.firstElementChild.disabled=!0;var r=t.querySelector(".md-feedback__note [data-md-value='"+d+"']");r&&(r.hidden=!1)})),t.hidden=!1})),location$.subscribe((function(t){e("config","G-KJC6F9YNGT",{page_path:t.pathname})}))}));var t=document.createElement("script");t.async=!0,t.src="https://www.googletagmanager.com/gtag/js?id=G-KJC6F9YNGT",document.getElementById("__analytics").insertAdjacentElement("afterEnd",t)}</script>
+  
+    <script>"undefined"!=typeof __md_analytics&&__md_analytics()</script>
+  
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="light-blue" data-md-color-accent="deep-purple">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#awesome-systematic-trading" class="md-skip">
+          跳转至
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="页眉">
+    <a href="." title="Systematic Trading" class="md-header__button md-logo" aria-label="Systematic Trading" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Systematic Trading
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Awesome Systematic Trading
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="light-blue" data-md-color-accent="deep-purple"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0-7 2.39 3.42C13.65 5.15 12.84 5 12 5s-1.65.15-2.39.42zM3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29zm.02 10 1.76-3.77a7.131 7.131 0 0 0 2.38 4.14zM20.65 7l-1.77 3.79a7.02 7.02 0 0 0-2.38-4.15zm-.01 10-4.14.36c.59-.51 1.12-1.14 1.54-1.86.42-.73.69-1.5.83-2.29zM12 22l-2.41-3.44c.74.27 1.55.44 2.41.44.82 0 1.63-.17 2.37-.44z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="cyan" data-md-color-accent="deep-purple"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3zm3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95zm-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="搜索" placeholder="搜索" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="查找">
+        
+          <a href="javascript:void(0)" class="md-search__icon md-icon" title="分享" aria-label="分享" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91s2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08"/></svg>
+          </a>
+        
+        <button type="reset" class="md-search__icon md-icon" title="清空当前内容" aria-label="清空当前内容" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            正在初始化搜索引擎
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/wangzhe3224/awesome-systematic-trading" title="前往仓库" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+  </div>
+  <div class="md-source__repository">
+    awesome-systematic-trading
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="导航栏" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="." title="Systematic Trading" class="md-nav__button md-logo" aria-label="Systematic Trading" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Systematic Trading
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/wangzhe3224/awesome-systematic-trading" title="前往仓库" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+  </div>
+  <div class="md-source__repository">
+    awesome-systematic-trading
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Awesome Systematic Trading
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="." class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Awesome Systematic Trading
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#star-history" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Star History
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ai-powered-systematic-trading-systems" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🔥 AI Powered Systematic Trading Systems
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#backtest-live-trading" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Backtest + live trading
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Backtest + live trading">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#general-purpose" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        General purpose
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#crypto-currency-focus" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Crypto currency focus
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#machine-learning-reinforcement-learning-focused" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Machine Learning / Reinforcement Learning Focused
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#alpha-collections" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Alpha Collections
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Alpha Collections">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#general-alpha" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        General Alpha
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#expression-based-alpha" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Expression based alpha
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#stock-picking" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Stock picking
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#orderbook" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Orderbook
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#arbitrage-crypto" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Arbitrage (Crypto)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#basic-components" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Basic Components
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Basic Components">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#fundamental-libraries" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Fundamental libraries
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#computation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Computation
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#python-performance-booster" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Python Performance Booster
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#python-profilers" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Python Profilers
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#alternative-libraries" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Alternative libraries
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Alternative libraries">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#numpy-alternatives" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Numpy Alternatives
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pandas-alternatives" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Pandas Alternatives
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#analytic-tools" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Analytic tools
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Analytic tools">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#metrics-computation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Metrics computation
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#indicators" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Indicators
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pricing" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Pricing
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#risk" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Risk
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#optimization" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Optimization
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#timeseries-analysis" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        TimeSeries Analysis
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#visualization" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Visualization
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#message-queues" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Message Queues
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#databases" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Databases
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#data-source" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Data Source
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Data Source">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#stocks-and-general" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Stocks and General
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#alternative" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Alternative
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#crypto" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Crypto
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#broker-apis" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Broker APIs
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#quant-shops-code-and-blog" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Quant Shops Code and Blog
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#resources" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Resources
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Resources">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#research" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Research
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#books" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Books
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#blogs" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Blogs
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tutorials" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tutorials
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#courses" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Courses
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#relevant-projects" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Relevant Projects
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#star-history" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Star History
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ai-powered-systematic-trading-systems" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🔥 AI Powered Systematic Trading Systems
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#backtest-live-trading" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Backtest + live trading
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Backtest + live trading">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#general-purpose" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        General purpose
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#crypto-currency-focus" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Crypto currency focus
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#machine-learning-reinforcement-learning-focused" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Machine Learning / Reinforcement Learning Focused
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#alpha-collections" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Alpha Collections
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Alpha Collections">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#general-alpha" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        General Alpha
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#expression-based-alpha" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Expression based alpha
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#stock-picking" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Stock picking
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#orderbook" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Orderbook
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#arbitrage-crypto" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Arbitrage (Crypto)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#basic-components" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Basic Components
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Basic Components">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#fundamental-libraries" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Fundamental libraries
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#computation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Computation
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#python-performance-booster" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Python Performance Booster
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#python-profilers" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Python Profilers
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#alternative-libraries" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Alternative libraries
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Alternative libraries">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#numpy-alternatives" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Numpy Alternatives
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pandas-alternatives" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Pandas Alternatives
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#analytic-tools" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Analytic tools
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Analytic tools">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#metrics-computation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Metrics computation
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#indicators" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Indicators
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pricing" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Pricing
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#risk" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Risk
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#optimization" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Optimization
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#timeseries-analysis" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        TimeSeries Analysis
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#visualization" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Visualization
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#message-queues" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Message Queues
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#databases" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Databases
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#data-source" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Data Source
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Data Source">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#stocks-and-general" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Stocks and General
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#alternative" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Alternative
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#crypto" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Crypto
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#broker-apis" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Broker APIs
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#quant-shops-code-and-blog" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Quant Shops Code and Blog
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#resources" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Resources
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Resources">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#research" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Research
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#books" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Books
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#blogs" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Blogs
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tutorials" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tutorials
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#courses" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Courses
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#relevant-projects" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Relevant Projects
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+<h1 id="awesome-systematic-trading">Awesome Systematic Trading</h1>
+<blockquote>
+<p>or Quantitative Trading + a bit data science infra</p>
+</blockquote>
+<p><a href="https://awesome.re"><img alt="Awesome" src="https://awesome.re/badge.svg" /></a>
+<img alt="GitHub last commit (branch)" src="https://img.shields.io/github/last-commit/wangzhe3224/awesome-systematic-trading/master" /></p>
+<p><img alt="Python" src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&amp;logo=python&amp;logoColor=ffdd54" />
+<img alt="Java" src="https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&amp;logo=java&amp;logoColor=white" />
+<img alt="C++" src="https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&amp;logo=c%2B%2B&amp;logoColor=white" />
+<img alt="JavaScript" src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&amp;logo=javascript&amp;logoColor=%23F7DF1E" />
+<img alt="Rust" src="https://img.shields.io/badge/rust-%23000000.svg?style=for-the-badge&amp;logo=rust&amp;logoColor=white" />
+<img alt="Go" src="https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&amp;logo=go&amp;logoColor=white" />
+<img alt="Jupyter Notebook" src="https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=for-the-badge&amp;logo=jupyter&amp;logoColor=white" /></p>
+<h2 id="star-history">Star History</h2>
+<p><a href="https://star-history.com/#wangzhe3224/awesome-systematic-trading&amp;Timeline"><img alt="Star History Chart" src="https://api.star-history.com/svg?repos=wangzhe3224/awesome-systematic-trading&amp;type=Timeline" /></a></p>
+<p><a href="./Readme_cn.md">希望阅读中文版？点我</a></p>
+<p><a href="https://quant.funcoder.net/">Interested in systematic trading? Check QuantBox</a></p>
+<p>A curated list of awesome libraries, packages and resources for Systematic Trading (Quantitative Trading)</p>
+<blockquote>
+<p>Open access: all rights granted for use and re-use of any kind, by anyone, at no cost, under your choice of either the free MIT License or Creative Commons CC-BY International Public License.</p>
+</blockquote>
+<p>How do we pick the projects?</p>
+<ul>
+<li>Fit in Systematic Trading / Quantitative Trading domain</li>
+<li>Good coding style and software architecture</li>
+<li>(Optional) Under active development</li>
+<li>(Optional) Reasonable test coverage</li>
+</ul>
+<p>Overall, I tend to pick decent or promising libraries that closely related to systematic trading instead of including as many libraries as possible.</p>
+<p><strong>Please raise a PR if you found some good fit projects for this repo or remove some outdated projects. Thanks!</strong></p>
+<p>Search page by languages you are interested in to find related libraries. For example: <code>Ctrl+F</code>, <code>Rust</code></p>
+<p>And I count crypto as whole new category: <a href="crypto_focus.md">&gt;&gt; Click ME to Systematic Crypto</a>.</p>
+<ul>
+<li><a href="#awesome-systematic-trading">Awesome Systematic Trading</a></li>
+<li><a href="#star-history">Star History</a></li>
+<li><a href="#-ai-powered-systematic-trading-systems">🔥 AI Powered Systematic Trading Systems</a></li>
+<li><a href="#backtest--live-trading">Backtest + live trading</a><ul>
+<li><a href="#general-purpose">General purpose</a></li>
+<li><a href="#crypto-currency-focus">Crypto currency focus</a></li>
+<li><a href="#machine-learning--reinforcement-learning-focused">Machine Learning / Reinforcement Learning Focused</a></li>
+</ul>
+</li>
+<li><a href="#alpha-collections">Alpha Collections</a><ul>
+<li><a href="#general-alpha">General Alpha</a></li>
+<li><a href="#expression-based-alpha">Expression based alpha</a></li>
+<li><a href="#stock-picking">Stock picking</a></li>
+<li><a href="#orderbook">Orderbook</a></li>
+<li><a href="#arbitrage-crypto">Arbitrage (Crypto)</a></li>
+</ul>
+</li>
+<li><a href="#basic-components">Basic Components</a><ul>
+<li><a href="#fundamental-libraries">Fundamental libraries</a></li>
+<li><a href="#computation">Computation</a></li>
+<li><a href="#python-performance-booster">Python Performance Booster</a></li>
+<li><a href="#python-profilers">Python Profilers</a></li>
+<li><a href="#alternative-libraries">Alternative libraries</a></li>
+<li><a href="#numpy-alternatives">Numpy Alternatives</a></li>
+<li><a href="#pandas-alternatives">Pandas Alternatives</a></li>
+</ul>
+</li>
+<li><a href="#analytic-tools">Analytic tools</a><ul>
+<li><a href="#metrics-computation">Metrics computation</a></li>
+<li><a href="#indicators">Indicators</a></li>
+<li><a href="#pricing">Pricing</a></li>
+<li><a href="#risk">Risk</a></li>
+<li><a href="#optimization">Optimization</a></li>
+<li><a href="#timeseries-analysis">TimeSeries Analysis</a></li>
+</ul>
+</li>
+<li><a href="#visualization">Visualization</a></li>
+<li><a href="#message-queues">Message Queues</a></li>
+<li><a href="#databases">Databases</a></li>
+<li><a href="#data-source">Data Source</a><ul>
+<li><a href="#stocks-and-general">Stocks and General</a></li>
+<li><a href="#alternative">Alternative</a></li>
+<li><a href="#crypto">Crypto</a></li>
+</ul>
+</li>
+<li><a href="#broker-apis">Broker APIs</a></li>
+<li><a href="#quant-shops-code-and-blog">Quant Shops Code and Blog</a></li>
+<li><a href="#resources">Resources</a><ul>
+<li><a href="#research">Research</a></li>
+<li><a href="#books">Books</a></li>
+<li><a href="#blogs">Blogs</a></li>
+<li><a href="#tutorials">Tutorials</a></li>
+<li><a href="#courses">Courses</a></li>
+</ul>
+</li>
+<li><a href="#relevant-projects">Relevant Projects</a></li>
+</ul>
+<h2 id="ai-powered-systematic-trading-systems">🔥 AI Powered Systematic Trading Systems</h2>
+<ul>
+<li><a href="https://github.com/virattt/ai-hedge-fund">AI Hedge Fund</a> <img alt="GitHub last commit (branch)" src="https://img.shields.io/github/last-commit/virattt/ai-hedge-fund/main" /> <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/virattt/ai-hedge-fund?style=social" /> | <code>Python</code> | - An AI Hedge Fund Team</li>
+<li><a href="https://github.com/AI4Finance-Foundation/FinRL">FinRL</a> <img alt="GitHub last commit (branch)" src="https://img.shields.io/github/last-commit/AI4Finance-Foundation/FinRL/master" /> <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/AI4Finance-Foundation/FinRL?style=social" /> | Python | - FinRL is the first open-source framework to demonstrate the great potential of applying deep reinforcement learning in quantitative finance.</li>
+<li><a href="https://github.com/AI4Finance-Foundation/FinGPT">FinGPT</a> <img alt="GitHub last commit (branch)" src="https://img.shields.io/github/last-commit/AI4Finance-Foundation/FinGPT/master" /> <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/AI4Finance-Foundation/FinGPT?style=social" /> - FinGPT: Open-Source Financial Large Language Models! Revolutionize 🔥 We release the trained model on HuggingFace.</li>
+<li><a href="https://github.com/microsoft/qlib">QLib (Microsoft)</a> <img alt="GitHub last commit (branch)" src="https://img.shields.io/github/last-commit/microsoft/qlib/main" /> <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/microsoft/qlib?style=social" /> | Python, Cython | - Qlib is an AI-oriented quantitative investment platform, which aims to realize the potential, empower the research, and create the value of AI technologies in quantitative investment. With Qlib, you can easily try your ideas to create better Quant investment strategies. An increasing number of SOTA Quant research works/papers are released in Qlib.</li>
+<li><a href="https://github.com/UFund-Me/Qbot">Qbot</a> <img alt="GitHub last commit (branch)" src="https://img.shields.io/github/last-commit/UFund-Me/Qbot/main" /> <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/UFund-Me/Qbot?style=social" /> | <code>Python</code> | - AI 自动量化交易机器人 AI-powered Quantitative Investment Research Platform.</li>
+</ul>
+<h2 id="backtest-live-trading">Backtest + live trading</h2>
+<h3 id="general-purpose">General purpose</h3>
+<blockquote>
+<p>Event Driven Frameworks</p>
+</blockquote>
+<p>Note: the one marked as <code>Live Trading</code> has reasonable live trading support for at least 1 broker. Otherwise, backtest
+ function only.</p>
+<ul>
+<li><a href="https://github.com/alexanderwanyoike/the0">the0</a> <img alt="GitHub last commit (branch)" src="https://img.shields.io/github/last-commit/alexanderwanyoike/the0/main" /> <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/alexanderwanyoike/the0?style=social" /> | Python, TypeScript, Rust, C++, C#, Scala, Haskell, Live Trading | - Self-hosted execution engine for algorithmic trading bots. Each bot runs in an isolated container. No framework imposed — your bot is just normal code.</li>
+<li><a href="https://github.com/AsyncAlgoTrading/aat">aat</a> <img alt="GitHub last commit (branch)" src="https://img.shields.io/github/last-commit/AsyncAlgoTrading/aat/main" /> <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/AsyncAlgoTrading/aat?style=social" /> | Python, C++, Live Trading| - an asynchronous, event-driven framework for writing algorithmic trading strategies in python with optional acceleration in C++. It is designed to be modular and extensible, with support for a wide variety of instruments and strategies, live trading across (and between) multiple exchanges.</li>
+<li><a href="https://github.com/barter-rs/barter-rs">* barter-rs</a> <img alt="GitHub last commit (branch)" src="https://img.shields.io/github/last-commit/barter-rs/barter-rs/main" /> <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/barter-rs/barter-rs?style=social" /> | Rust | - Open-source Rust framework for building event-driven live-trading &amp; backtesting systems. Algorithmic trade with the peace of mind that comes from knowing your strategies have been backtested with a near-identical trading Engine.</li>
+<li><a href="https://github.com/pmorissette/bt">* bt</a> <img alt="GitHub last commit (branch)" src="https://img.shields.io/github/last-commit/pmorissette/bt/master" /> <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/pmorissette/bt?style=social" /> | Python | -  Flexible backtesting for Python based on Algo and Strategy Tree</li>
+<li><a href="https://github.com/byrnexu/betterquant">Better Quant</a> <img alt="GitHub last commit (branch)" src="https://img.shields.io/github/last-commit/byrnexu/betterquant/master" /> <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/byrnexu/betterquant?style=social" /> | C++, Live Trading | - Better quant today, best quant tomorrow. 💪</li>
+<li><a href="https://github.com/featherenvy/botvana">Botvana</a> <img alt="GitHub last commit (branch)" src="https://img.shields.io/github/last-commit/featherenvy/botvana/main" /> <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/featherenvy/botvana?style=social" /> | Rust | - high-performance and event-driven trading system built using Rust</li>
+<li><a href="https://github.com/mementum/backtrader">backtrader</a> <img alt="GitHub last commit (branch)" src="https://img.shields.io/github/last-commit/mementum/backtrader/master" /> <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/mementum/backtrader?style=social" /> | Python, Live Trading | - Event driven Python Backtesting library for trading strategies</li>
+<li><a href="https://github.com/kernc/backtesting.py">backtesting.py</a> <img alt="GitHub last commit (branch)" src="https://img.shields.io/github/last-commit/kernc/backtesting.py/master" /> <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/kernc/backtesting.py?style=social" /> | Python | - Backtesting.py is a Python framework for inferring viability of trading strategies on historical (past) data. Improved upon the vision of Backtrader, and by all means surpassingly comparable to other accessible alternatives, Backtesting.py is lightweight, fast, user-friendly, intuitive, interactive, intelligent and, hopefully, future-proof.</li>
+<li><a href="https://github.com/HFQR/FlashFunk">FlashFunk</a> <img alt="GitHub last commit (branch)" src="https://img.shields.io/github/last-commit/HFQR/FlashFunk/master" /> <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/HFQR/FlashFunk?style=social" /> | Rust | -  High Performance Runtime in Rust</li>
+<li><a href="https://github.com/QuantFabric/QuantFabric">QuantFabric</a> <img alt="GitHub last commit (branch)" src="https://img.shields.io/github/last-commit/QuantFabric/QuantFabric/master" /> <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/QuantFabric/QuantFabric?style=social" /> | C++ | - QuantFabric是基于Linux/C++开发的中高频量化交易系统，支持中金所、郑商所、大商所、上期所、上海国际能源中心的期货业务品种交易，支持上交所、深交所的股票、债券品种交易。</li>
+<li><a href="https://github.com/gobacktest/gobacktest">gobacktest</a> <img alt="GitHub last commit (branch)" src="https://img.shields.io/github/last-commit/gobacktest/gobacktest/main" /> <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/gobacktest/gobacktest?style=social" /> | Go | - A Go implementation of event-driven backtesting framework</li>
+<li><a href="https://github.com/fasiondog/hikyuu">Hikyuu</a> <img alt="GitHub last commit (branch)" src="https://img.shields.io/github/last-commit/fasiondog/hikyuu/master" /> <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/fasiondog/hikyuu?style=social" /> | C++, Python| - Hikyuu Quant Framework 基于C++/Python的开源量化交易研究框架</li>
+<li><a href="https://github.com/coding-kitties/investing-algorithm-framework/tree/main">Investing Algorithm Framework</a> <img alt="GitHub last commit (branch)" src="https://img.shields.io/github/last-commit/coding-kitties/investing-algorithm-framework/main" /> <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/coding-kitties/investing-algorithm-framework?style=social" /> | Python | - Framework for developing, backtesting, and deploying automated trading algorithms and trading bots.</li>
+<li><a href="https://github.com/Lumiwealth/lumibot">lumibot</a> <img alt="GitHub last commit (branch)" src="https://img.shields.io/github/last-commit/Lumiwealth/lumibot/master" /> <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/Lumiwealth/lumibot?style=social" /> | Python | - A very simple yet useful backtesting and sample based live trading framework (a bit slow to run...)</li>
+<li><a href="https://github.com/nautechsystems/nautilus_trader">* nautilus_trader</a> <img alt="GitHub last commit (branch)" src="https://img.shields.io/github/last-commit/nautechsystems/nautilus_trader/master" /> <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/nautechsystems/nautilus_trader?style=social" /> | Python, Cython, Rust, Live Trading | - A high-performance algorithmic trading platform and event-driven backtester</li>
+<li><a href="https://github.com/edtechre/pybroker">PyBroker</a> <img alt="GitHub last commit (branch)" src="https://img.shields.io/github/last-commit/edtechre/pybroker/master" /> <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/edtechre/pybroker?style=social" /> | Python | - Algorithmic Trading in Python with Machine Learning</li>
+<li><a href="https://github.com/QuantConnect/Lean">QuantConnect</a> <img alt="GitHub last commit (branch)" src="https://img.shields.io/github/last-commit/QuantConnect/Lean/master" /> <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/QuantConnect/Lean?style=social" /> | C#, .NET, Live Trading | - Lean Algorithmic Trading Engine by QuantConnect (Python, C#)</li>
+<li><a href="https://github.com/QUANTAXIS/QUANTAXIS">QUANTAXIS</a> <img alt="GitHub last commit (branch)" src="https://img.shields.io/github/last-commit/QUANTAXIS/QUANTAXIS/master" /> <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/QUANTAXIS/QUANTAXIS?style=social" /> | Python, Rust, Live Trading | - QUANTAXIS 支持任务调度 分布式部署的 股票/期货/期权/港股/虚拟货币 数据/回测/模拟/交易/可视化/多账户 纯本地量化解决方案</li>
+<li><a href="https://github.com/ricequant/rqalpha">Rqalpha</a> <img alt="GitHub last commit (branch)" src="https://img.shields.io/github/last-commit/ricequant/rqalpha/master" /> <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/ricequant/rqalpha?style=social" /> | Python | - A extendable, replaceable Python algorithmic backtest &amp;&amp; trading framework supporting multiple securities</li>
+<li><a href="https://github.com/letianzj/quanttrader">quanttrader</a> <img alt="GitHub last commit (branch)" src="https://img.shields.io/github/last-commit/letianzj/quanttrader/master" /> <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/letianzj/quanttrader?style=social" /> | Python | - Backtest and live trading in Python. Event based. Similar to backtesting.py.</li>
+<li><a href="https://github.com/quarkfin/qf-lib">qf-lib</a> <img alt="GitHub last commit (branch)" src="https://img.shields.io/github/last-commit/quarkfin/qf-lib/master" /> <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/quarkfin/qf-lib?style=social" /> | Python | - Modular Python library that provides an advanced event driven backtester and a set of high quality tools for quantitative finance. Integrated with various data vendors and brokers, supports Crypto, Stocks and Futures.</li>
+<li><a href="https://github.com/sreenivasdoosa/sdoosa-algo-trade-python">sdoosa-algo-trade-python</a> <img alt="GitHub last commit (branch)" src="https://img.shields.io/github/last-commit/sreenivasdoosa/sdoosa-algo-trade-python/master" /> <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/sreenivasdoosa/sdoosa-algo-trade-python?style=social" /> | Python | - This project is mainly for newbies into algo trading who are interested in learning to code their own trading algo using python interpreter.</li>
+<li><a href="https://github.com/vnpy/vnpy">* vnpy</a> <img alt="GitHub last commit (branch)" src="https://img.shields.io/github/last-commit/vnpy/vnpy/master" /> <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/vnpy/vnpy?style=social" /> | Python, Stock, Futures, Crypto, Live Trading | - Python-based open source quantitative trading system development framework, officially released in January 2015, has grown step by step into a full-featured quantitative trading platform</li>
+<li><a href="https://github.com/wondertrader/wondertrader">WonderTrader</a> <img alt="GitHub last commit (branch)" src="https://img.shields.io/github/last-commit/wondertrader/wondertrader/master" /> <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/wondertrader/wondertrader?style=social" /> | C++, Python | - WonderTrader——量化研发交易一站式框架</li>
+<li><a href="https://github.com/zvtvz/zvt">zvt</a> <img alt="GitHub last commit (branch)" src="https://img.shields.io/github/last-commit/zvtvz/zvt/master" /> <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/zvtvz/zvt?style=social" /> | Python, Stock, Backtest | - Modular quant framework</li>
+<li><a href="https://github.com/quantopian/zipline">zipline</a> <img alt="GitHub last commit (branch)" src="https://img.shields.io/github/last-commit/quantopian/zipline/master" /> <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/quantopian/zipline?style=social" /> | Python | - Zipline is a Pythonic algorithmic trading library. It is an event-driven system for backtesting.</li>
+<li><a href="https://github.com/pegasusTrader/PandoraTrader">PandoraTrader</a> <img alt="GitHub last commit (branch)" src="https://img.shields.io/github/last-commit/pegasusTrader/PandoraTrader/master" /> <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/pegasusTrader/PandoraTrader?style=social" /> | C++ | - CTP 高频量化交易平台 C++ Trade Platform for quant developer</li>
+<li><a href="https://github.com/nkaz001/hftbacktest">hftbacktest</a> <img alt="GitHub last commit (branch)" src="https://img.shields.io/github/last-commit/nkaz001/hftbacktest/master" /> <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/nkaz001/hftbacktest?style=social" /> | Python, numba | - A high-frequency trading and market-making backtesting tool accounts for limit orders, queue positions, and latencies, utilizing full tick data for trades and order books.</li>
+<li><a href="https://github.com/nanvel/cipher-bt">Cipher</a> <img alt="GitHub last commit (branch)" src="https://img.shields.io/github/last-commit/nanvel/cipher-bt/master" /> <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/nanvel/cipher-bt?style=social" /> | Python | - Backtesting library with focus on position adjustment that allows testing complicated setups. Pythonic, extensible, well-structured, documented.</li>
+<li><a href="https://github.com/GuntharDeNiro/gunbot-quant">Gunbot Quant</a> <img alt="GitHub last commit (branch)" src="https://img.shields.io/github/last-commit/GuntharDeNiro/gunbot-quant/master" /> <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/GuntharDeNiro/gunbot-quant?style=social" /> | Python | - Standalone application for market screening and backtesting. Supports multi-asset, multi-strategy backtests. Includes user interface and CLI options.</li>
+<li><a href="https://github.com/JustinGuese/python_tradingbot_framework">PythonTradingFramework</a> <img alt="Github last commit (branch)" src="https://img.shields.io/github/last-commit/JustinGuese/python_tradingbot_framework/main" /> | Python | - Python algorithmic trading bot framework for Kubernetes: backtesting, hyperparameter optimization, 150+ technical analysis indicators (RSI, MACD, Bollinger Bands, ADX), portfolio management, PostgreSQL integration, Helm deployment, CronJob scheduling. Minimal overhead, production-ready, Yahoo Finance data.</li>
+<li><a href="https://github.com/jmargieh/tradingview-screener">Tradingview Screener API</a> <img alt="GitHub last commit (branch)" src="https://img.shields.io/github/last-commit/jmargieh/tradingview-screener/main" /> <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/jmargieh/tradingview-screener?style=social" /> | TypeScript | - Query TradingView's financial data with a type-safe, fluent TypeScript API. Screen stocks, crypto, forex, bonds, and futures using 13,000+ data fields. The library includes a Model Context Protocol (MCP) server that lets you query financial markets using natural language in Claude Desktop. This is a unique feature that enables conversational market analysis.</li>
+</ul>
+<blockquote>
+<p>Vector Based Frameworks</p>
+</blockquote>
+<ul>
+<li><a href="https://github.com/squidKid-deluxe/QTradeX-Algo-Trading-SDK">QTradeX</a>  <img alt="GitHub last commit (branch)" src="https://img.shields.io/github/last-commit/squidKid-deluxe/QTradeX-Algo-Trading-SDK" /> <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/squidKid-deluxe/QTradeX-Algo-Trading-SDK?style=social" /> | Python, Live Trading | - A powerful and flexible Python framework for designing, backtesting, optimizing, and deploying algotrading bots</li>
+<li><a href="https://github.com/FinHackCN/finhack">FinHack</a> <img alt="GitHub last commit (branch)" src="https://img.shields.io/github/last-commit/FinHackCN/finhack/main" /> <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/FinHackCN/finhack?style=social" /> | Python | - 一个易于拓展的量化金融框架，它在当前版本中集成了数据采集、因子计算、因子挖掘、因子分析、机器学习、策略编写、量化回测、实盘接入等全流程的量化投研工作</li>
+<li><a href="https://github.com/robcarver17/pysystemtrade">pysystemtrade</a> <img alt="GitHub last commit (branch)" src="https://img.shields.io/github/last-commit/robcarver17/pysystemtrade/master" /> <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/robcarver17/pysystemtrade?style=social" /> | Python, Live Trading | - Systematic Trading in python from book <Systematic Trading> by Rob Carver</li>
+<li><a href="https://github.com/cuemacro/finmarketpy">finmarketpy</a> <img alt="GitHub last commit (branch)" src="https://img.shields.io/github/last-commit/cuemacro/finmarketpy/master" /> <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/cuemacro/finmarketpy?style=social" /> | Python | - Python library for backtesting trading strategies &amp; analyzing financial markets (formerly pythalesians)</li>
+<li><a href="https://github.com/polakowo/vectorbt">vectorbt</a> <img alt="GitHub last commit (branch)" src="https://img.shields.io/github/last-commit/polakowo/vectorbt/master" /> <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/polakowo/vectorbt?style=social" /> | Python, numba | - vectorbt takes a novel approach to backtesting: it operates entirely on pandas and NumPy objects, and is accelerated by Numba to analyze any data at speed and scale. This allows for testing of many thousands of strategies in seconds.</li>
+<li><a href="https://github.com/SunshowerC/fund-strategy">fund-strategy</a> <img alt="GitHub last commit (branch)" src="https://img.shields.io/github/last-commit/SunshowerC/fund-strategy/master" /> <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/SunshowerC/fund-strategy?style=social" /> | TypeScript | - 一个简单实用的基金投资策略分析，基金回测工具</li>
+<li><a href="https://github.com/enzoampil/fastquant">fastquant</a> <img alt="GitHub last commit (branch)" src="https://img.shields.io/github/last-commit/enzoampil/fastquant/master" /> <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/enzoampil/fastquant?style=social" /> | Python | - Backtest and optimize your ML trading strategies with only 3 lines of code</li>
+</ul>
+<h3 id="crypto-currency-focus">Crypto currency focus</h3>
+<ul>
+<li><a href="https://github.com/gbeced/basana">basana</a> <img alt="GitHub last commit (branch)" src="https://img.shields.io/github/last-commit/gbeced/basana/master" /> <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/gbeced/basana?style=social" /> | Python | - A Python async and event driven framework for algorithmic trading, with a focus on crypto currencies.</li>
+<li><a href="https://github.com/Melelery/c-binance-future-quant/tree/main">c-binance-future-quant</a> <img alt="GitHub last commit (branch)" src="https://img.shields.io/github/last-commit/Melelery/c-binance-future-quant/main" /> <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/Melelery/c-binance-future-quant?style=social" /> | Python | - 低成本，高效率，简单实现的币安合约量化系统架构</li>
+<li><a href="https://github.com/zlq4863947/triangular-arbitrage2">triangular-arbitrage2</a> <img alt="GitHub last commit (branch)" src="https://img.shields.io/github/last-commit/zlq4863947/triangular-arbitrage2/main" /> <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/zlq4863947/triangular-arbitrage2?style=social" /> | TypeScript | - a server side application for perform triangular arbitrage.</li>
+<li><a href="https://github.com/gabriel-milan/btrader">bTrader</a> <img alt="GitHub last commit (branch)" src="https://img.shields.io/github/last-commit/gabriel-milan/btrader/master" /> <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/gabriel-milan/btrader?style=social" /> | Rust | - Triangle arbitrage trading bot for Binance</li>
+<li><a href="https://github.com/crypto-crawler/crypto-crawler-rs">crypto-crawler-rs</a> <img alt="GitHub last commit (branch)" src="https://img.shields.io/github/last-commit/crypto-crawler/crypto-crawler-rs/main" /> <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/crypto-crawler/crypto-crawler-rs?style=social" /> | Rust | - Crawl orderbook and trade messages from crypto exchanges</li>
+<li><a href="https://github.com/monomadic/cryptotrader-core">cryptotrader-core</a> <img alt="GitHub last commit (branch)" src="https://img.shields.io/github/last-commit/monomadic/cryptotrader-core/master" /> <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/monomadic/cryptotrader-core?style=social" /> | Rust | - Simple to use Crypto Exchange REST API client in rust.</li>
+<li><a href="https://github.com/nash-io/openlimits">openlimits</a> <img alt="GitHub last commit (branch)" src="https://img.shields.io/github/last-commit/nash-io/openlimits/main" /> <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/nash-io/openlimits?style=social" /> | Rust | - A Rust high performance cryptocurrency trading API with support for multiple exchanges and language wrappers.</li>
+<li><a href="https://github.com/freqtrade/freqtrade">Freqtrade</a> <img alt="GitHub last commit (branch)" src="https://img.shields.io/github/last-commit/freqtrade/freqtrade/develop" /> <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/freqtrade/freqtrade?style=social" /> | Python | - Freqtrade is a free and open source crypto trading bot written in Python. It is designed to support all major exchanges and be controlled via Telegram. It contains backtesting, plotting and money management tools as well as strategy optimization by machine learning.</li>
+<li><a href="https://github.com/CoinAlpha/hummingbot">* Hummingbot</a> <img alt="GitHub last commit (branch)" src="https://img.shields.io/github/last-commit/CoinAlpha/hummingbot/development" /> <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/CoinAlpha/hummingbot?style=social" /> | Python, Cython, Live Trading | - A client for crypto market making</li>
+<li><a href="https://github.com/jesse-ai/jesse">Jesse</a> <img alt="GitHub last commit (branch)" src="https://img.shields.io/github/last-commit/jesse-ai/jesse/master" /> <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/jesse-ai/jesse?style=social" /> | Python | - Jesse is an advanced crypto trading framework which aims to simplify researching and defining trading strategies.</li>
+<li><a href="https://github.com/Drakkar-Software/OctoBot">* OctoBot</a> <img alt="GitHub last commit (branch)" src="https://img.shields.io/github/last-commit/Drakkar-Software/OctoBot/master" /> <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/Drakkar-Software/OctoBot?style=social" /> | Python, Cython, Live Trading| - Cryptocurrency trading bot for TA, arbitrage and social trading with an advanced web interface</li>
+<li><a href="https://github.com/stellar/kelp">Kelp</a> <img alt="GitHub last commit (branch)" src="https://img.shields.io/github/last-commit/stellar/kelp/master" /> <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/stellar/kelp?style=social" /> | Go, Live Trading | - Kelp is a free and open-source trading bot for the Stellar DEX and 100+ centralized exchanges</li>
+<li><a href="https://github.com/Nouzan/exc">exc</a> <img alt="GitHub last commit (branch)" src="https://img.shields.io/github/last-commit/Nouzan/exc/main" /> <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/Nouzan/exc?style=social" /> | Rust | - The abstraction layer of exchanges.</li>
+<li><a href="https://github.com/diogomatoschaves/MyCryptoBot">MyCryptoBot</a> <img alt="GitHub last commit (branch)" src="https://img.shields.io/github/last-commit/diogomatoschaves/MyCryptoBot/master" /> <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/diogomatoschaves/MyCryptoBot?style=social" /> | Python, Js | - Automated, open source crypto trading and backtesting platform</li>
+</ul>
+<h3 id="machine-learning-reinforcement-learning-focused">Machine Learning / Reinforcement Learning Focused</h3>
+<blockquote>
+<p>ML, RL</p>
+</blockquote>
+<ul>
+<li><a href="https://github.com/Yvictor/TradingGym">TradingGym</a> <img alt="GitHub last commit (branch)" src="https://img.shields.io/github/last-commit/Yvictor/TradingGym/master" /> <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/Yvictor/TradingGym?style=social" /> | Python, Live Trading | - Trading and Backtesting environment for training reinforcement learning agent or simple rule base algo.</li>
+<li><a href="https://github.com/pskrunner14/trading-bot">Stock Trading Bot using Deep Q-Learning</a> <img alt="GitHub last commit (branch)" src="https://img.shields.io/github/last-commit/pskrunner14/trading-bot/master" /> <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/pskrunner14/trading-bot?style=social" /> | Python | - Stock Trading Bot using Deep Q-Learning</li>
+</ul>
+<h2 id="alpha-collections">Alpha Collections</h2>
+<h3 id="general-alpha">General Alpha</h3>
+<ul>
+<li><a href="https://github.com/je-suis-tm/quant-trading#15-vix-calculator">Python quantitative trading strategies including VIX Calculator, Pattern Recognition, Commodity Trading Advisor, Monte Carlo, Options Straddle, Shooting Star, London Breakout, Heikin-Ashi, Pair Trading, RSI, Bollinger Bands, Parabolic SAR, Dual Thrust, Awesome, MACD</a></li>
+<li><a href="https://github.com/leosmigel/analyzingalpha">analyzingalpha</a></li>
+<li><a href="https://github.com/shashankvemuri/Finance">Finance</a> | <code>Python</code> | - 150+ quantitative finance Python programs to help you gather, manipulate, and analyze stock market data</li>
+<li><a href="https://github.com/brndnmtthws/thetagang">ThetaGang</a> - ThetaGang is an IBKR bot for collecting money</li>
+<li><a href="https://www.reddit.com/r/options/comments/a36k4j/the_wheel_aka_triple_income_strategy_explained/">https://www.reddit.com/r/options/comments/a36k4j/the_wheel_aka_triple_income_strategy_explained/</a></li>
+<li><a href="https://github.com/chrism2671/PyTrendFollow">PyTrendFollow</a> | <code>Python</code> | - PyTrendFollow - systematic futures trading using trend following</li>
+<li><a href="https://github.com/waditu/czsc">czsc - 缠中说禅技术分析工具</a> | <code>Python</code> | - 缠中说禅技术分析工具；缠论；股票；期货；Quant；量化交易</li>
+<li><a href="https://github.com/jasonstrimpel/volatility-trading">volest</a> | <code>Python</code> | - A complete set of volatility estimators based on Euan Sinclair's Volatility Trading</li>
+<li><a href="https://github.com/je-suis-tm/quant-trading">quant-trading</a> | <code>Python</code> | - Python quantitative trading strategies including VIX Calculator, Pattern Recognition, Commodity Trading Advisor, Monte Carlo, Options Straddle, Shooting Star, London Breakout, Heikin-Ashi, Pair Trading, RSI, Bollinger Bands, Parabolic SAR, Dual Thrust, Awesome, MACD</li>
+<li><a href="https://github.com/fmzquant/strategies">一个中文策略合集</a> | <code>Python</code> |</li>
+<li><a href="https://github.com/BigBrotherTrade/trader">一个实盘的股票趋势策略</a> | <code>Python</code> | -</li>
+<li><a href="https://github.com/hugo2046/QuantsPlaybook">Quantitative-analysis</a> | <code>Python</code> | - 量化研究-券商金工研报复现</li>
+</ul>
+<h3 id="expression-based-alpha">Expression based alpha</h3>
+<ul>
+<li><a href="https://github.com/nymath/torchquantum">torchquantum</a> | <code>Cython</code>, <code>C</code>, <code>Python</code> | - TorchQuantum is a backtesting framework that integrates the structure of PyTorch and WorldQuant's Operator for efficient quantitative financial analysis.</li>
+<li><a href="https://github.com/caoruicn/openalpha">OpenAlpha</a> | <code>C++</code> | - An open source equity statistical arbitrage backtest simulator, use the same API as WorldQuant's WebSim</li>
+<li><a href="https://github.com/xcycharles/stock">stock</a> | <code>Python</code> | - 一些因子挖掘的代码 A 股</li>
+<li><a href="https://github.com/RL-MLDM/alphagen">AlphaGen</a> | <code>Python</code> | - Automatic formulaic alpha generation with reinforcement learning.</li>
+<li><a href="https://github.com/Morgansy/Genetic-Alpha">Genetic-Alpha</a> - A genetic programming algorithm used for generating alpha factors in the multi-factor investment strategy</li>
+<li><a href="https://github.com/wukan1986/alpha_examples">alpha_examples</a> - An expression based alpha demo using Polars</li>
+</ul>
+<h3 id="stock-picking">Stock picking</h3>
+<ul>
+<li><a href="https://github.com/axiaoxin-com/investool">InvesTool</a> | <code>Go</code> | - Golang实现财报分析、个股基本面检测、基本面选股、4433法则基金筛选与检测、基金持仓相似度、股票选基、基金经理筛选</li>
+<li><a href="https://github.com/sngyai/Sequoia#sequoia%E9%80%89%E8%82%A1%E7%B3%BB%E7%BB%9F">Sequoia选股系统</a> | <code>Python</code> | - A股自动选股程序，实现了海龟交易法则、缠中说禅牛市买点，以及其他若干种技术形态</li>
+</ul>
+<h3 id="orderbook">Orderbook</h3>
+<ul>
+<li><a href="https://github.com/sstoikov/microprice/tree/master">The Microprice</a> - An estimator of the fair price, given the state of the order book.</li>
+</ul>
+<h3 id="arbitrage-crypto">Arbitrage (Crypto)</h3>
+<blockquote>
+<p>Note: these bots are old and not maintained. I put them here just to show some logic of crypto arbitrage.</p>
+</blockquote>
+<ul>
+<li><a href="https://github.com/butor/blackbird">Blackbird</a> | <code>C++</code> | - Blackbird Bitcoin Arbitrage: a long/short market-neutral strategy</li>
+<li><a href="https://github.com/maxme/bitcoin-arbitrage">bitcoin-arbitrage</a> | <code>Python</code> | - Bitcoin arbitrage - opportunity detector</li>
+<li><a href="https://github.com/bitrinjani/r2">R2 Bitcoin Arbitrager</a> | <code>TypeScript</code> | - R2 Bitcoin Arbitrager is an automatic arbitrage trading system powered by Node.js + TypeScript.</li>
+</ul>
+<h2 id="basic-components">Basic Components</h2>
+<h3 id="fundamental-libraries">Fundamental libraries</h3>
+<ul>
+<li><a href="https://github.com/cvxpy/cvxpy">Cvxpy</a> <img alt="GitHub last commit (branch)" src="https://img.shields.io/github/last-commit/cvxpy/cvxpy/master" /> <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/cvxpy/cvxpy?style=social" /> | Python, C++ | - A Python-embedded modeling language for convex optimization problems.</li>
+<li><a href="https://github.com/google/jax">jax</a> <img alt="GitHub last commit (branch)" src="https://img.shields.io/github/last-commit/google/jax/main" /> <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/google/jax?style=social" /> | <code>Python</code> | - Composable transformations of Python+NumPy programs: differentiate, vectorize, JIT to GPU/TPU, and more</li>
+<li><a href="https://github.com/numpy/numpy">Numpy</a> <img alt="GitHub last commit (branch)" src="https://img.shields.io/github/last-commit/numpy/numpy/main" /> <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/numpy/numpy?style=social" /> | Python, C | - The fundamental package for scientific computing with Python</li>
+<li><a href="https://github.com/rburkholder/trade-frame">trade-frame</a> <img alt="GitHub last commit (branch)" src="https://img.shields.io/github/last-commit/rburkholder/trade-frame/master" /> <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/rburkholder/trade-frame?style=social" /> | C++ | - C++ 17 based library (with sample applications) for testing equities, futures, currencies, etfs &amp; options based automated trading ideas using DTN IQFeed real time data feed and Interactive Brokers (IB TWS API) for trade execution. Some support for Alpaca &amp; Phemex. Notifications via Telegram </li>
+<li>Modelling</li>
+<li><a href="https://github.com/scipy/scipy">Scipy</a> <img alt="GitHub last commit (branch)" src="https://img.shields.io/github/last-commit/scipy/scipy/main" /> <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/scipy/scipy?style=social" /> | Python, C | - Fundamental algorithms for scientific computing in Python</li>
+<li><a href="https://github.com/statsmodels/statsmodels/">statsmodels</a> <img alt="GitHub last commit (branch)" src="https://img.shields.io/github/last-commit/statsmodels/statsmodels/main" /> <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/statsmodels/statsmodels?style=social" /> - Python module that allows users to explore data, estimate statistical models, and perform statistical tests.</li>
+<li><a href="https://github.com/pymc-devs/pymc">PyMC</a> <img alt="GitHub last commit (branch)" src="https://img.shields.io/github/last-commit/statsmodels/statsmodels/main" /> <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/pymc-devs/pymc?style=social" /> | Python | - Probabilistic Programming in Python: Bayesian Modeling and Probabilistic Machine Learning with Aesara</li>
+<li><a href="https://github.com/DEAP/deap">DEAP</a> <img alt="GitHub last commit (branch)" src="https://img.shields.io/github/last-commit/DEAP/deap/master" /> <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/DEAP/deap?style=social" /> |Python| - Distributed Evolutionary Algorithms in Python</li>
+<li>DataFrame</li>
+<li><a href="https://github.com/pandas-dev/pandas">Pandas</a> <img alt="GitHub last commit (branch)" src="https://img.shields.io/github/last-commit/pandas-dev/pandas/main" /> <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/pandas-dev/pandas?style=social" /> | Python, Cython | - Flexible and powerful data analysis / manipulation library for Python, providing labeled data structures similar to R data.frame objects, statistical functions, and much more</li>
+<li><a href="https://github.com/pola-rs/polars">Polars</a> <img alt="GitHub last commit (branch)" src="https://img.shields.io/github/last-commit/pola-rs/polars/main" /> <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/pola-rs/polars?style=social" />| Rust, Python | - Polars is a blazingly fast DataFrames library implemented in Rust using Apache Arrow Columnar Format as memory model.</li>
+<li><a href="https://fireducks-dev.github.io/">FireDucks</a> <img alt="GitHub last commit (branch)" src="https://img.shields.io/github/last-commit/fireducks-dev/fireducks/main" /> - Compiler Accelerated DataFrame Library for Python with fully-compatible pandas API</li>
+<li>Machine Learning</li>
+<li><a href="https://github.com/huggingface/">Hugging Face</a> <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/huggingface?style=social" /> - The AI community building the future.</li>
+<li><a href="https://github.com/langchain-ai/langchain">LangChain</a> <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/langchain-ai/langchain?style=social" /> - Building applications with LLMs through composability</li>
+<li><a href="https://github.com/scikit-learn/scikit-learn">Sikit-learn</a> <img alt="GitHub last commit (branch)" src="https://img.shields.io/github/last-commit/scikit-learn/scikit-learn/main" /> <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/scikit-learn/scikit-learn?style=social" /> | Python, Cython | - Machine learning in Python</li>
+<li><a href="https://github.com/google/jax">JAX</a> <img alt="GitHub last commit (branch)" src="https://img.shields.io/github/last-commit/google/jax/main" /> <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/google/jax?style=social" />  - Composable transformations of Python+NumPy programs: differentiate, vectorize, JIT to GPU/TPU, and more</li>
+<li><a href="https://github.com/pytorch/pytorch">Pytorch</a> <img alt="GitHub last commit (branch)" src="https://img.shields.io/github/last-commit/pytorch/pytorch/main" /> <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/pytorch/pytorch?style=social" /> | Python | - Tensors and Dynamic neural networks in Python with strong GPU acceleration</li>
+<li><a href="https://github.com/keras-team/keras">Keras</a> <img alt="GitHub last commit (branch)" src="https://img.shields.io/github/last-commit/keras-team/keras/master" /> <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/keras-team/keras?style=social" /> | Python | - The most user friendly Deep Learning for humans in Python</li>
+<li><a href="https://github.com/tensorflow/tensorflow">TensorFlow</a> <img alt="GitHub last commit (branch)" src="https://img.shields.io/github/last-commit/tensorflow/tensorflow/master" /> <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/tensorflow/tensorflow?style=social" /> | Python, C++ | - More low level Deep Learning framework</li>
+<li>DAG</li>
+<li><a href="https://github.com/Qiskit/rustworkx/tree/main">Rustworkx</a> <img alt="GitHub last commit (branch)" src="https://img.shields.io/github/last-commit/Qiskit/rustworkx/main" /> <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/Qiskit/rustworkx?style=social" /> | Rust, Python | - A high performance Python graph library implemented in Rust.</li>
+<li><a href="https://github.com/networkx/networkx">Networkx</a> <img alt="GitHub last commit (branch)" src="https://img.shields.io/github/last-commit/networkx/networkx/main" /> <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/networkx/networkx?style=social" /> | Python | - Network Analysis in Python</li>
+</ul>
+<h3 id="computation">Computation</h3>
+<ul>
+<li><a href="https://github.com/ray-project/ray">Ray</a> <img alt="GitHub last commit (branch)" src="https://img.shields.io/github/last-commit/ray-project/ray/master" /> <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/ray-project/ray?style=social" /> | Python, C++ | - An open source framework that provides a simple, universal API for building distributed applications.</li>
+<li><a href="https://github.com/Point72/csp/tree/main">csp (Point72)</a> <img alt="GitHub last commit (branch)" src="https://img.shields.io/github/last-commit/Point72/csp/main" /> <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/Point72/csp?style=social" /> | Python, C++ | - csp is a high performance reactive stream processing library, written in C++ and Python</li>
+<li><a href="https://github.com/dask/dask">Dask</a> <img alt="GitHub last commit (branch)" src="https://img.shields.io/github/last-commit/dask/dask/main" /> <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/dask/dask?style=social" /> | Python | - Parallel computing with task scheduling in Python with a Pandas like API</li>
+<li><a href="https://github.com/apache/spark">Spark</a> <img alt="GitHub last commit (branch)" src="https://img.shields.io/github/last-commit/apache/spark/master" /> <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/apache/spark?style=social" /> | Scala | - Apache Spark - A unified analytics engine for large-scale data processing</li>
+<li><a href="https://github.com/dagworks-inc/hamilton">Hamilton</a> <img alt="GitHub last commit (branch)" src="https://img.shields.io/github/last-commit/dagworks-inc/hamilton/main" /> <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/dagworks-inc/hamilton?style=social" />| Python | - A scalable general purpose micro-framework for defining dataflows. You can use it to build dataframes, numpy matrices, python objects, ML models, etc. Embed Hamilton anywhere python runs, e.g. spark, airflow, jupyter, fastapi, python scripts, etc.</li>
+<li><a href="https://github.com/janestreet/incremental">Incremental (JaneStreet)</a> <img alt="GitHub last commit (branch)" src="https://img.shields.io/github/last-commit/janestreet/incremental/master" /> <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/janestreet/incremental?style=social" /> | Ocaml | - Incremental is a library that gives you a way of building complex computations that can update efficiently in response to their inputs changing, inspired by the work of Umut Acar et. al. on self-adjusting computations. Incremental can be useful in a number of applications</li>
+<li><a href="https://github.com/joblib/joblib">Joblib</a>  <img alt="GitHub last commit (branch)" src="https://img.shields.io/github/last-commit/joblib/joblib/main" /> <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/joblib/joblib?style=social" /> | Python | - running Python functions as pipeline jobs</li>
+<li><a href="https://github.com/timkpaine/tributary">Tributary</a> <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/timkpaine/tributary?style=social" /> | Python | - Streaming reactive and dataflow graphs in Python</li>
+<li><a href="https://github.com/yahoo/graphkit">GraphKit(No activity)</a> <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/yahoo/graphkit?style=social" /> | Python | - A lightweight Python module for creating and running ordered graphs of computations.</li>
+<li><a href="https://github.com/man-group/mdf">Man MDF (No activity)</a> <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/man-group/mdf?style=social" /> | Python | - Data-flow programming toolkit for Python</li>
+<li><a href="https://github.com/oluwatimilehin/anchors">Anchors - C++(No activity)</a> <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/oluwatimilehin/anchors?style=social" /> | C++ | - C++ library for incremental computing</li>
+<li><a href="https://github.com/lord/anchors">Anchors - Rust(No activity)</a> <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/lord/anchors?style=social" /> | Rust | - self adjusting computations in rust</li>
+<li><a href="https://github.com/janushendersonassetallocation/loman">Loman (No activity)</a> <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/janushendersonassetallocation/loman?style=social" /> | Python | - Loman is a Python library designed to allow quantitative researchers to control complex live updating calculation processes</li>
+</ul>
+<h3 id="python-performance-booster">Python Performance Booster</h3>
+<ul>
+<li><a href="https://github.com/cython/cython">cython</a> <img alt="GitHub last commit (branch)" src="https://img.shields.io/github/last-commit/cython/cython/master" /> <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/cython/cython?style=social" /> - Cython is a Python compiler that makes writing C extensions for Python as easy as Python itself. Cython is based on Pyrex, but supports more cutting edge functionality and optimizations.</li>
+<li><a href="https://github.com/numba/numba">numba</a> <img alt="GitHub last commit (branch)" src="https://img.shields.io/github/last-commit/numba/numba/main" /> <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/numba/numba?style=social" /> - NumPy aware dynamic Python compiler using LLVM</li>
+<li><a href="https://github.com/pybind/pybind11">pybind11</a> <img alt="GitHub last commit (branch)" src="https://img.shields.io/github/last-commit/pybind/pybind11/master" /> <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/pybind/pybind11?style=social" /> - Seamless operability between C++11 and Python</li>
+<li><a href="https://github.com/PyO3/pyo3">pyo3</a>  <img alt="GitHub last commit (branch)" src="https://img.shields.io/github/last-commit/numba/numba/main" /> <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/PyO3/pyo3?style=social" /> - Rust bindings for the Python interpreter</li>
+<li><a href="https://github.com/cupy/cupy/">CuPy</a> <img alt="GitHub last commit (branch)" src="https://img.shields.io/github/last-commit/cupy/cupy/main" /> <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/cupy/cupy?style=social" /> | Python, C++, Cython, Cuda | - CuPy is an open-source array library for GPU-accelerated computing with Python. 100x Boost for some operations</li>
+<li><a href="https://github.com/rapidsai/cudf">CuDF</a> <img alt="GitHub last commit (branch)" src="https://img.shields.io/github/last-commit/rapidsai/cudf/main" /> <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/rapidsai/cudf?style=social" /> | Python | - cuDF - GPU DataFrame Library. No-code-change accelerator for pandas.</li>
+<li><a href="https://github.com/exaloop/codon">codon</a> <img alt="GitHub last commit (branch)" src="https://img.shields.io/github/last-commit/exaloop/codon/develop" /> <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/exaloop/codon?style=social" /> | C++ | - A high-performance, zero-overhead, extensible Python compiler using LLVM</li>
+<li><a href="https://github.com/pydata/bottleneck">Bottleneck</a> <img alt="GitHub last commit (branch)" src="https://img.shields.io/github/last-commit/pydata/bottleneck/master" /> <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/pydata/bottleneck?style=social" /> | Python, C | - Fast NumPy array functions written in C</li>
+<li><a href="https://github.com/pydata/numexpr">NumExpr</a> <img alt="GitHub last commit (branch)" src="https://img.shields.io/github/last-commit/pydata/numexpr/master" /> <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/pydata/numexpr?style=social" /> | Python, C++ | - Fast numerical array expression evaluator for Python, NumPy, PyTables, pandas, bcolz and more</li>
+<li><a href="https://github.com/nalepae/pandarallel">pandarallel</a> <img alt="GitHub last commit (branch)" src="https://img.shields.io/github/last-commit/nalepae/pandarallel/master" /> <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/nalepae/pandarallel?style=social" /> | Python | - A simple and efficient tool to parallelize Pandas operations on all available CPUs</li>
+</ul>
+<h3 id="python-profilers">Python Profilers</h3>
+<ul>
+<li><a href="https://github.com/benfred/py-spy">py-spy</a> <img alt="GitHub last commit (branch)" src="https://img.shields.io/github/last-commit/benfred/py-spy/master" /> <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/benfred/py-spy?style=social" /> - Sampling profiler for Python programs</li>
+<li><a href="https://github.com/joerick/pyinstrument">pyinstrument</a> <img alt="GitHub last commit (branch)" src="https://img.shields.io/github/last-commit/joerick/pyinstrument/main" /> <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/joerick/pyinstrument?style=social" /> - Call stack profiler for Python. Shows you why your code is slow!</li>
+<li><a href="https://github.com/bloomberg/memray">Memray</a> <img alt="GitHub last commit (branch)" src="https://img.shields.io/github/last-commit/bloomberg/memray/main" /> <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/bloomberg/memray?style=social" /> - Memray is a memory profiler for Python</li>
+</ul>
+<h3 id="alternative-libraries">Alternative libraries</h3>
+<h4 id="numpy-alternatives">Numpy Alternatives</h4>
+<ul>
+<li><a href="https://github.com/rust-ndarray/ndarray">ndarray</a> <img alt="GitHub last commit (branch)" src="https://img.shields.io/github/last-commit/rust-ndarray/ndarray/master" /> <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/rust-ndarray/ndarray?style=social" /> | Rust | - ndarray: an N-dimensional array with array views, multidimensional slicing, and efficient operations</li>
+<li><a href="https://github.com/sarah-ek/faer-rs">faer</a>  <img alt="GitHub last commit (branch)" src="https://img.shields.io/github/last-commit/sarah-ek/faer-rs/main" /> <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/sarah-ek/faer-rs?style=social" /> | Rust | - Linear algebra foundation for the Rust programming language</li>
+</ul>
+<h4 id="pandas-alternatives">Pandas Alternatives</h4>
+<ul>
+<li><a href="https://github.com/hosseinmoein/DataFrame">DataFrame</a> <img alt="GitHub last commit (branch)" src="https://img.shields.io/github/last-commit/hosseinmoein/DataFrame/master" /> <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/hosseinmoein/DataFrame?style=social" />  | C++ | - C++ DataFrame for statistical, Financial, and ML analysis -- in modern C++ using native types and contiguous memory storage</li>
+<li><a href="https://github.com/vaexio/vaex">Vaex</a> <img alt="GitHub last commit (branch)" src="https://img.shields.io/github/last-commit/vaexio/vaex/master" /> <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/vaexio/vaex?style=social" /> | Python, C++ | - Out-of-Core hybrid Apache Arrow/NumPy DataFrame for Python, ML, visualization and exploration of big tabular data at a billion rows per second</li>
+<li><a href="https://github.com/modin-project/modin">Modin</a> <img alt="GitHub last commit (branch)" src="https://img.shields.io/github/last-commit/modin-project/modin/main" /> <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/modin-project/modin?style=social" /> | Python |  - Modin: Speed up your Pandas workflows by changing a single line of code</li>
+<li><a href="https://github.com/databricks/koalas">Koalas</a> <img alt="GitHub last commit (branch)" src="https://img.shields.io/github/last-commit/databricks/koalas/master" /> <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/databricks/koalas?style=social" /> | Python | - Koalas: pandas API on Apache Spark</li>
+</ul>
+<h2 id="analytic-tools">Analytic tools</h2>
+<h3 id="metrics-computation">Metrics computation</h3>
+<ul>
+<li><a href="https://github.com/wangzhe3224/alphalens">alphalens (Fork)</a> | <code>Python</code> | - Performance analysis of predictive (alpha) stock factors</li>
+<li><a href="https://github.com/pmorissette/ffn">ffn</a> | <code>Python</code> | - A financial function library for Python</li>
+<li><a href="https://github.com/ranaroussi/quantstats">quantstats</a> | <code>Python</code> | - Portfolio analytics for quants, written in Python</li>
+</ul>
+<h3 id="indicators">Indicators</h3>
+<ul>
+<li><a href="https://ta-lib.org">TA-Lib</a> | <code>C</code> | - Perform technical analysis of financial market data</li>
+<li><a href="https://github.com/mrjbq7/ta-lib">Python Wrapper</a> | <code>Python</code> |</li>
+<li><a href="https://github.com/markcheno/go-talib">Go Port</a> | <code>Go</code> |</li>
+<li><a href="https://github.com/CLevasseur/ta-lib-rust">Rust Wrapper</a> | <code>Rust</code> |</li>
+<li><a href="https://github.com/greyblake/ta-rs">ta-rust</a> | <code>Rust</code> | - Technical analysis library for Rust language</li>
+<li><a href="https://github.com/peerchemist/finta">finta</a> | <code>Python</code> | - Common financial technical indicators implemented in Pandas</li>
+<li><a href="https://github.com/twopirllc/pandas-ta">pandas-ta</a> | <code>Python</code> | - Pandas Technical Analysis (Pandas TA) is an easy to use library that leverages the Pandas package with more than 130 Indicators and Utility functions and more than 60 TA Lib Candlestick Patterns.</li>
+<li><a href="https://github.com/rust-ta/kand">kand</a> | <code>Rust</code> &amp; <code>Python</code> | - A blazingly fast technical analysis library in Rust and Python.</li>
+<li><a href="https://github.com/focus1691/chart-patterns">chart-patterns</a> | <code>TypeScript</code> | - Technical analysis library for chart patterns, price action, and volume-based pattern detection.</li>
+<li><a href="https://chartscout.io">ChartScout</a> - Real-time crypto chart pattern detection and alerts</li>
+</ul>
+<h3 id="pricing">Pricing</h3>
+<ul>
+<li><a href="https://www.quantlib.org">Quantlib</a></li>
+<li><a href="https://github.com/enthought/pyql">PyQL</a> | <code>Python</code>, <code>Cython</code> | - Python wrapper of the famous pricing library QuantLib</li>
+<li><a href="https://github.com/pazzo83/QuantLib.jl">QuantLib.jl</a> | <code>Julia</code> | - Quantlib implementation in pure Julia.</li>
+<li><a href="https://github.com/domokane/FinancePy">FinancePy</a> | <code>Python</code> | - A Python Finance Library that focuses on the pricing and risk-management of Financial Derivatives, including fixed-income, equity, FX and credit derivatives.</li>
+<li><a href="https://github.com/google/tf-quant-finance">tf-quant-finance</a> - High-performance TensorFlow library for quantitative finance from Google</li>
+<li><a href="https://github.com/vollib/vollib">vollib</a> | <code>Python</code> | - Fundamentally a swig/python wrapper around Peter Jaeckel's lets_be_rational. lets_be_rational focuses exclusively on Black76, while Vollib extends this to add support for Black-Scholes and Black-Scholes-Merton.</li>
+</ul>
+<h3 id="risk">Risk</h3>
+<ul>
+<li><a href="https://github.com/quantopian/pyfolio">pyfolio</a> | <code>Python</code> | - Portfolio and risk analytics in Python</li>
+<li><a href="https://github.com/moxiespirit/MyClone/tree/main/volatility_platform">curistat</a> | <code>Python</code> | - Futures volatility forecasting for ES/NQ. Daily CVN rating (1-10), regime detection (CRC composite), directional signals, economic event impact analytics. Includes MCP server for AI agent integration.</li>
+</ul>
+<h3 id="optimization">Optimization</h3>
+<ul>
+<li><a href="https://github.com/cvxgrp/cvxportfolio">cvxportfolio</a> <img alt="GitHub last commit (branch)" src="https://img.shields.io/github/last-commit/cvxgrp/cvxportfolio/main" /> <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/cvxgrp/cvxportfolio?style=social" /> | Python | - Portfolio optimization and back-testing.</li>
+<li><a href="https://github.com/skfolio/skfolio">skfolio</a> <img alt="GitHub last commit (branch)" src="https://img.shields.io/github/last-commit/skfolio/skfolio/main" />  <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/skfolio/skfolio?style=social" /> | Python | - Python library for portfolio optimization built on top of scikit-learn</li>
+<li><a href="https://github.com/dcajasn/Riskfolio-Lib">Riskfolio-Lib</a> <img alt="GitHub last commit (branch)" src="https://img.shields.io/github/last-commit/dcajasn/Riskfolio-Lib/master" /> <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/dcajasn/Riskfolio-Lib?style=social" /> | C++, Python | - Portfolio Optimization and Quantitative Strategic Asset Allocation in Python</li>
+<li><a href="https://github.com/jankrepl/deepdow">Deepdow</a> <img alt="GitHub last commit (branch)" src="https://img.shields.io/github/last-commit/jankrepl/deepdow/master" /> <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/jankrepl/deepdow?style=social" /> | Python | - Python package connecting portfolio optimization and deep learning. Its goal is to facilitate research of networks that perform weight allocation in one forward pass.</li>
+<li><a href="https://github.com/robertmartin8/PyPortfolioOpt">PyPortfolioOpt</a> <img alt="GitHub last commit (branch)" src="https://img.shields.io/github/last-commit/robertmartin8/PyPortfolioOpt/master" /> <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/robertmartin8/PyPortfolioOpt?style=social" /> | Python | - Financial portfolio optimizations in python, including classical efficient frontier, Black-Litterman, Hierarchical Risk Parity</li>
+<li><a href="https://github.com/ssantoshp/Empyrial">empyrial</a> <img alt="GitHub last commit (branch)" src="https://img.shields.io/github/last-commit/ssantoshp/Empyrial/main" /> <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/ssantoshp/Empyrial?style=social" /> | Python | - Empyrial is a Python-based open-source quantitative investment library dedicated to financial institutions and retail investors, officially released in March 2021.</li>
+<li><a href="https://github.com/Heerozh/spectre">spectre</a> <img alt="GitHub last commit (branch)" src="https://img.shields.io/github/last-commit/Heerozh/spectre/master" /> <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/Heerozh/spectre?style=social" /> | Python | - spectre is a GPU-accelerated Parallel quantitative trading library, focused on performance.</li>
+</ul>
+<h3 id="timeseries-analysis">TimeSeries Analysis</h3>
+<ul>
+<li><a href="https://github.com/blue-yonder/tsfresh">tsfresh</a> - Automatic extraction of relevant features from time series.</li>
+<li><a href="https://github.com/facebook/prophet">Facebook Prophet</a> - Tool for producing high quality forecasts for time series data that has multiple seasonality with linear or non-linear growth.</li>
+<li><a href="https://github.com/alkaline-ml/pmdarima">pmdarima</a> - A statistical library designed to fill the void in Python's time series analysis capabilities, including the equivalent of R's auto.arima function.</li>
+</ul>
+<h2 id="visualization">Visualization</h2>
+<ul>
+<li><a href="https://github.com/matplotlib/matplotlib">Matplotlib</a> <img alt="GitHub last commit (branch)" src="https://img.shields.io/github/last-commit/matplotlib/matplotlib/main" /> <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/matplotlib/matplotlib?style=social" /> | Python | - matplotlib: plotting with Python</li>
+<li><a href="https://github.com/mwaskom/seaborn">Seaborn</a> <img alt="GitHub last commit (branch)" src="https://img.shields.io/github/last-commit/mwaskom/seaborn/master" /> <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/mwaskom/seaborn?style=social" /> | Python | - Statistical data visualization in Python</li>
+<li><a href="https://github.com/plotly/dash">Dash</a> <img alt="GitHub last commit (branch)" src="https://img.shields.io/github/last-commit/plotly/dash/master" /> <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/plotly/dash?style=social" /> | Python | - Data Apps &amp; Dashboards for Python. No JavaScript Required.</li>
+<li><a href="https://github.com/finos/perspective">Perspective</a> <img alt="GitHub last commit (branch)" src="https://img.shields.io/github/last-commit/finos/perspective/master" /> <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/finos/perspective?style=social" /> | C++, Python | - A data visualization and analytics component, especially well-suited for large and/or streaming datasets.</li>
+<li><a href="https://github.com/streamlit/streamlit">Streamlit</a> <img alt="GitHub last commit (branch)" src="https://img.shields.io/github/last-commit/streamlit/streamlit/master" /> <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/streamlit/streamlit?style=social" /> | Python | - Streamlit — A faster way to build and share data apps.</li>
+<li><a href="https://github.com/gradio-app/gradio/">gradio</a> <img alt="GitHub last commit (branch)" src="https://img.shields.io/github/last-commit/gradio-app/gradio/main" /> <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/gradio-app/gradio?style=social" /> | Python | - Build and share delightful machine learning apps, all in Python.</li>
+<li><a href="https://github.com/JelteF/PyLaTeX/">pylatex</a> <img alt="GitHub last commit (branch)" src="https://img.shields.io/github/last-commit/JelteF/PyLaTeX/master" /> <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/JelteF/PyLaTeX?style=social" /> | Python | - A Python library for creating LaTeX files</li>
+<li><a href="https://github.com/man-group/dtale">D-Tale (Man Group)</a> <img alt="GitHub last commit (branch)" src="https://img.shields.io/github/last-commit/man-group/dtale/master" /> <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/man-group/dtale?style=social" /> | JavaScript, Python | - D-Tale is the combination of a Flask back-end and a React front-end to bring you an easy way to view &amp; analyze Pandas data structures.</li>
+<li><a href="https://github.com/matplotlib/mplfinance">mplfinance</a> <img alt="GitHub last commit (branch)" src="https://img.shields.io/github/last-commit/matplotlib/mplfinance/master" /> <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/matplotlib/mplfinance?style=social" /> | Python | - Financial Markets Data Visualization using Matplotlib</li>
+<li><a href="https://github.com/happydasch/btplotting">btplotting</a> <img alt="GitHub last commit (branch)" src="https://img.shields.io/github/last-commit/happydasch/btplotting/master" /> <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/happydasch/btplotting?style=social" /> | Python, bokeh | - btplotting provides plotting for backtests, optimization results and live data from backtrader.</li>
+</ul>
+<h2 id="message-queues">Message Queues</h2>
+<ul>
+<li><a href="https://github.com/apache/kafka">Kafka</a> <img alt="GitHub last commit (branch)" src="https://img.shields.io/github/last-commit/apache/kafka/master" /> <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/apache/kafka?style=social" /> | Java | - Mirror of Apache Kafka</li>
+<li><a href="https://github.com/redpanda-data/redpanda/">RedPanda</a> <img alt="GitHub last commit (branch)" src="https://img.shields.io/github/last-commit/redpanda-data/redpanda/main" /> <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/redpanda-data/redpanda?style=social" /> | C++ | - Redpanda is a streaming data platform for developers. Kafka API compatible. 10x faster. No ZooKeeper. No JVM!</li>
+<li><a href="https://github.com/bloomberg/blazingmq">BlazingMQ</a> <img alt="GitHub last commit (branch)" src="https://img.shields.io/github/last-commit/bloomberg/blazingmq/main" /> <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/bloomberg/blazingmq?style=social" /> | C++ | - A modern high-performance open source message queuing system</li>
+</ul>
+<h2 id="databases">Databases</h2>
+<ul>
+<li><a href="https://github.com/man-group/ArcticDB">ArcticDB (Man Group)</a> <img alt="GitHub last commit (branch)" src="https://img.shields.io/github/last-commit/man-group/ArcticDB/master" />| <code>C++</code>, <code>Python</code> | - ArcticDB is a high performance, serverless DataFrame database built for the Python Data Science ecosystem.</li>
+<li><a href="https://github.com/duckdb/duckdb">DuckDB</a> <img alt="GitHub last commit (branch)" src="https://img.shields.io/github/last-commit/duckdb/duckdb/main" /> | <code>C++</code>, <code>Python</code> | - ArcticDB is a high performance, serverless DataFrame database built for the Python Data Science ecosystem.</li>
+<li><a href="https://github.com/lancedb/lance">pylance</a> <img alt="GitHub last commit (branch)" src="https://img.shields.io/github/last-commit/lancedb/lance/main" />  | <code>Rust</code> | - Modern columnar data format for ML and LLMs implemented in Rust. Convert from parquet in 2 lines of code for 100x faster random access, vector index, and data versioning. Compatible with Pandas, DuckDB, Polars, Pyarrow</li>
+<li><a href="https://github.com/man-group/arctic">Arctic (Man Group)</a> <img alt="GitHub last commit (branch)" src="https://img.shields.io/github/last-commit/man-group/arctic/master" /> | <code>Python</code> | - High performance datastore for time series and tick data</li>
+<li><a href="https://github.com/ranaroussi/pystore">PyStore</a> | <code>Python</code> | - Fast data store for Pandas time-series data</li>
+<li><a href="https://github.com/alpacahq/marketstore">Marketstore</a> | <code>Go</code> | - DataFrame Server for Financial Timeseries Data</li>
+<li><a href="https://github.com/0b01/tectonicdb">Tectonicdb</a> | <code>Rust</code> | - Tectonicdb is a fast, highly compressed standalone database and streaming protocol for order book ticks.</li>
+<li><a href="https://github.com/redis/redis">Redis</a> | <code>C</code> | - Redis is an in-memory database that persists on disk.</li>
+<li><a href="https://github.com/KxSystems">kdb</a> | <code>q</code> | - Companion files to kdb+ and q</li>
+</ul>
+<h2 id="data-source">Data Source</h2>
+<h3 id="stocks-and-general">Stocks and General</h3>
+<ul>
+<li><a href="https://github.com/OpenBB-finance/OpenBBTerminal">* OpenBB Terminal</a> | <code>Python</code> | - Investment Research for Everyone, Anywhere.</li>
+<li><a href="https://github.com/JerBouma/FinanceDatabase">FinanceDatabase</a> <img alt="GitHub last commit (branch)" src="https://img.shields.io/github/last-commit/JerBouma/FinanceDatabase/main" /> - This is a database of 300.000+ symbols containing Equities, ETFs, Funds, Indices, Currencies, Cryptocurrencies and Money Markets.</li>
+<li><a href="https://github.com/akfamily/akshare">AkShare</a> <img alt="GitHub last commit (branch)" src="https://img.shields.io/github/last-commit/akfamily/akshare/main" /> |<code>Python</code>| - AKShare is an elegant and simple financial data interface library for Python, built for human beings! 开源财经数据接口库</li>
+<li><a href="https://github.com/hugo2046/GetAstockFactors">多因子模型数据</a> - 获取经典的量化多因子模型数据</li>
+<li><a href="https://github.com/cuemacro/findatapy">findatapy</a> |<code>Python</code>| - findatapy creates an easy to use Python API to download market data from many sources including Quandl, Bloomberg, Yahoo, Google etc. using a unified high level interface.  </li>
+<li><a href="https://github.com/ranaroussi/yfinance">yfinance</a> |<code>Python</code>| - yfinance offers a threaded and Pythonic way to download market data from Yahoo!Ⓡ finance.</li>
+<li><a href="https://github.com/pydata/pandas-datareader">pandas-datareader</a> |<code>Python</code>| - Up to date remote data access for pandas, works for multiple versions of pandas.</li>
+<li><a href="https://github.com/mcdallas/wallstreet">Wallstreet</a> |<code>Python</code>| - Wallstreet: Real time Stock and Option tools</li>
+<li><a href="https://github.com/waditu/tushare">TuShare</a> |<code>Python</code>| - TuShare is a utility for crawling historical data of China stocks</li>
+<li><a href="https://github.com/alvarobartt/investpy">Investpy</a> - Financial Data Extraction from Investing.com with Python</li>
+<li><a href="https://github.com/akfamily/awesome-data">awesome-data</a> - Awesome-data shows most interesting data-source around the financial world</li>
+<li><a href="https://github.com/JerBouma/FundamentalAnalysis">Fundamental Analysis Data</a> | <code>Python</code> | - Fully-fledged Fundamental Analysis package capable of collecting 20 years of Company Profiles, Financial Statements, Ratios and Stock Data of 20.000+ companies.</li>
+<li><a href="https://financialdata.net/">Financial Data</a> - Stock Market and Financial Data API</li>
+<li><a href="https://gomacro.ai">goMacro.ai</a> - AI-powered economic calendar with institutional-grade macro insights and scenario planning for NFP, CPI, PPI and other data releases.</li>
+</ul>
+<h3 id="alternative">Alternative</h3>
+<ul>
+<li><a href="https://github.com/janlukasschroeder/sec-api-python">SEC EDGAR Filing API</a></li>
+<li><a href="https://github.com/dgunning/edgartools">edgartools</a> |<code>Python</code>| - SEC EDGAR data for quant strategies — fundamentals, institutional holdings (13F), insider transactions, and corporate events (8-K). Includes MCP server for AI workflows.</li>
+</ul>
+<h3 id="crypto">Crypto</h3>
+<ul>
+<li><a href="https://github.com/bmoscon/cryptofeed">Cryptofeed</a> <img alt="GitHub last commit (branch)" src="https://img.shields.io/github/last-commit/bmoscon/cryptofeed/master" />|<code>Python</code>| - Cryptocurrency Exchange Websocket Data Feed Handler with Asyncio</li>
+<li><a href="https://github.com/focus1691/orderflow">Orderflow</a> | <code>TypeScript</code>, <code>NestJS</code>, <code>TimescaleDB</code> | - Builds real-time Footprint Candles from WebSocket trade data across crypto exchanges.</li>
+</ul>
+<h2 id="broker-apis">Broker APIs</h2>
+<ul>
+<li><a href="https://github.com/erdewit/ib_insync">Ib_insync</a> | <code>Python</code> | - Python sync/async framework for Interactive Brokers API</li>
+<li><a href="https://github.com/CompendiumFi/PENDAX-SDK">PENDAX</a> | <code>JavaScript</code> | - A free Javascript library allowing simplified interaction with trading and data commands on a growing list of cryptocurrency exchanges like FTX, OKX, ByBit, &amp; more.</li>
+<li><a href="https://github.com/ccxt/ccxt">ccxt</a> | <code>Python</code>, <code>JavaScript</code> | - A JavaScript / Python / PHP cryptocurrency trading API with support for more than 100 bitcoin/altcoin exchanges</li>
+<li><a href="https://github.com/hugues31/coinnect">Coinnect</a> | <code>Rust</code> | - Coinnect is a Rust library aiming to provide a complete access to main crypto currencies exchanges via REST API.</li>
+<li><a href="https://github.com/rundef/async_rithmic">async_rithmic</a> | <code>Python</code> | - Python async framework for Rithmic Protocol Buffer API</li>
+<li><a href="https://github.com/pmxt-dev/pmxt">pmxt</a> | <code>Python</code>, <code>JavaScript</code> | - A JavaScript / Python prediction markets trading API with support for major exchanges. (The ccxt for prediction markets)</li>
+<li>More is coming... (PR welcome)</li>
+</ul>
+<h2 id="quant-shops-code-and-blog">Quant Shops Code and Blog</h2>
+<ul>
+<li><strong>JaneStreet</strong></li>
+<li><a href="https://blog.janestreet.com/">JaneStreet Tech Blog</a></li>
+<li><a href="https://signalsandthreads.com/">JaneStreet Tech Podcast</a></li>
+<li><a href="https://www.janestreet.com/tech-talks/">Tech Talks</a></li>
+<li><a href="https://opensource.janestreet.com/">Open Source</a><ul>
+<li>Tech stack: Ocaml, C, F#</li>
+</ul>
+</li>
+<li><strong>Man AHL</strong></li>
+<li><a href="https://www.man.com/tech-articles-all">Man Group Tech Blog</a></li>
+<li><a href="https://www.man.com/maninstitute/podcasts">Podcast</a></li>
+<li><a href="https://github.com/man-group">Open Source</a><ul>
+<li>Tech stack: Python, JavaScript, Java, C, Go</li>
+</ul>
+</li>
+<li><strong>DE Show</strong></li>
+<li><a href="https://github.com/deshaw">Open Source</a><ul>
+<li>Tech stack: Python, TypeScript, JavaScript, Rust, Nix</li>
+</ul>
+</li>
+<li><strong>Two Sigma</strong></li>
+<li><a href="https://www.twosigma.com/topic/engineering/">Two Signal Engineering</a></li>
+<li><a href="https://github.com/twosigma">Open Source</a><ul>
+<li>Tech stack: Python, Java, C, Clojure, Rust</li>
+</ul>
+</li>
+<li><strong>Hudson River Trading - HRT</strong></li>
+<li><a href="https://www.hudsonrivertrading.com/hrtbeat/category/engineering/">HRT Engineering</a></li>
+</ul>
+<h2 id="resources">Resources</h2>
+<h3 id="research">Research</h3>
+<ul>
+<li><a href="https://www.ravenpack.com/insights/research/">RevenPack - Insight</a></li>
+<li><a href="https://www.alexandriatechnology.com/insights">Alexandria Technology - Insight</a></li>
+</ul>
+<h3 id="books">Books</h3>
+<ul>
+<li><a href="https://www.packtpub.com/product/building-low-latency-applications-with-c/9781837639359">Building Low Latency Applications with C++</a></li>
+<li>Source Code: <a href="https://github.com/PacktPublishing/Building-Low-Latency-Applications-with-CPP">https://github.com/PacktPublishing/Building-Low-Latency-Applications-with-CPP</a></li>
+<li><a href="https://www.amazon.co.uk/Quantitative-Portfolio-Management-Statistical-Arbitrage/dp/1119821320/ref=asc_df_1119821320/?tag=googshopuk-21&amp;linkCode=df0&amp;hvadid=534858257189&amp;hvpos=&amp;hvnetw=g&amp;hvrand=3040398248892159445&amp;hvpone=&amp;hvptwo=&amp;hvqmt=&amp;hvdev=c&amp;hvdvcmdl=&amp;hvlocint=&amp;hvlocphy=9044954&amp;hvtargid=pla-919734400242&amp;psc=1&amp;th=1&amp;psc=1">Quantitative Portfolio Management: The Art and Science of Statistical Arbitrage (2021)</a></li>
+<li><a href="https://github.com/chrisconlan/algorithmic-trading-with-python">Algorithmic Trading with Python (2020) by Chris Conlan</a></li>
+<li><a href="https://github.com/yhilpisch/py4at">Python for Algorithmic Trading (2020) by Dr. Yves J. Hilpisch</a></li>
+<li><a href="https://github.com/robcarver17/pysystemtrade">Systematic Trading: A unique new method for designing trading and investing systems by Robert Carver</a></li>
+<li><a href="https://github.com/stefan-jansen/machine-learning-for-trading">Machine Learning for Algorithmic Trading: Predictive models to extract signals from market and alternative data for systematic trading strategies with Python</a></li>
+<li><a href="https://github.com/BlackArbsCEO/Adv_Fin_ML_Exercises">Advances in Financial Machine Learning</a></li>
+<li><a href="https://github.com/emoen/Machine-Learning-for-Asset-Managers">Machine Learning for Asset Managers</a></li>
+</ul>
+<h3 id="blogs">Blogs</h3>
+<ul>
+<li><a href="https://quant.funcoder.net/">QuantBox - Systematic trading toolbox</a></li>
+<li><a href="https://github.com/zillionare/zillionare">大富翁量化</a></li>
+<li><a href="https://medium.com/prooftrading/proof-engineering-the-algorithmic-trading-platform-b9c2f195433d">Proof Engineering: The Algorithmic Trading Platform</a></li>
+</ul>
+<h3 id="tutorials">Tutorials</h3>
+<ul>
+<li><a href="https://github.com/tudorelu/tudorials/tree/master/trading">Algorithmic Trading for Cryptocurrencies in Python</a> - A simple yet practical experiment tutorial for cryto trading.</li>
+</ul>
+<h3 id="courses">Courses</h3>
+<ul>
+<li><a href="https://github.com/hudson-and-thames">Hudson and Thames Quantitative Research</a> - Our mission is to promote the scientific method within investment management by codifying frameworks, algorithms, and best practices.</li>
+<li>More is coming... (PR welcome)</li>
+</ul>
+<h2 id="relevant-projects">Relevant Projects</h2>
+<ul>
+<li><a href="https://github.com/wangzhe3224/systematic-trading-knowledge-collection">量化交易知识集 @ 泛程序员</a> - Collect knowledge around systematic trading, including software design, trading strategies, statistical skill. 量化交易/系统化交易知识集</li>
+<li><a href="https://github.com/thuquant/awesome-quant">Awesome Quant 中文</a> -  中国的Quant相关资源索引</li>
+<li><a href="https://github.com/cbailes/awesome-deep-trading">awesome-deep-trading</a> - List of awesome resources for machine learning-based algorithmic trading</li>
+<li><a href="https://github.com/botcrypto-io/awesome-crypto-trading-bots">Awesome Crypto Trading Bots</a></li>
+</ul>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  回到页面顶部
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2022-present <a href="https://github.com/wangzhe3224" target="_blank" rel="noopener noreferrer">FunCoder</a>
+    </div>
+  
+  
+</div>
+      
+        
+<div class="md-social">
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://github.com/wangzhe3224" target="_blank" rel="noopener" title="github.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": ".", "features": ["header.autohide", "navigation.tracking", "navigation.top", "search.highlight", "search.share", "search.suggest", "content.code.annotate"], "search": "assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "\u5df2\u590d\u5236", "clipboard.copy": "\u590d\u5236", "search.result.more.one": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.other": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 # \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.term.missing": "\u7f3a\u5c11", "select.version": "\u9009\u62e9\u5f53\u524d\u7248\u672c"}, "version": null}</script>
+    
+    
+      <script src="assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+    
+  </body>
+</html>
