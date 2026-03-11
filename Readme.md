@@ -413,6 +413,7 @@ Note: the one marked as `Live Trading` has reasonable live trading support for a
 - [Coinnect](https://github.com/hugues31/coinnect) | `Rust` | - Coinnect is a Rust library aiming to provide a complete access to main crypto currencies exchanges via REST API.
 - [async_rithmic](https://github.com/rundef/async_rithmic) | `Python` | - Python async framework for Rithmic Protocol Buffer API
 - [pmxt](https://github.com/pmxt-dev/pmxt) | `Python`, `JavaScript` | - A JavaScript / Python prediction markets trading API with support for major exchanges. (The ccxt for prediction markets)
+- [PolyClawster](https://github.com/al1enjesus/polyclawster) - AI agent skill for trading on Polymarket prediction markets. Non-custodial, whale signal detection, public leaderboard. Works as OpenClaw skill or Telegram Mini App.
 - More is coming... (PR welcome)
 
 ## Quant Shops Code and Blog
