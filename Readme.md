@@ -200,6 +200,7 @@ Note: the one marked as `Live Trading` has reasonable live trading support for a
 
 - [InvesTool](https://github.com/axiaoxin-com/investool) | `Go` | - Golang实现财报分析、个股基本面检测、基本面选股、4433法则基金筛选与检测、基金持仓相似度、股票选基、基金经理筛选
 - [Sequoia选股系统](https://github.com/sngyai/Sequoia#sequoia%E9%80%89%E8%82%A1%E7%B3%BB%E7%BB%9F) | `Python` | - A股自动选股程序，实现了海龟交易法则、缠中说禅牛市买点，以及其他若干种技术形态
+- [ValueInvest](https://github.com/wangzhe3224/valueinvest) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/wangzhe3224/valueinvest/main) ![GitHub Repo stars](https://img.shields.io/github/stars/wangzhe3224/valueinvest?style=social) | `Python` | - A modular Python library for comprehensive stock valuation using multiple methodologies (Graham, DCF, EPV, DDM, etc.) with real-time data fetching and news sentiment analysis
 
 ### Orderbook
 
