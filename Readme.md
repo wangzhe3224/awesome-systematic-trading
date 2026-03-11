@@ -392,6 +392,7 @@ Note: the one marked as `Live Trading` has reasonable live trading support for a
 - [awesome-data](https://github.com/akfamily/awesome-data) - Awesome-data shows most interesting data-source around the financial world
 - [Fundamental Analysis Data](https://github.com/JerBouma/FundamentalAnalysis) | `Python` | - Fully-fledged Fundamental Analysis package capable of collecting 20 years of Company Profiles, Financial Statements, Ratios and Stock Data of 20.000+ companies.
 - [Financial Data](https://financialdata.net/) - Stock Market and Financial Data API
+- [StockAInsights](https://stockainsights.com) - Institutional-grade financial statements API with AI extraction from SEC filings — not XBRL. Covers domestic and foreign filers (20-F, 6-K, 40-F), normalized quarterly and annual data.
 - [goMacro.ai](https://gomacro.ai) - AI-powered economic calendar with institutional-grade macro insights and scenario planning for NFP, CPI, PPI and other data releases.
 
 ### Alternative
