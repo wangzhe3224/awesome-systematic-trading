@@ -407,6 +407,10 @@ Note: the one marked as `Live Trading` has reasonable live trading support for a
 - [Orderflow](https://github.com/focus1691/orderflow) | `TypeScript`, `NestJS`, `TimescaleDB` | - Builds real-time Footprint Candles from WebSocket trade data across crypto exchanges.
 - [Agent Gateway](https://agent-gateway-kappa.vercel.app) | `REST API` | - Free unified REST API providing real-time prices for 500+ crypto tokens via Hyperliquid. No API key required for price data. OpenAPI spec at `/openapi.json`.
 
+### Prediction Markets
+
+- [Parsec](https://github.com/parsecular/parsec-mcp) | `Rust`, `TypeScript`, `Python` | - Prediction market data, execution, and live streams across all major exchanges. [Website](https://parsecapi.com)
+
 ## Broker APIs
 
 - [Ib_insync](https://github.com/erdewit/ib_insync) | `Python` | - Python sync/async framework for Interactive Brokers API
