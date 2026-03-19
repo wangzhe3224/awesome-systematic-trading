@@ -412,6 +412,7 @@ Note: the one marked as `Live Trading` has reasonable live trading support for a
 ### Prediction Markets
 
 - [Parsec](https://github.com/parsecular/parsec-mcp) | `Rust`, `TypeScript`, `Python` | - Prediction market data, execution, and live streams across all major exchanges. [Website](https://parsecapi.com)
+- [pykalshi](https://github.com/ArshKA/kalshi-client) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/ArshKA/kalshi-client/main) ![GitHub Repo stars](https://img.shields.io/github/stars/ArshKA/kalshi-client?style=social) | `Python` | - Feature-rich Python client for Kalshi prediction markets with WebSocket streaming, automatic retries, rate limiting, pandas integration, Jupyter rendering, and local orderbook management.
 
 ## Broker APIs
 
