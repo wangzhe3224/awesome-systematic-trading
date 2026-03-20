@@ -407,6 +407,8 @@ Note: the one marked as `Live Trading` has reasonable live trading support for a
 - [Cryptofeed](https://github.com/bmoscon/cryptofeed) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/bmoscon/cryptofeed/master)|`Python`| - Cryptocurrency Exchange Websocket Data Feed Handler with Asyncio
 - [Orderflow](https://github.com/focus1691/orderflow) | `TypeScript`, `NestJS`, `TimescaleDB` | - Builds real-time Footprint Candles from WebSocket trade data across crypto exchanges.
 - [Agent Gateway](https://agent-gateway-kappa.vercel.app) | `REST API` | - Free unified REST API providing real-time prices for 500+ crypto tokens via Hyperliquid. No API key required for price data. OpenAPI spec at `/openapi.json`.
+- [CoinPaprika](https://api.coinpaprika.com) | `REST API` | - Free crypto market data API with prices, volume, market cap, OHLCV, and exchange data for 7,000+ coins. No API key required, no rate limits.
+- [DexPaprika](https://api.dexpaprika.com) | `REST API` | - Free DEX/DeFi data API covering pools, tokens, OHLCV, and trade history across all chains and DEXes. No API key, no rate limits.
 - [PreReason](https://github.com/PreReason/mcp) | `TypeScript`, `REST API`, `MCP` | - Pre-analyzed Bitcoin and macro market briefings. 17 contexts covering BTC, Fed balance sheet, M2, Treasury yields, hash rate, difficulty, mining production costs, and cross-asset correlations (SPY, QQQ, VXX, UUP as BTC relationship signals). Returns trend direction, confidence scores, percentile rankings, and regime classification. [Website](https://www.prereason.com)
 
 ### Prediction Markets
