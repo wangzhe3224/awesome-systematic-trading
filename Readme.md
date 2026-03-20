@@ -17,7 +17,7 @@
 
 [![Star History Chart](https://api.star-history.com/svg?repos=wangzhe3224/awesome-systematic-trading&type=Timeline)](https://star-history.com/#wangzhe3224/awesome-systematic-trading&Timeline)
 
-[希望阅读中文版？点我](./Readme_cn.md)
+[å¸æéè¯»ä¸­æçï¼ç¹æ](./Readme_cn.md)
 
 [Interested in systematic trading? Check QuantBox](https://quant.funcoder.net/)
 
@@ -42,7 +42,7 @@ And I count crypto as whole new category: [>> Click ME to Systematic Crypto](cry
 
 - [Awesome Systematic Trading](#awesome-systematic-trading)
   - [Star History](#star-history)
-  - [🔥 AI Powered Systematic Trading Systems](#-ai-powered-systematic-trading-systems)
+  - [ð¥ AI Powered Systematic Trading Systems](#-ai-powered-systematic-trading-systems)
   - [Backtest + live trading](#backtest--live-trading)
     - [General purpose](#general-purpose)
     - [Crypto currency focus](#crypto-currency-focus)
@@ -85,13 +85,13 @@ And I count crypto as whole new category: [>> Click ME to Systematic Crypto](cry
     - [Courses](#courses)
   - [Relevant Projects](#relevant-projects)
 
-## 🔥 AI Powered Systematic Trading Systems
+## ð¥ AI Powered Systematic Trading Systems
 
 - [AI Hedge Fund](https://github.com/virattt/ai-hedge-fund) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/virattt/ai-hedge-fund/main) ![GitHub Repo stars](https://img.shields.io/github/stars/virattt/ai-hedge-fund?style=social) | `Python` | - An AI Hedge Fund Team
 - [FinRL](https://github.com/AI4Finance-Foundation/FinRL) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/AI4Finance-Foundation/FinRL/master) ![GitHub Repo stars](https://img.shields.io/github/stars/AI4Finance-Foundation/FinRL?style=social) | Python | - FinRL is the first open-source framework to demonstrate the great potential of applying deep reinforcement learning in quantitative finance.
-- [FinGPT](https://github.com/AI4Finance-Foundation/FinGPT) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/AI4Finance-Foundation/FinGPT/master) ![GitHub Repo stars](https://img.shields.io/github/stars/AI4Finance-Foundation/FinGPT?style=social) - FinGPT: Open-Source Financial Large Language Models! Revolutionize 🔥 We release the trained model on HuggingFace.
+- [FinGPT](https://github.com/AI4Finance-Foundation/FinGPT) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/AI4Finance-Foundation/FinGPT/master) ![GitHub Repo stars](https://img.shields.io/github/stars/AI4Finance-Foundation/FinGPT?style=social) - FinGPT: Open-Source Financial Large Language Models! Revolutionize ð¥ We release the trained model on HuggingFace.
 - [QLib (Microsoft)](https://github.com/microsoft/qlib) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/microsoft/qlib/main) ![GitHub Repo stars](https://img.shields.io/github/stars/microsoft/qlib?style=social) | Python, Cython | - Qlib is an AI-oriented quantitative investment platform, which aims to realize the potential, empower the research, and create the value of AI technologies in quantitative investment. With Qlib, you can easily try your ideas to create better Quant investment strategies. An increasing number of SOTA Quant research works/papers are released in Qlib.
-- [Qbot](https://github.com/UFund-Me/Qbot) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/UFund-Me/Qbot/main) ![GitHub Repo stars](https://img.shields.io/github/stars/UFund-Me/Qbot?style=social) | `Python` | - AI 自动量化交易机器人 AI-powered Quantitative Investment Research Platform.
+- [Qbot](https://github.com/UFund-Me/Qbot) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/UFund-Me/Qbot/main) ![GitHub Repo stars](https://img.shields.io/github/stars/UFund-Me/Qbot?style=social) | `Python` | - AI èªå¨éåäº¤ææºå¨äºº AI-powered Quantitative Investment Research Platform.
 - [VARRD](https://github.com/augiemazza/varrd) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/augiemazza/varrd/main) ![GitHub Repo stars](https://img.shields.io/github/stars/augiemazza/varrd?style=social) | `Python` | - AI-powered trading research platform that validates any trading idea with event studies, statistical tests, and real market data across 15,000+ instruments. CLI, Python SDK, and MCP server.
 - [InvicTrade](https://invictrade.com) - AI-powered trading signals with 74% historical win rate, combining strategies from legendary investors using multi-model AI intelligence.
 
@@ -104,33 +104,33 @@ And I count crypto as whole new category: [>> Click ME to Systematic Crypto](cry
 Note: the one marked as `Live Trading` has reasonable live trading support for at least 1 broker. Otherwise, backtest
  function only.
 
-- [the0](https://github.com/alexanderwanyoike/the0) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/alexanderwanyoike/the0/main) ![GitHub Repo stars](https://img.shields.io/github/stars/alexanderwanyoike/the0?style=social) | Python, TypeScript, Rust, C++, C#, Scala, Haskell, Live Trading | - Self-hosted execution engine for algorithmic trading bots. Each bot runs in an isolated container. No framework imposed — your bot is just normal code.
+- [the0](https://github.com/alexanderwanyoike/the0) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/alexanderwanyoike/the0/main) ![GitHub Repo stars](https://img.shields.io/github/stars/alexanderwanyoike/the0?style=social) | Python, TypeScript, Rust, C++, C#, Scala, Haskell, Live Trading | - Self-hosted execution engine for algorithmic trading bots. Each bot runs in an isolated container. No framework imposed â your bot is just normal code.
 - [aat](https://github.com/AsyncAlgoTrading/aat) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/AsyncAlgoTrading/aat/main) ![GitHub Repo stars](https://img.shields.io/github/stars/AsyncAlgoTrading/aat?style=social) | Python, C++, Live Trading| - an asynchronous, event-driven framework for writing algorithmic trading strategies in python with optional acceleration in C++. It is designed to be modular and extensible, with support for a wide variety of instruments and strategies, live trading across (and between) multiple exchanges.
 - [* barter-rs](https://github.com/barter-rs/barter-rs) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/barter-rs/barter-rs/main) ![GitHub Repo stars](https://img.shields.io/github/stars/barter-rs/barter-rs?style=social) | Rust | - Open-source Rust framework for building event-driven live-trading & backtesting systems. Algorithmic trade with the peace of mind that comes from knowing your strategies have been backtested with a near-identical trading Engine.
 - [* bt](https://github.com/pmorissette/bt) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/pmorissette/bt/master) ![GitHub Repo stars](https://img.shields.io/github/stars/pmorissette/bt?style=social) | Python | -  Flexible backtesting for Python based on Algo and Strategy Tree
-- [Better Quant](https://github.com/byrnexu/betterquant) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/byrnexu/betterquant/master) ![GitHub Repo stars](https://img.shields.io/github/stars/byrnexu/betterquant?style=social) | C++, Live Trading | - Better quant today, best quant tomorrow. 💪
+- [Better Quant](https://github.com/byrnexu/betterquant) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/byrnexu/betterquant/master) ![GitHub Repo stars](https://img.shields.io/github/stars/byrnexu/betterquant?style=social) | C++, Live Trading | - Better quant today, best quant tomorrow. ðª
 - [Botvana](https://github.com/featherenvy/botvana) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/featherenvy/botvana/main) ![GitHub Repo stars](https://img.shields.io/github/stars/featherenvy/botvana?style=social) | Rust | - high-performance and event-driven trading system built using Rust
 - [backtrader](https://github.com/mementum/backtrader) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/mementum/backtrader/master) ![GitHub Repo stars](https://img.shields.io/github/stars/mementum/backtrader?style=social) | Python, Live Trading | - Event driven Python Backtesting library for trading strategies
 - [backtesting.py](https://github.com/kernc/backtesting.py) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/kernc/backtesting.py/master) ![GitHub Repo stars](https://img.shields.io/github/stars/kernc/backtesting.py?style=social) | Python | - Backtesting.py is a Python framework for inferring viability of trading strategies on historical (past) data. Improved upon the vision of Backtrader, and by all means surpassingly comparable to other accessible alternatives, Backtesting.py is lightweight, fast, user-friendly, intuitive, interactive, intelligent and, hopefully, future-proof.
 - [FlashFunk](https://github.com/HFQR/FlashFunk) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/HFQR/FlashFunk/master) ![GitHub Repo stars](https://img.shields.io/github/stars/HFQR/FlashFunk?style=social) | Rust | -  High Performance Runtime in Rust
-- [QuantFabric](https://github.com/QuantFabric/QuantFabric) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/QuantFabric/QuantFabric/master) ![GitHub Repo stars](https://img.shields.io/github/stars/QuantFabric/QuantFabric?style=social) | C++ | - QuantFabric是基于Linux/C++开发的中高频量化交易系统，支持中金所、郑商所、大商所、上期所、上海国际能源中心的期货业务品种交易，支持上交所、深交所的股票、债券品种交易。
+- [QuantFabric](https://github.com/QuantFabric/QuantFabric) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/QuantFabric/QuantFabric/master) ![GitHub Repo stars](https://img.shields.io/github/stars/QuantFabric/QuantFabric?style=social) | C++ | - QuantFabricæ¯åºäºLinux/C++å¼åçä¸­é«é¢éåäº¤æç³»ç»ï¼æ¯æä¸­éæãéåæãå¤§åæãä¸ææãä¸æµ·å½éè½æºä¸­å¿çæè´§ä¸å¡åç§äº¤æï¼æ¯æä¸äº¤æãæ·±äº¤æçè¡ç¥¨ãåºå¸åç§äº¤æã
 - [gobacktest](https://github.com/gobacktest/gobacktest) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/gobacktest/gobacktest/main) ![GitHub Repo stars](https://img.shields.io/github/stars/gobacktest/gobacktest?style=social) | Go | - A Go implementation of event-driven backtesting framework
-- [Hikyuu](https://github.com/fasiondog/hikyuu) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/fasiondog/hikyuu/master) ![GitHub Repo stars](https://img.shields.io/github/stars/fasiondog/hikyuu?style=social) | C++, Python| - Hikyuu Quant Framework 基于C++/Python的开源量化交易研究框架
+- [Hikyuu](https://github.com/fasiondog/hikyuu) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/fasiondog/hikyuu/master) ![GitHub Repo stars](https://img.shields.io/github/stars/fasiondog/hikyuu?style=social) | C++, Python| - Hikyuu Quant Framework åºäºC++/Pythonçå¼æºéåäº¤æç ç©¶æ¡æ¶
 - [Investing Algorithm Framework](https://github.com/coding-kitties/investing-algorithm-framework/tree/main) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/coding-kitties/investing-algorithm-framework/main) ![GitHub Repo stars](https://img.shields.io/github/stars/coding-kitties/investing-algorithm-framework?style=social) | Python | - Framework for developing, backtesting, and deploying automated trading algorithms and trading bots.
 - [lumibot](https://github.com/Lumiwealth/lumibot) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/Lumiwealth/lumibot/master) ![GitHub Repo stars](https://img.shields.io/github/stars/Lumiwealth/lumibot?style=social) | Python | - A very simple yet useful backtesting and sample based live trading framework (a bit slow to run...)
 - [* nautilus_trader](https://github.com/nautechsystems/nautilus_trader) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/nautechsystems/nautilus_trader/master) ![GitHub Repo stars](https://img.shields.io/github/stars/nautechsystems/nautilus_trader?style=social) | Python, Cython, Rust, Live Trading | - A high-performance algorithmic trading platform and event-driven backtester
 - [PyBroker](https://github.com/edtechre/pybroker) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/edtechre/pybroker/master) ![GitHub Repo stars](https://img.shields.io/github/stars/edtechre/pybroker?style=social) | Python | - Algorithmic Trading in Python with Machine Learning
 - [QuantConnect](https://github.com/QuantConnect/Lean) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/QuantConnect/Lean/master) ![GitHub Repo stars](https://img.shields.io/github/stars/QuantConnect/Lean?style=social) | C#, .NET, Live Trading | - Lean Algorithmic Trading Engine by QuantConnect (Python, C#)
-- [QUANTAXIS](https://github.com/QUANTAXIS/QUANTAXIS) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/QUANTAXIS/QUANTAXIS/master) ![GitHub Repo stars](https://img.shields.io/github/stars/QUANTAXIS/QUANTAXIS?style=social) | Python, Rust, Live Trading | - QUANTAXIS 支持任务调度 分布式部署的 股票/期货/期权/港股/虚拟货币 数据/回测/模拟/交易/可视化/多账户 纯本地量化解决方案
+- [QUANTAXIS](https://github.com/QUANTAXIS/QUANTAXIS) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/QUANTAXIS/QUANTAXIS/master) ![GitHub Repo stars](https://img.shields.io/github/stars/QUANTAXIS/QUANTAXIS?style=social) | Python, Rust, Live Trading | - QUANTAXIS æ¯æä»»å¡è°åº¦ åå¸å¼é¨ç½²ç è¡ç¥¨/æè´§/ææ/æ¸¯è¡/èæè´§å¸ æ°æ®/åæµ/æ¨¡æ/äº¤æ/å¯è§å/å¤è´¦æ· çº¯æ¬å°éåè§£å³æ¹æ¡
 - [Rqalpha](https://github.com/ricequant/rqalpha) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/ricequant/rqalpha/master) ![GitHub Repo stars](https://img.shields.io/github/stars/ricequant/rqalpha?style=social) | Python | - A extendable, replaceable Python algorithmic backtest && trading framework supporting multiple securities
 - [quanttrader](https://github.com/letianzj/quanttrader) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/letianzj/quanttrader/master) ![GitHub Repo stars](https://img.shields.io/github/stars/letianzj/quanttrader?style=social) | Python | - Backtest and live trading in Python. Event based. Similar to backtesting.py.
 - [qf-lib](https://github.com/quarkfin/qf-lib) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/quarkfin/qf-lib/master) ![GitHub Repo stars](https://img.shields.io/github/stars/quarkfin/qf-lib?style=social) | Python | - Modular Python library that provides an advanced event driven backtester and a set of high quality tools for quantitative finance. Integrated with various data vendors and brokers, supports Crypto, Stocks and Futures.
 - [sdoosa-algo-trade-python](https://github.com/sreenivasdoosa/sdoosa-algo-trade-python) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/sreenivasdoosa/sdoosa-algo-trade-python/master) ![GitHub Repo stars](https://img.shields.io/github/stars/sreenivasdoosa/sdoosa-algo-trade-python?style=social) | Python | - This project is mainly for newbies into algo trading who are interested in learning to code their own trading algo using python interpreter.
 - [* vnpy](https://github.com/vnpy/vnpy) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/vnpy/vnpy/master) ![GitHub Repo stars](https://img.shields.io/github/stars/vnpy/vnpy?style=social) | Python, Stock, Futures, Crypto, Live Trading | - Python-based open source quantitative trading system development framework, officially released in January 2015, has grown step by step into a full-featured quantitative trading platform
-- [WonderTrader](https://github.com/wondertrader/wondertrader) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/wondertrader/wondertrader/master) ![GitHub Repo stars](https://img.shields.io/github/stars/wondertrader/wondertrader?style=social) | C++, Python | - WonderTrader——量化研发交易一站式框架
+- [WonderTrader](https://github.com/wondertrader/wondertrader) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/wondertrader/wondertrader/master) ![GitHub Repo stars](https://img.shields.io/github/stars/wondertrader/wondertrader?style=social) | C++, Python | - WonderTraderââéåç åäº¤æä¸ç«å¼æ¡æ¶
 - [zvt](https://github.com/zvtvz/zvt) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/zvtvz/zvt/master) ![GitHub Repo stars](https://img.shields.io/github/stars/zvtvz/zvt?style=social) | Python, Stock, Backtest | - Modular quant framework
 - [zipline](https://github.com/quantopian/zipline) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/quantopian/zipline/master) ![GitHub Repo stars](https://img.shields.io/github/stars/quantopian/zipline?style=social) | Python | - Zipline is a Pythonic algorithmic trading library. It is an event-driven system for backtesting.
-- [PandoraTrader](https://github.com/pegasusTrader/PandoraTrader) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/pegasusTrader/PandoraTrader/master) ![GitHub Repo stars](https://img.shields.io/github/stars/pegasusTrader/PandoraTrader?style=social) | C++ | - CTP 高频量化交易平台 C++ Trade Platform for quant developer
+- [PandoraTrader](https://github.com/pegasusTrader/PandoraTrader) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/pegasusTrader/PandoraTrader/master) ![GitHub Repo stars](https://img.shields.io/github/stars/pegasusTrader/PandoraTrader?style=social) | C++ | - CTP é«é¢éåäº¤æå¹³å° C++ Trade Platform for quant developer
 - [hftbacktest](https://github.com/nkaz001/hftbacktest) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/nkaz001/hftbacktest/master) ![GitHub Repo stars](https://img.shields.io/github/stars/nkaz001/hftbacktest?style=social) | Python, numba | - A high-frequency trading and market-making backtesting tool accounts for limit orders, queue positions, and latencies, utilizing full tick data for trades and order books.
 - [Cipher](https://github.com/nanvel/cipher-bt) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/nanvel/cipher-bt/master) ![GitHub Repo stars](https://img.shields.io/github/stars/nanvel/cipher-bt?style=social) | Python | - Backtesting library with focus on position adjustment that allows testing complicated setups. Pythonic, extensible, well-structured, documented.
 - [Gunbot Quant](https://github.com/GuntharDeNiro/gunbot-quant) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/GuntharDeNiro/gunbot-quant/master) ![GitHub Repo stars](https://img.shields.io/github/stars/GuntharDeNiro/gunbot-quant?style=social) | Python | - Standalone application for market screening and backtesting. Supports multi-asset, multi-strategy backtests. Includes user interface and CLI options.
@@ -140,17 +140,17 @@ Note: the one marked as `Live Trading` has reasonable live trading support for a
 > Vector Based Frameworks
 
 - [QTradeX](https://github.com/squidKid-deluxe/QTradeX-Algo-Trading-SDK)  ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/squidKid-deluxe/QTradeX-Algo-Trading-SDK) ![GitHub Repo stars](https://img.shields.io/github/stars/squidKid-deluxe/QTradeX-Algo-Trading-SDK?style=social) | Python, Live Trading | - A powerful and flexible Python framework for designing, backtesting, optimizing, and deploying algotrading bots
-- [FinHack](https://github.com/FinHackCN/finhack) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/FinHackCN/finhack/main) ![GitHub Repo stars](https://img.shields.io/github/stars/FinHackCN/finhack?style=social) | Python | - 一个易于拓展的量化金融框架，它在当前版本中集成了数据采集、因子计算、因子挖掘、因子分析、机器学习、策略编写、量化回测、实盘接入等全流程的量化投研工作
+- [FinHack](https://github.com/FinHackCN/finhack) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/FinHackCN/finhack/main) ![GitHub Repo stars](https://img.shields.io/github/stars/FinHackCN/finhack?style=social) | Python | - ä¸ä¸ªæäºæå±çéåéèæ¡æ¶ï¼å®å¨å½åçæ¬ä¸­éæäºæ°æ®ééãå å­è®¡ç®ãå å­ææãå å­åæãæºå¨å­¦ä¹ ãç­ç¥ç¼åãéååæµãå®çæ¥å¥ç­å¨æµç¨çéåæç å·¥ä½
 - [pysystemtrade](https://github.com/robcarver17/pysystemtrade) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/robcarver17/pysystemtrade/master) ![GitHub Repo stars](https://img.shields.io/github/stars/robcarver17/pysystemtrade?style=social) | Python, Live Trading | - Systematic Trading in python from book <Systematic Trading> by Rob Carver
 - [finmarketpy](https://github.com/cuemacro/finmarketpy) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/cuemacro/finmarketpy/master) ![GitHub Repo stars](https://img.shields.io/github/stars/cuemacro/finmarketpy?style=social) | Python | - Python library for backtesting trading strategies & analyzing financial markets (formerly pythalesians)
 - [vectorbt](https://github.com/polakowo/vectorbt) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/polakowo/vectorbt/master) ![GitHub Repo stars](https://img.shields.io/github/stars/polakowo/vectorbt?style=social) | Python, numba | - vectorbt takes a novel approach to backtesting: it operates entirely on pandas and NumPy objects, and is accelerated by Numba to analyze any data at speed and scale. This allows for testing of many thousands of strategies in seconds.
-- [fund-strategy](https://github.com/SunshowerC/fund-strategy) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/SunshowerC/fund-strategy/master) ![GitHub Repo stars](https://img.shields.io/github/stars/SunshowerC/fund-strategy?style=social) | TypeScript | - 一个简单实用的基金投资策略分析，基金回测工具
+- [fund-strategy](https://github.com/SunshowerC/fund-strategy) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/SunshowerC/fund-strategy/master) ![GitHub Repo stars](https://img.shields.io/github/stars/SunshowerC/fund-strategy?style=social) | TypeScript | - ä¸ä¸ªç®åå®ç¨çåºéæèµç­ç¥åæï¼åºéåæµå·¥å·
 - [fastquant](https://github.com/enzoampil/fastquant) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/enzoampil/fastquant/master) ![GitHub Repo stars](https://img.shields.io/github/stars/enzoampil/fastquant?style=social) | Python | - Backtest and optimize your ML trading strategies with only 3 lines of code
 
 ### Crypto currency focus
 
 - [basana](https://github.com/gbeced/basana) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/gbeced/basana/master) ![GitHub Repo stars](https://img.shields.io/github/stars/gbeced/basana?style=social) | Python | - A Python async and event driven framework for algorithmic trading, with a focus on crypto currencies.
-- [c-binance-future-quant](https://github.com/Melelery/c-binance-future-quant/tree/main) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/Melelery/c-binance-future-quant/main) ![GitHub Repo stars](https://img.shields.io/github/stars/Melelery/c-binance-future-quant?style=social) | Python | - 低成本，高效率，简单实现的币安合约量化系统架构
+- [c-binance-future-quant](https://github.com/Melelery/c-binance-future-quant/tree/main) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/Melelery/c-binance-future-quant/main) ![GitHub Repo stars](https://img.shields.io/github/stars/Melelery/c-binance-future-quant?style=social) | Python | - ä½ææ¬ï¼é«æçï¼ç®åå®ç°çå¸å®åçº¦éåç³»ç»æ¶æ
 - [triangular-arbitrage2](https://github.com/zlq4863947/triangular-arbitrage2) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/zlq4863947/triangular-arbitrage2/main) ![GitHub Repo stars](https://img.shields.io/github/stars/zlq4863947/triangular-arbitrage2?style=social) | TypeScript | - a server side application for perform triangular arbitrage.
 - [bTrader](https://github.com/gabriel-milan/btrader) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/gabriel-milan/btrader/master) ![GitHub Repo stars](https://img.shields.io/github/stars/gabriel-milan/btrader?style=social) | Rust | - Triangle arbitrage trading bot for Binance
 - [crypto-crawler-rs](https://github.com/crypto-crawler/crypto-crawler-rs) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/crypto-crawler/crypto-crawler-rs/main) ![GitHub Repo stars](https://img.shields.io/github/stars/crypto-crawler/crypto-crawler-rs?style=social) | Rust | - Crawl orderbook and trade messages from crypto exchanges
@@ -181,26 +181,26 @@ Note: the one marked as `Live Trading` has reasonable live trading support for a
 - [ThetaGang](https://github.com/brndnmtthws/thetagang) - ThetaGang is an IBKR bot for collecting money
   - <https://www.reddit.com/r/options/comments/a36k4j/the_wheel_aka_triple_income_strategy_explained/>
 - [PyTrendFollow](https://github.com/chrism2671/PyTrendFollow) | `Python` | - PyTrendFollow - systematic futures trading using trend following
-- [czsc - 缠中说禅技术分析工具](https://github.com/waditu/czsc) | `Python` | - 缠中说禅技术分析工具；缠论；股票；期货；Quant；量化交易
+- [czsc - ç¼ ä¸­è¯´ç¦ææ¯åæå·¥å·](https://github.com/waditu/czsc) | `Python` | - ç¼ ä¸­è¯´ç¦ææ¯åæå·¥å·ï¼ç¼ è®ºï¼è¡ç¥¨ï¼æè´§ï¼Quantï¼éåäº¤æ
 - [volest](https://github.com/jasonstrimpel/volatility-trading) | `Python` | - A complete set of volatility estimators based on Euan Sinclair's Volatility Trading
 - [quant-trading](https://github.com/je-suis-tm/quant-trading) | `Python` | - Python quantitative trading strategies including VIX Calculator, Pattern Recognition, Commodity Trading Advisor, Monte Carlo, Options Straddle, Shooting Star, London Breakout, Heikin-Ashi, Pair Trading, RSI, Bollinger Bands, Parabolic SAR, Dual Thrust, Awesome, MACD
-- [一个中文策略合集](https://github.com/fmzquant/strategies) | `Python` |
-- [一个实盘的股票趋势策略](https://github.com/BigBrotherTrade/trader) | `Python` | -
-- [Quantitative-analysis](https://github.com/hugo2046/QuantsPlaybook) | `Python` | - 量化研究-券商金工研报复现
+- [ä¸ä¸ªä¸­æç­ç¥åé](https://github.com/fmzquant/strategies) | `Python` |
+- [ä¸ä¸ªå®ççè¡ç¥¨è¶å¿ç­ç¥](https://github.com/BigBrotherTrade/trader) | `Python` | -
+- [Quantitative-analysis](https://github.com/hugo2046/QuantsPlaybook) | `Python` | - éåç ç©¶-å¸åéå·¥ç æ¥å¤ç°
 
 ### Expression based alpha
 
 - [torchquantum](https://github.com/nymath/torchquantum) | `Cython`, `C`, `Python` | - TorchQuantum is a backtesting framework that integrates the structure of PyTorch and WorldQuant's Operator for efficient quantitative financial analysis.
 - [OpenAlpha](https://github.com/caoruicn/openalpha) | `C++` | - An open source equity statistical arbitrage backtest simulator, use the same API as WorldQuant's WebSim
-- [stock](https://github.com/xcycharles/stock) | `Python` | - 一些因子挖掘的代码 A 股
+- [stock](https://github.com/xcycharles/stock) | `Python` | - ä¸äºå å­ææçä»£ç  A è¡
 - [AlphaGen](https://github.com/RL-MLDM/alphagen) | `Python` | - Automatic formulaic alpha generation with reinforcement learning.
 - [Genetic-Alpha](https://github.com/Morgansy/Genetic-Alpha) - A genetic programming algorithm used for generating alpha factors in the multi-factor investment strategy
 - [alpha_examples](https://github.com/wukan1986/alpha_examples) - An expression based alpha demo using Polars
 
 ### Stock picking
 
-- [InvesTool](https://github.com/axiaoxin-com/investool) | `Go` | - Golang实现财报分析、个股基本面检测、基本面选股、4433法则基金筛选与检测、基金持仓相似度、股票选基、基金经理筛选
-- [Sequoia选股系统](https://github.com/sngyai/Sequoia#sequoia%E9%80%89%E8%82%A1%E7%B3%BB%E7%BB%9F) | `Python` | - A股自动选股程序，实现了海龟交易法则、缠中说禅牛市买点，以及其他若干种技术形态
+- [InvesTool](https://github.com/axiaoxin-com/investool) | `Go` | - Golangå®ç°è´¢æ¥åæãä¸ªè¡åºæ¬é¢æ£æµãåºæ¬é¢éè¡ã4433æ³ååºéç­éä¸æ£æµãåºéæä»ç¸ä¼¼åº¦ãè¡ç¥¨éåºãåºéç»çç­é
+- [Sequoiaéè¡ç³»ç»](https://github.com/sngyai/Sequoia#sequoia%E9%80%89%E8%82%A1%E7%B3%BB%E7%BB%9F) | `Python` | - Aè¡èªå¨éè¡ç¨åºï¼å®ç°äºæµ·é¾äº¤ææ³åãç¼ ä¸­è¯´ç¦çå¸ä¹°ç¹ï¼ä»¥åå¶ä»è¥å¹²ç§ææ¯å½¢æ
 - [ValueInvest](https://github.com/wangzhe3224/valueinvest) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/wangzhe3224/valueinvest/main) ![GitHub Repo stars](https://img.shields.io/github/stars/wangzhe3224/valueinvest?style=social) | `Python` | - A modular Python library for comprehensive stock valuation using multiple methodologies (Graham, DCF, EPV, DDM, etc.) with real-time data fetching and news sentiment analysis
 
 ### Orderbook
@@ -352,7 +352,7 @@ Note: the one marked as `Live Trading` has reasonable live trading support for a
 - [Seaborn](https://github.com/mwaskom/seaborn) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/mwaskom/seaborn/master) ![GitHub Repo stars](https://img.shields.io/github/stars/mwaskom/seaborn?style=social) | Python | - Statistical data visualization in Python
 - [Dash](https://github.com/plotly/dash) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/plotly/dash/master) ![GitHub Repo stars](https://img.shields.io/github/stars/plotly/dash?style=social) | Python | - Data Apps & Dashboards for Python. No JavaScript Required.
 - [Perspective](https://github.com/finos/perspective) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/finos/perspective/master) ![GitHub Repo stars](https://img.shields.io/github/stars/finos/perspective?style=social) | C++, Python | - A data visualization and analytics component, especially well-suited for large and/or streaming datasets.
-- [Streamlit](https://github.com/streamlit/streamlit) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/streamlit/streamlit/master) ![GitHub Repo stars](https://img.shields.io/github/stars/streamlit/streamlit?style=social) | Python | - Streamlit — A faster way to build and share data apps.
+- [Streamlit](https://github.com/streamlit/streamlit) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/streamlit/streamlit/master) ![GitHub Repo stars](https://img.shields.io/github/stars/streamlit/streamlit?style=social) | Python | - Streamlit â A faster way to build and share data apps.
 - [gradio](https://github.com/gradio-app/gradio/) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/gradio-app/gradio/main) ![GitHub Repo stars](https://img.shields.io/github/stars/gradio-app/gradio?style=social) | Python | - Build and share delightful machine learning apps, all in Python.
 - [pylatex](https://github.com/JelteF/PyLaTeX/) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/JelteF/PyLaTeX/master) ![GitHub Repo stars](https://img.shields.io/github/stars/JelteF/PyLaTeX?style=social) | Python | - A Python library for creating LaTeX files
 - [D-Tale (Man Group)](https://github.com/man-group/dtale) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/man-group/dtale/master) ![GitHub Repo stars](https://img.shields.io/github/stars/man-group/dtale?style=social) | JavaScript, Python | - D-Tale is the combination of a Flask back-end and a React front-end to bring you an easy way to view & analyze Pandas data structures.
@@ -383,10 +383,10 @@ Note: the one marked as `Live Trading` has reasonable live trading support for a
 
 - [* OpenBB Terminal](https://github.com/OpenBB-finance/OpenBBTerminal) | `Python` | - Investment Research for Everyone, Anywhere.
 - [FinanceDatabase](https://github.com/JerBouma/FinanceDatabase) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/JerBouma/FinanceDatabase/main) - This is a database of 300.000+ symbols containing Equities, ETFs, Funds, Indices, Currencies, Cryptocurrencies and Money Markets.
-- [AkShare](https://github.com/akfamily/akshare) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/akfamily/akshare/main) |`Python`| - AKShare is an elegant and simple financial data interface library for Python, built for human beings! 开源财经数据接口库
-- [多因子模型数据](https://github.com/hugo2046/GetAstockFactors) - 获取经典的量化多因子模型数据
+- [AkShare](https://github.com/akfamily/akshare) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/akfamily/akshare/main) |`Python`| - AKShare is an elegant and simple financial data interface library for Python, built for human beings! å¼æºè´¢ç»æ°æ®æ¥å£åº
+- [å¤å å­æ¨¡åæ°æ®](https://github.com/hugo2046/GetAstockFactors) - è·åç»å¸çéåå¤å å­æ¨¡åæ°æ®
 - [findatapy](https://github.com/cuemacro/findatapy) |`Python`| - findatapy creates an easy to use Python API to download market data from many sources including Quandl, Bloomberg, Yahoo, Google etc. using a unified high level interface.  
-- [yfinance](https://github.com/ranaroussi/yfinance) |`Python`| - yfinance offers a threaded and Pythonic way to download market data from Yahoo!Ⓡ finance.
+- [yfinance](https://github.com/ranaroussi/yfinance) |`Python`| - yfinance offers a threaded and Pythonic way to download market data from Yahoo!â finance.
 - [pandas-datareader](https://github.com/pydata/pandas-datareader) |`Python`| - Up to date remote data access for pandas, works for multiple versions of pandas.
 - [Wallstreet](https://github.com/mcdallas/wallstreet) |`Python`| - Wallstreet: Real time Stock and Option tools
 - [TuShare](https://github.com/waditu/tushare) |`Python`| - TuShare is a utility for crawling historical data of China stocks
@@ -394,13 +394,13 @@ Note: the one marked as `Live Trading` has reasonable live trading support for a
 - [awesome-data](https://github.com/akfamily/awesome-data) - Awesome-data shows most interesting data-source around the financial world
 - [Fundamental Analysis Data](https://github.com/JerBouma/FundamentalAnalysis) | `Python` | - Fully-fledged Fundamental Analysis package capable of collecting 20 years of Company Profiles, Financial Statements, Ratios and Stock Data of 20.000+ companies.
 - [Financial Data](https://financialdata.net/) - Stock Market and Financial Data API
-- [StockAInsights](https://stockainsights.com) - Institutional-grade financial statements API with AI extraction from SEC filings — not XBRL. Covers domestic and foreign filers (20-F, 6-K, 40-F), normalized quarterly and annual data.
+- [StockAInsights](https://stockainsights.com) - Institutional-grade financial statements API with AI extraction from SEC filings â not XBRL. Covers domestic and foreign filers (20-F, 6-K, 40-F), normalized quarterly and annual data.
 - [goMacro.ai](https://gomacro.ai) - AI-powered economic calendar with institutional-grade macro insights and scenario planning for NFP, CPI, PPI and other data releases.
 
 ### Alternative
 
 - [SEC EDGAR Filing API](https://github.com/janlukasschroeder/sec-api-python)
-- [edgartools](https://github.com/dgunning/edgartools) |`Python`| - SEC EDGAR data for quant strategies — fundamentals, institutional holdings (13F), insider transactions, and corporate events (8-K). Includes MCP server for AI workflows.
+- [edgartools](https://github.com/dgunning/edgartools) |`Python`| - SEC EDGAR data for quant strategies â fundamentals, institutional holdings (13F), insider transactions, and corporate events (8-K). Includes MCP server for AI workflows.
 
 ### Crypto
 
@@ -470,7 +470,7 @@ Note: the one marked as `Live Trading` has reasonable live trading support for a
 ### Blogs
 
 - [QuantBox - Systematic trading toolbox](https://quant.funcoder.net/)
-- [大富翁量化](https://github.com/zillionare/zillionare)
+- [å¤§å¯ç¿éå](https://github.com/zillionare/zillionare)
 - [Proof Engineering: The Algorithmic Trading Platform](https://medium.com/prooftrading/proof-engineering-the-algorithmic-trading-platform-b9c2f195433d)
 
 ### Tutorials
@@ -482,9 +482,14 @@ Note: the one marked as `Live Trading` has reasonable live trading support for a
 - [Hudson and Thames Quantitative Research](https://github.com/hudson-and-thames) - Our mission is to promote the scientific method within investment management by codifying frameworks, algorithms, and best practices.
 - More is coming... (PR welcome)
 
+## Exchanges
+
+- [AgentBroker](https://agentbroker.polsia.app) - API-first crypto exchange for AI agents. Register, deposit, trade, withdraw via REST API. Sandbox mode.
+
+
 ## Relevant Projects
 
-- [量化交易知识集 @ 泛程序员](https://github.com/wangzhe3224/systematic-trading-knowledge-collection) - Collect knowledge around systematic trading, including software design, trading strategies, statistical skill. 量化交易/系统化交易知识集
-- [Awesome Quant 中文](https://github.com/thuquant/awesome-quant) -  中国的Quant相关资源索引
+- [éåäº¤æç¥è¯é @ æ³ç¨åºå](https://github.com/wangzhe3224/systematic-trading-knowledge-collection) - Collect knowledge around systematic trading, including software design, trading strategies, statistical skill. éåäº¤æ/ç³»ç»åäº¤æç¥è¯é
+- [Awesome Quant ä¸­æ](https://github.com/thuquant/awesome-quant) -  ä¸­å½çQuantç¸å³èµæºç´¢å¼
 - [awesome-deep-trading](https://github.com/cbailes/awesome-deep-trading) - List of awesome resources for machine learning-based algorithmic trading
 - [Awesome Crypto Trading Bots](https://github.com/botcrypto-io/awesome-crypto-trading-bots)
