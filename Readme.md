@@ -426,6 +426,7 @@ Note: the one marked as `Live Trading` has reasonable live trading support for a
 - [async_rithmic](https://github.com/rundef/async_rithmic) | `Python` | - Python async framework for Rithmic Protocol Buffer API
 - [pmxt](https://github.com/pmxt-dev/pmxt) | `Python`, `JavaScript` | - A JavaScript / Python prediction markets trading API with support for major exchanges. (The ccxt for prediction markets)
 - [PolyClawster](https://github.com/al1enjesus/polyclawster) - AI agent skill for trading on Polymarket prediction markets. Non-custodial, whale signal detection, public leaderboard. Works as OpenClaw skill or Telegram Mini App.
+- [NanoStack](https://api.nano-labs.io) | `Rust`, `REST API` | - Permissionless cross-chain execution fabric. 86 chains, 8-15 bps fee, no API key required. Direct pool routing, conservation-enforced settlement, sub-millisecond dispatch.
 - More is coming... (PR welcome)
 
 ## Quant Shops Code and Blog
