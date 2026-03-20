@@ -94,6 +94,7 @@ And I count crypto as whole new category: [>> Click ME to Systematic Crypto](cry
 - [Qbot](https://github.com/UFund-Me/Qbot) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/UFund-Me/Qbot/main) ![GitHub Repo stars](https://img.shields.io/github/stars/UFund-Me/Qbot?style=social) | `Python` | - AI 自动量化交易机器人 AI-powered Quantitative Investment Research Platform.
 - [VARRD](https://github.com/augiemazza/varrd) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/augiemazza/varrd/main) ![GitHub Repo stars](https://img.shields.io/github/stars/augiemazza/varrd?style=social) | `Python` | - AI-powered trading research platform that validates any trading idea with event studies, statistical tests, and real market data across 15,000+ instruments. CLI, Python SDK, and MCP server.
 - [InvicTrade](https://invictrade.com) - AI-powered trading signals with 74% historical win rate, combining strategies from legendary investors using multi-model AI intelligence.
+- [OpenFinClaw](https://github.com/cryptoSUN2049/openFinclaw) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/cryptoSUN2049/openFinclaw/main) ![GitHub Repo stars](https://img.shields.io/github/stars/cryptoSUN2049/openFinclaw?style=social) | `TypeScript` | - AI-native systematic trading framework. Natural language strategy generation, multi-market execution (US/HK/CN/Crypto), self-evolving strategy pipeline with community leaderboard. Built on OpenClaw (68K+ stars).
 
 ## Backtest + live trading
 
