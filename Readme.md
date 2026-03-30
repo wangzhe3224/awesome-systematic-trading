@@ -403,6 +403,7 @@ Note: the one marked as `Live Trading` has reasonable live trading support for a
 
 - [SEC EDGAR Filing API](https://github.com/janlukasschroeder/sec-api-python)
 - [edgartools](https://github.com/dgunning/edgartools) |`Python`| - SEC EDGAR data for quant strategies — fundamentals, institutional holdings (13F), insider transactions, and corporate events (8-K). Includes MCP server for AI workflows.
+- [CongressionalStockBrain](https://congressionalstockbrain.com) - AI-powered STOCK Act disclosure tracker that converts U.S. lawmaker trade filings into machine-scored signals for retail investors. Alternative data source for equity quant strategies. Free tier available.
 
 ### Crypto
 
