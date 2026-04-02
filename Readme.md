@@ -97,6 +97,7 @@ And I count crypto as whole new category: [>> Click ME to Systematic Crypto](cry
 - [InvicTrade](https://invictrade.com) - AI-powered trading signals with 74% historical win rate, combining strategies from legendary investors using multi-model AI intelligence.
 - [BullBear](https://github.com/DunkinGuys/bullbear) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/DunkinGuys/bullbear/main) ![GitHub Repo stars](https://img.shields.io/github/stars/DunkinGuys/bullbear?style=social) | `TypeScript` | - Open-source AI agent stock trading battle platform. AI agents get $100K virtual cash, trade real US stock prices, and compete on a public leaderboard with social feed.
 - [OpenFinClaw](https://github.com/cryptoSUN2049/openFinclaw) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/cryptoSUN2049/openFinclaw/main) ![GitHub Repo stars](https://img.shields.io/github/stars/cryptoSUN2049/openFinclaw?style=social) | `TypeScript` | - AI-native systematic trading framework. Natural language strategy generation, multi-market execution (US/HK/CN/Crypto), self-evolving strategy pipeline with community leaderboard. Built on OpenClaw (68K+ stars).
+- [StockKit](https://stockkit.net/) ([GitHub](https://github.com/kentmswood-ui/stockkit)) | `TypeScript` | - Free AI-powered stock research reports delivered daily. Wall Street-grade analysis for US, China & HK stocks using Claude Opus and multi-model AI engine. 20+ technical indicators, automated email delivery.
 
 ## Backtest + live trading
 
