@@ -22,3 +22,4 @@
 - [polymarket-whales](https://github.com/al1enjesus/polymarket-whales) - Real-time whale trade tracker for Polymarket prediction markets. Fires terminal + Telegram alerts when large orders hit the book. Python, MIT, zero config.
 - [gocryptotrader](https://github.com/thrasher-corp/gocryptotrader) | `Go` |  - A cryptocurrency trading bot supporting multiple exchanges written in Golang.
 - [Solana SDK Tools](https://github.com/DebuggingMax/solana-sdk-tools) | `TypeScript` | - Token scanner and trading toolkit for Solana DEXs (Pump.fun, Raydium) with anti-rug analysis, copy trading, and paper trading mode
+- [Microverse Systems](https://microversesystems.com) | `C++` | - Real-time L2 order books from 21 exchanges. Free WebSocket API, historical replay, sub-ms latency.
