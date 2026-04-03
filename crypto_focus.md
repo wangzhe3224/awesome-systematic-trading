@@ -20,5 +20,6 @@
 - [Peregrine](https://github.com/wardbradt/peregrine) | `Python` | - Detects arbitrage opportunities across 131 cryptocurrency exchanges in 50 countries 
 - [K](https://github.com/ctubio/Krypto-trading-bot) | `C++` | - Self-hosted crypto trading bot (automated high frequency market making) written in C++ 
 - [polymarket-whales](https://github.com/al1enjesus/polymarket-whales) - Real-time whale trade tracker for Polymarket prediction markets. Fires terminal + Telegram alerts when large orders hit the book. Python, MIT, zero config.
+- [PolyMind](https://polyminds.netlify.app/) | `JavaScript` | - Real-time Polymarket trading alerts with multi-AI analysis (Groq, Claude, Gemini). Track whale bets, volume spikes, coordinated wallets, and 12 signal types. Free tier available.
 - [gocryptotrader](https://github.com/thrasher-corp/gocryptotrader) | `Go` |  - A cryptocurrency trading bot supporting multiple exchanges written in Golang.
 - [Solana SDK Tools](https://github.com/DebuggingMax/solana-sdk-tools) | `TypeScript` | - Token scanner and trading toolkit for Solana DEXs (Pump.fun, Raydium) with anti-rug analysis, copy trading, and paper trading mode
