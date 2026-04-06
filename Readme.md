@@ -400,6 +400,7 @@ Note: the one marked as `Live Trading` has reasonable live trading support for a
 - [Financial Data](https://financialdata.net/) - Stock Market and Financial Data API
 - [StockAInsights](https://stockainsights.com) - Institutional-grade financial statements API with AI extraction from SEC filings — not XBRL. Covers domestic and foreign filers (20-F, 6-K, 40-F), normalized quarterly and annual data.
 - [goMacro.ai](https://gomacro.ai) - AI-powered economic calendar with institutional-grade macro insights and scenario planning for NFP, CPI, PPI and other data releases.
+- [Chart Library](https://github.com/grahammccain/chart-library-mcp) |`Python`| - Historical chart pattern similarity search engine. 24M+ pre-computed embeddings (pgvector) across 15K+ symbols and 10 years of minute-bar data. Returns forward returns (1/3/5/10 day) for pattern-based strategy development. Also available as MCP server.
 
 ### Alternative
 
