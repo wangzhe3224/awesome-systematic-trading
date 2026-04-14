@@ -506,3 +506,5 @@ Note: the one marked as `Live Trading` has reasonable live trading support for a
 - [Awesome Crypto Trading Bots](https://github.com/botcrypto-io/awesome-crypto-trading-bots)
 
 - [Congressional Stock Brain](https://congressionalstockbrain.com) - Free AI-powered platform that ingests every U.S. STOCK Act disclosure and scores each trade by significance: committee relevance, timing vs. legislative activity, trade size vs. historical baseline, and disclosure delay. Covers 800+ lawmakers and 50,000+ disclosed trades. No login required.
+
+- [PolyMind](https://polyminds.netlify.app/) - Real-time Polymarket trading alerts with multi-AI analysis (Groq, Claude, Gemini). Monitors 200+ markets every 15 seconds across 12 signal types: whale bets, volume spikes, price reversals, coordinated wallets, and more. Free tier available.
