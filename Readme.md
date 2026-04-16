@@ -350,6 +350,7 @@ Note: the one marked as `Live Trading` has reasonable live trading support for a
 - [tsfresh](https://github.com/blue-yonder/tsfresh) - Automatic extraction of relevant features from time series.
 - [Facebook Prophet](https://github.com/facebook/prophet) - Tool for producing high quality forecasts for time series data that has multiple seasonality with linear or non-linear growth.
 - [pmdarima](https://github.com/alkaline-ml/pmdarima) - A statistical library designed to fill the void in Python's time series analysis capabilities, including the equivalent of R's auto.arima function.
+- [hurst-calculator](https://github.com/Osamwonyi18/hurst-calculator) - Rescaled Range (R/S) analysis for estimating the Hurst exponent of a time series. Classifies series as mean-reverting, random walk, or trending. NumPy-only, single-file Python.
 
 ## Visualization
 
