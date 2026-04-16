@@ -391,6 +391,7 @@ Note: the one marked as `Live Trading` has reasonable live trading support for a
 - [AkShare](https://github.com/akfamily/akshare) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/akfamily/akshare/main) |`Python`| - AKShare is an elegant and simple financial data interface library for Python, built for human beings! 开源财经数据接口库
 - [多因子模型数据](https://github.com/hugo2046/GetAstockFactors) - 获取经典的量化多因子模型数据
 - [findatapy](https://github.com/cuemacro/findatapy) |`Python`| - findatapy creates an easy to use Python API to download market data from many sources including Quandl, Bloomberg, Yahoo, Google etc. using a unified high level interface.  
+- [FXMacroData](https://github.com/fxmacrodata/fxmacrodata) |`Python`| - Real-time forex macroeconomic data API serving central bank announcements, policy rates, inflation, employment, and GDP for 18 currencies. Includes MCP server and OAuth support.
 - [yfinance](https://github.com/ranaroussi/yfinance) |`Python`| - yfinance offers a threaded and Pythonic way to download market data from Yahoo!Ⓡ finance.
 - [pandas-datareader](https://github.com/pydata/pandas-datareader) |`Python`| - Up to date remote data access for pandas, works for multiple versions of pandas.
 - [Wallstreet](https://github.com/mcdallas/wallstreet) |`Python`| - Wallstreet: Real time Stock and Option tools
