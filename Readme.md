@@ -493,6 +493,7 @@ Note: the one marked as `Live Trading` has reasonable live trading support for a
 ### Tutorials
 
 - [Algorithmic Trading for Cryptocurrencies in Python](https://github.com/tudorelu/tudorials/tree/master/trading) - A simple yet practical experiment tutorial for cryto trading.
+- [Solo Crypto Quant Starter Kit](https://github.com/cryptomotifs/cipher-starter) - A 150-page playbook for building a Solana-native signal engine + autonomous trading bot solo on $0/mo infrastructure. Covers universe selection, top-K signal filtering, eighth-Kelly sizing, MEV sandwich defenses, three-tier wallet architecture, Canadian NI 31-103 compliance, and Oracle Cloud Always Free deploy. [Landing page](https://cryptomotifs.github.io/cipher-starter/).
 
 ### Courses
 
