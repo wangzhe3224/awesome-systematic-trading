@@ -95,7 +95,10 @@ And I count crypto as whole new category: [>> Click ME to Systematic Crypto](cry
 - [Qbot](https://github.com/UFund-Me/Qbot) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/UFund-Me/Qbot/main) ![GitHub Repo stars](https://img.shields.io/github/stars/UFund-Me/Qbot?style=social) | `Python` | - AI 自动量化交易机器人 AI-powered Quantitative Investment Research Platform.
 - [VARRD](https://github.com/augiemazza/varrd) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/augiemazza/varrd/main) ![GitHub Repo stars](https://img.shields.io/github/stars/augiemazza/varrd?style=social) | `Python` | - AI-powered trading research platform that validates any trading idea with event studies, statistical tests, and real market data across 15,000+ instruments. CLI, Python SDK, and MCP server.
 - [InvicTrade](https://invictrade.com) - AI-powered trading signals with 74% historical win rate, combining strategies from legendary investors using multi-model AI intelligence.
+- [BullBear](https://github.com/DunkinGuys/bullbear) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/DunkinGuys/bullbear/main) ![GitHub Repo stars](https://img.shields.io/github/stars/DunkinGuys/bullbear?style=social) | `TypeScript` | - Open-source AI agent stock trading battle platform. AI agents get $100K virtual cash, trade real US stock prices, and compete on a public leaderboard with social feed.
+- [FinClaw](https://github.com/NeuZhou/finclaw) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/NeuZhou/finclaw/master) ![GitHub Repo stars](https://img.shields.io/github/stars/NeuZhou/finclaw?style=social) | `Python` | - AI-native quantitative finance engine with genetic algorithm strategy evolution. 484 built-in factors, walk-forward validation, multi-market support (A-shares, US, crypto). Strategies evolve themselves via GA — no manual parameter tuning needed.
 - [OpenFinClaw](https://github.com/cryptoSUN2049/openFinclaw) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/cryptoSUN2049/openFinclaw/main) ![GitHub Repo stars](https://img.shields.io/github/stars/cryptoSUN2049/openFinclaw?style=social) | `TypeScript` | - AI-native systematic trading framework. Natural language strategy generation, multi-market execution (US/HK/CN/Crypto), self-evolving strategy pipeline with community leaderboard. Built on OpenClaw (68K+ stars).
+- [StockKit](https://stockkit.net/) ([GitHub](https://github.com/kentmswood-ui/stockkit)) | `TypeScript` | - Free AI-powered stock research reports delivered daily. Wall Street-grade analysis for US, China & HK stocks using Claude Opus and multi-model AI engine. 20+ technical indicators, automated email delivery.
 
 ## Backtest + live trading
 
@@ -347,6 +350,7 @@ Note: the one marked as `Live Trading` has reasonable live trading support for a
 - [tsfresh](https://github.com/blue-yonder/tsfresh) - Automatic extraction of relevant features from time series.
 - [Facebook Prophet](https://github.com/facebook/prophet) - Tool for producing high quality forecasts for time series data that has multiple seasonality with linear or non-linear growth.
 - [pmdarima](https://github.com/alkaline-ml/pmdarima) - A statistical library designed to fill the void in Python's time series analysis capabilities, including the equivalent of R's auto.arima function.
+- [hurst-calculator](https://github.com/Osamwonyi18/hurst-calculator) - Rescaled Range (R/S) analysis for estimating the Hurst exponent of a time series. Classifies series as mean-reverting, random walk, or trending. NumPy-only, single-file Python.
 
 ## Visualization
 
@@ -388,6 +392,7 @@ Note: the one marked as `Live Trading` has reasonable live trading support for a
 - [AkShare](https://github.com/akfamily/akshare) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/akfamily/akshare/main) |`Python`| - AKShare is an elegant and simple financial data interface library for Python, built for human beings! 开源财经数据接口库
 - [多因子模型数据](https://github.com/hugo2046/GetAstockFactors) - 获取经典的量化多因子模型数据
 - [findatapy](https://github.com/cuemacro/findatapy) |`Python`| - findatapy creates an easy to use Python API to download market data from many sources including Quandl, Bloomberg, Yahoo, Google etc. using a unified high level interface.  
+- [FXMacroData](https://github.com/fxmacrodata/fxmacrodata) |`Python`| - Real-time forex macroeconomic data API serving central bank announcements, policy rates, inflation, employment, and GDP for 18 currencies. Includes MCP server and OAuth support.
 - [yfinance](https://github.com/ranaroussi/yfinance) |`Python`| - yfinance offers a threaded and Pythonic way to download market data from Yahoo!Ⓡ finance.
 - [pandas-datareader](https://github.com/pydata/pandas-datareader) |`Python`| - Up to date remote data access for pandas, works for multiple versions of pandas.
 - [Wallstreet](https://github.com/mcdallas/wallstreet) |`Python`| - Wallstreet: Real time Stock and Option tools
@@ -398,12 +403,15 @@ Note: the one marked as `Live Trading` has reasonable live trading support for a
 - [Financial Data](https://financialdata.net/) - Stock Market and Financial Data API
 - [StockAInsights](https://stockainsights.com) - Institutional-grade financial statements API with AI extraction from SEC filings — not XBRL. Covers domestic and foreign filers (20-F, 6-K, 40-F), normalized quarterly and annual data.
 - [goMacro.ai](https://gomacro.ai) - AI-powered economic calendar with institutional-grade macro insights and scenario planning for NFP, CPI, PPI and other data releases.
+- [Chart Library](https://github.com/grahammccain/chart-library-mcp) |`Python`| - Historical chart pattern similarity search engine. 24M+ pre-computed embeddings (pgvector) across 15K+ symbols and 10 years of minute-bar data. Returns forward returns (1/3/5/10 day) for pattern-based strategy development. Also available as MCP server.
 
 ### Alternative
 
+- [Adanos Market Sentiment API](https://api.adanos.org/docs/) | `REST API` | - Cross-platform market sentiment API for equities using Reddit, X/Twitter, and Polymarket signals; returns trending tickers, buzz scores, and sentiment snapshots for quant workflows.
 - [SEC EDGAR Filing API](https://github.com/janlukasschroeder/sec-api-python)
 - [edgartools](https://github.com/dgunning/edgartools) |`Python`| - SEC EDGAR data for quant strategies — fundamentals, institutional holdings (13F), insider transactions, and corporate events (8-K). Includes MCP server for AI workflows.
 - [CongressionalStockBrain](https://congressionalstockbrain.com) - AI-powered STOCK Act disclosure tracker that converts U.S. lawmaker trade filings into machine-scored signals for retail investors. Alternative data source for equity quant strategies. Free tier available.
+- [Helium MCP](https://github.com/connerlambden/helium-mcp) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/connerlambden/helium-mcp/main) ![GitHub Repo stars](https://img.shields.io/github/stars/connerlambden/helium-mcp?style=social) | `REST API`, `MCP` | - Real-time stock, ETF, and crypto data with AI bull/bear cases and price forecasts; ML options fair value (probability ITM, full Greeks); top-ranked options strategies (short vol, long vol); and news sentiment from 5,000+ sources. MCP server with REST endpoints. Free tier: 50 queries, no auth. [Website](https://heliumtrades.com/mcp-page/)
 
 ### Crypto
 
@@ -413,12 +421,15 @@ Note: the one marked as `Live Trading` has reasonable live trading support for a
 - [CoinPaprika](https://api.coinpaprika.com) | `REST API` | - Free crypto market data API with prices, volume, market cap, OHLCV, and exchange data for 7,000+ coins. No API key required, no rate limits.
 - [DexPaprika](https://api.dexpaprika.com) | `REST API` | - Free DEX/DeFi data API covering pools, tokens, OHLCV, and trade history across all chains and DEXes. No API key, no rate limits.
 - [PreReason](https://github.com/PreReason/mcp) | `TypeScript`, `REST API`, `MCP` | - Pre-analyzed Bitcoin and macro market briefings. 17 contexts covering BTC, Fed balance sheet, M2, Treasury yields, hash rate, difficulty, mining production costs, and cross-asset correlations (SPY, QQQ, VXX, UUP as BTC relationship signals). Returns trend direction, confidence scores, percentile rankings, and regime classification. [Website](https://www.prereason.com)
+- [Coinugget](https://coinugget.com) - Real-time RSI signals, price action & volume spikes dashboard for crypto traders. Free, no sign-up required.
+- [Microverse Systems](https://microversesystems.com) - Real-time L2 order books from 21 exchanges. Free WebSocket API, historical replay, sub-ms latency.
 
 ### Prediction Markets
 
 - [Parsec](https://github.com/parsecular/parsec-mcp) | `Rust`, `TypeScript`, `Python` | - Prediction market data, execution, and live streams across all major exchanges. [Website](https://parsecapi.com)
 - [ProfitPlay Agent Arena](https://github.com/jarvismaximum-hue/profitplay-starter) | `Python`, `JavaScript` | - Open prediction market arena where AI agents compete in real-time BTC/ETH/SOL prediction games. Python and Node.js SDKs, 9 live markets, REST + WebSocket APIs. [(Demo)](https://profitplay-1066795472378.us-east1.run.app)
 - [pykalshi](https://github.com/ArshKA/kalshi-client) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/ArshKA/kalshi-client/main) ![GitHub Repo stars](https://img.shields.io/github/stars/ArshKA/kalshi-client?style=social) | `Python` | - Feature-rich Python client for Kalshi prediction markets with WebSocket streaming, automatic retries, rate limiting, pandas integration, Jupyter rendering, and local orderbook management.
+- [TBD Predict](https://github.com/ego-protocol/tbd-vote-cli) | `TypeScript` | - Solana-based prediction market for human opinions with an agent CLI (`@tbd-vote/cli`) and AGENTS.md spec for AI agents to authenticate, list opinion campaigns, and place bets via JSON-friendly commands. [Website](https://www.tbd.vote)
 
 ## Broker APIs
 
@@ -484,6 +495,7 @@ Note: the one marked as `Live Trading` has reasonable live trading support for a
 ### Tutorials
 
 - [Algorithmic Trading for Cryptocurrencies in Python](https://github.com/tudorelu/tudorials/tree/master/trading) - A simple yet practical experiment tutorial for cryto trading.
+- [Solo Crypto Quant Starter Kit](https://github.com/cryptomotifs/cipher-starter) - A 150-page playbook for building a Solana-native signal engine + autonomous trading bot solo on $0/mo infrastructure. Covers universe selection, top-K signal filtering, eighth-Kelly sizing, MEV sandwich defenses, three-tier wallet architecture, Canadian NI 31-103 compliance, and Oracle Cloud Always Free deploy. [Landing page](https://cryptomotifs.github.io/cipher-starter/).
 
 ### Courses
 
@@ -496,3 +508,7 @@ Note: the one marked as `Live Trading` has reasonable live trading support for a
 - [Awesome Quant 中文](https://github.com/thuquant/awesome-quant) -  中国的Quant相关资源索引
 - [awesome-deep-trading](https://github.com/cbailes/awesome-deep-trading) - List of awesome resources for machine learning-based algorithmic trading
 - [Awesome Crypto Trading Bots](https://github.com/botcrypto-io/awesome-crypto-trading-bots)
+
+- [Congressional Stock Brain](https://congressionalstockbrain.com) - Free AI-powered platform that ingests every U.S. STOCK Act disclosure and scores each trade by significance: committee relevance, timing vs. legislative activity, trade size vs. historical baseline, and disclosure delay. Covers 800+ lawmakers and 50,000+ disclosed trades. No login required.
+
+- [PolyMind](https://polyminds.netlify.app/) - Real-time Polymarket trading alerts with multi-AI analysis (Groq, Claude, Gemini). Monitors 200+ markets every 15 seconds across 12 signal types: whale bets, volume spikes, price reversals, coordinated wallets, and more. Free tier available.
