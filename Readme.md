@@ -423,6 +423,7 @@ Note: the one marked as `Live Trading` has reasonable live trading support for a
 - [PreReason](https://github.com/PreReason/mcp) | `TypeScript`, `REST API`, `MCP` | - Pre-analyzed Bitcoin and macro market briefings. 17 contexts covering BTC, Fed balance sheet, M2, Treasury yields, hash rate, difficulty, mining production costs, and cross-asset correlations (SPY, QQQ, VXX, UUP as BTC relationship signals). Returns trend direction, confidence scores, percentile rankings, and regime classification. [Website](https://www.prereason.com)
 - [Coinugget](https://coinugget.com) - Real-time RSI signals, price action & volume spikes dashboard for crypto traders. Free, no sign-up required.
 - [Microverse Systems](https://microversesystems.com) - Real-time L2 order books from 21 exchanges. Free WebSocket API, historical replay, sub-ms latency.
+- [BitBank](https://bitbank.nz) | `REST API` | - AI-powered crypto forecasting and predictions API with machine learning models for price movement analysis.
 
 ### Prediction Markets
 
