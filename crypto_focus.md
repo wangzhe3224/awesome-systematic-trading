@@ -14,6 +14,7 @@
 - [Jesse](https://github.com/jesse-ai/jesse) | `Python` | - Jesse is an advanced crypto trading framework which aims to simplify researching and defining trading strategies.
 - [OctoBot](https://github.com/Drakkar-Software/OctoBot) | `Python`, `Cython`, `Live Trading`| - Cryptocurrency trading bot for TA, arbitrage and social trading with an advanced web interface
 - [Kelp](https://github.com/stellar/kelp) | `Go`, `Live Trading` | - Kelp is a free and open-source trading bot for the Stellar DEX and 100+ centralized exchanges
+- [DeepAlpha](https://github.com/stefanoviana/deepalpha) | `Python` | - AI crypto trading bot with 3-model ML ensemble (XGBoost, HMM, Transformer), 70.9% walk-forward accuracy, 12 exchanges. Cloud platform with dashboard, backtesting, and TradingView webhooks.
 - [Golang Crypto Trading Bot](https://github.com/saniales/golang-crypto-trading-bot/tree/develop) | `Go` | - A golang implementation of a console-based trading bot for cryptocurrency exchanges 
 - [BBGO](https://github.com/c9s/bbgo) | `Go` | - The modern cryptocurrency trading bot written in Go.
 - [Blankly](https://github.com/blankly-finance/blankly) | `Python` | - 🚀 💸 Easily build, backtest and deploy your algo in just a few lines of code. Trade stocks, cryptos, and forex across exchanges w/ one package. 
