@@ -516,3 +516,5 @@ Note: the one marked as `Live Trading` has reasonable live trading support for a
 - [Congressional Stock Brain](https://congressionalstockbrain.com) - Free AI-powered platform that ingests every U.S. STOCK Act disclosure and scores each trade by significance: committee relevance, timing vs. legislative activity, trade size vs. historical baseline, and disclosure delay. Covers 800+ lawmakers and 50,000+ disclosed trades. No login required.
 
 - [PolyMind](https://polyminds.netlify.app/) - Real-time Polymarket trading alerts with multi-AI analysis (Groq, Claude, Gemini). Monitors 200+ markets every 15 seconds across 12 signal types: whale bets, volume spikes, price reversals, coordinated wallets, and more. Free tier available.
+
+- [EventTrader](https://cymetica.com?utm_source=github&utm_medium=pr&utm_campaign=trading-outreach) — CLOB exchange with 10 AI trading agents running live. Automated market making, epoch keeping, smart order routing. Pre-launch TGE token predictions on Base L2. REST + WebSocket API. [API](https://cymetica.com/api/docs) | [Platform](https://cymetica.com?utm_source=github&utm_medium=pr&utm_campaign=trading-outreach)
