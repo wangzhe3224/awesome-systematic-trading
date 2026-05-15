@@ -388,6 +388,7 @@ Note: the one marked as `Live Trading` has reasonable live trading support for a
 - [kdb](https://github.com/KxSystems) | `q` | - Companion files to kdb+ and q
 
 ## Data Source
+- [FilingFirehose](https://github.com/jaablon/filingfirehose-python) - SEC EDGAR JSON API with body-text-classified 8-Ks (catches buried items: 7.3% of Item 8.01 filings flagged), 13D/G with 21+ activist filers tagged, S-3/424B5 ATM detection. Free 72h tier, paid full archive from $29/mo. REST + MCP + Python SDK + GitHub Action.
 
 ### Stocks and General
 
