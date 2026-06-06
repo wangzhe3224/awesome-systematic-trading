@@ -433,6 +433,7 @@ Note: the one marked as `Live Trading` has reasonable live trading support for a
 - [Coinugget](https://coinugget.com) - Real-time RSI signals, price action & volume spikes dashboard for crypto traders. Free, no sign-up required.
 - [Microverse Systems](https://microversesystems.com) - Real-time L2 order books from 21 exchanges. Free WebSocket API, historical replay, sub-ms latency.
 - [BitBank](https://bitbank.nz) | `REST API` | - AI-powered crypto forecasting and predictions API with machine learning models for price movement analysis.
+- [Athenum](https://athenum.xyz) - Crypto and derivatives analytics terminal aggregating order flow, open interest, and liquidity across 14 exchanges. Whale-wall market depth, GPU-native market-structure indicators (structure breaks, order blocks, FVGs, liquidity sweeps), and a macro layer (FRED, FOMC, ETF flows, SEC filings). Free tier, no card.
 
 ### Prediction Markets
 
