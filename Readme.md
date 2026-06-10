@@ -322,6 +322,7 @@ Note: the one marked as `Live Trading` has reasonable live trading support for a
 - [kand](https://github.com/rust-ta/kand) | `Rust` & `Python` | - A blazingly fast technical analysis library in Rust and Python.
 - [chart-patterns](https://github.com/focus1691/chart-patterns) | `TypeScript` | - Technical analysis library for chart patterns, price action, and volume-based pattern detection.
 - [ChartScout](https://chartscout.io) - Real-time crypto chart pattern detection and alerts
+- [Wickra](https://github.com/wickra-lib/wickra) | `Rust` & `Python` & `JavaScript` & `C++` & `C#` & `Go` & `Java` & `R` | - Streaming-first technical-analysis library with 514 O(1)-per-tick indicators across 24 families; bit-exact batch and streaming from one Rust core.
 
 
 ### Pricing
