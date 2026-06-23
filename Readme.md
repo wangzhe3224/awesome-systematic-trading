@@ -507,7 +507,6 @@ Note: the one marked as `Live Trading` has reasonable live trading support for a
 - [大富翁量化](https://github.com/zillionare/zillionare)
 - [Proof Engineering: The Algorithmic Trading Platform](https://medium.com/prooftrading/proof-engineering-the-algorithmic-trading-platform-b9c2f195433d)
 - [KeepRule](https://keeprule.com) - Free investment principles knowledge base with 500+ rules from Buffett, Munger, Graham and more, organized by investing scenarios.
-- [Ordinary Man Trying](https://ordinarymantrying.com) - English blog by a Chinese investor documenting value investing with AI, including stock analysis frameworks, behavioral investing tools, and the Buffett 20-punch card framework.
 
 ### Tutorials
 
