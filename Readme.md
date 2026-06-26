@@ -397,6 +397,7 @@ Note: the one marked as `Live Trading` has reasonable live trading support for a
 
 - [* OpenBB Terminal](https://github.com/OpenBB-finance/OpenBBTerminal) | `Python` | - Investment Research for Everyone, Anywhere.
 - [FinanceDatabase](https://github.com/JerBouma/FinanceDatabase) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/JerBouma/FinanceDatabase/main) - This is a database of 300.000+ symbols containing Equities, ETFs, Funds, Indices, Currencies, Cryptocurrencies and Money Markets.
+- [FinanceToolkit](https://github.com/JerBouma/FinanceToolkit) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/JerBouma/FinanceToolkit/main) - Toolkit with 200+ financial metrics including 80+ financial ratios, 30+ technical indicators, 20+ risk and performance metrics and 50+ macro indicators which pulls from Financial Modeling Prep, Yahoo Finance, OECD, GMBD and more.
 - [AkShare](https://github.com/akfamily/akshare) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/akfamily/akshare/main) |`Python`| - AKShare is an elegant and simple financial data interface library for Python, built for human beings! 开源财经数据接口库
 - [多因子模型数据](https://github.com/hugo2046/GetAstockFactors) - 获取经典的量化多因子模型数据
 - [findatapy](https://github.com/cuemacro/findatapy) |`Python`| - findatapy creates an easy to use Python API to download market data from many sources including Quandl, Bloomberg, Yahoo, Google etc. using a unified high level interface.  
