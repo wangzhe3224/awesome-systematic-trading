@@ -438,6 +438,7 @@ Note: the one marked as `Live Trading` has reasonable live trading support for a
 - [Sharpe](https://www.sharpe.ai/docs/free-api) | `REST API`, `MCP` | - Crypto market intelligence API and MCP server covering funding rates, options, arbitrage, narratives, exchange listings, and news. Public endpoints work without a required API key. [Website](https://www.sharpe.ai)
 - [Coinugget](https://coinugget.com) - Real-time RSI signals, price action & volume spikes dashboard for crypto traders. Free, no sign-up required.
 - [Microverse Systems](https://microversesystems.com) - Real-time L2 order books from 21 exchanges. Free WebSocket API, historical replay, sub-ms latency.
+- [Market Posture Daily](https://marketpd.com) - Daily trend, regime and relative-strength data for ~90 crypto assets and US stocks/ETFs (price vs the 50/200-day trend, momentum, correlation) plus a cointegration pair screener. Free terminal + JSON API.
 - [BitBank](https://bitbank.nz) | `REST API` | - AI-powered crypto forecasting and predictions API with machine learning models for price movement analysis.
 
 ### Prediction Markets
