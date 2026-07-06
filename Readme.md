@@ -174,6 +174,8 @@ Note: the one marked as `Live Trading` has reasonable live trading support for a
 - [Kelp](https://github.com/stellar/kelp) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/stellar/kelp/master) ![GitHub Repo stars](https://img.shields.io/github/stars/stellar/kelp?style=social) | Go, Live Trading | - Kelp is a free and open-source trading bot for the Stellar DEX and 100+ centralized exchanges
 - [exc](https://github.com/Nouzan/exc) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/Nouzan/exc/main) ![GitHub Repo stars](https://img.shields.io/github/stars/Nouzan/exc?style=social) | Rust | - The abstraction layer of exchanges.
 - [MyCryptoBot](https://github.com/diogomatoschaves/MyCryptoBot) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/diogomatoschaves/MyCryptoBot/master) ![GitHub Repo stars](https://img.shields.io/github/stars/diogomatoschaves/MyCryptoBot?style=social) | Python, Js | - Automated, open source crypto trading and backtesting platform
+- [godzilla.dev](https://godzilla.dev) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/godzilla-foundation/godzilla-community/main) ![GitHub Repo stars](https://img.shields.io/github/stars/godzilla-foundation/godzilla-community?style=social) | C++, Python | - Open-source framework for crypto quant trading, funding rate arbitrage and ultra-low-latency market making. [GitHub](https://github.com/godzilla-foundation/godzilla-community)
+
 
 ### Machine Learning / Reinforcement Learning Focused
 
