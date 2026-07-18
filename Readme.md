@@ -313,6 +313,7 @@ Note: the one marked as `Live Trading` has reasonable live trading support for a
 
 - [alphalens (Fork)](https://github.com/wangzhe3224/alphalens) | `Python` | - Performance analysis of predictive (alpha) stock factors
 - [ffn](https://github.com/pmorissette/ffn) | `Python` | - A financial function library for Python
+- [honest-signals](https://github.com/MarvinRey7879/honest-signals) | `Python` | - Scores detected chart patterns against the pattern-free baseline for the same market and timeframe, reporting lift with cluster-robust confidence intervals instead of a hit rate against 50%
 - [quantstats](https://github.com/ranaroussi/quantstats) | `Python` | - Portfolio analytics for quants, written in Python
 
 ### Indicators
