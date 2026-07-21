@@ -448,6 +448,7 @@ Note: the one marked as `Live Trading` has reasonable live trading support for a
 - [Microverse Systems](https://microversesystems.com) - Real-time L2 order books from 21 exchanges. Free WebSocket API, historical replay, sub-ms latency.
 - [Market Posture Daily](https://marketpd.com) - Daily trend, regime and relative-strength data for ~90 crypto assets and US stocks/ETFs (price vs the 50/200-day trend, momentum, correlation) plus a cointegration pair screener. Free terminal + JSON API.
 - [BitBank](https://bitbank.nz) | `REST API` | - AI-powered crypto forecasting and predictions API with machine learning models for price movement analysis.
+- [AgentServices](https://github.com/vbkotecha/aiservices-api) | `REST API`, `MCP`, `x402` | - Crypto & market data API platform with 54 services, 97 endpoints, and 37 MCP tools. On-chain payments via x402 (USDC on Base). Covers prices, OHLCV, on-chain metrics, DeFi data, and technical indicators. [Server](https://agentservices.to)
 
 ### Prediction Markets
 
