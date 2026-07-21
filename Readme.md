@@ -183,6 +183,7 @@ Note: the one marked as `Live Trading` has reasonable live trading support for a
 
 > ML, RL
 
+- [ml-quant-trading](https://github.com/initial-d/ml-quant-trading) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/initial-d/ml-quant-trading/main) ![GitHub Repo stars](https://img.shields.io/github/stars/initial-d/ml-quant-trading?style=social) | `Python`, `PyTorch` | - Research stack for multi-factor ML experiments with 213 mask-aware factors, bias correction, portfolio optimization, and vectorized backtesting.
 - [TradingGym](https://github.com/Yvictor/TradingGym) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/Yvictor/TradingGym/master) ![GitHub Repo stars](https://img.shields.io/github/stars/Yvictor/TradingGym?style=social) | Python, Live Trading | - Trading and Backtesting environment for training reinforcement learning agent or simple rule base algo.
 - [Stock Trading Bot using Deep Q-Learning](https://github.com/pskrunner14/trading-bot) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/pskrunner14/trading-bot/master) ![GitHub Repo stars](https://img.shields.io/github/stars/pskrunner14/trading-bot?style=social) | Python | - Stock Trading Bot using Deep Q-Learning
 
