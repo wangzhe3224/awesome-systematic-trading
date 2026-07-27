@@ -455,6 +455,7 @@ Note: the one marked as `Live Trading` has reasonable live trading support for a
 - [Market Posture Daily](https://marketpd.com) - Daily trend, regime and relative-strength data for ~90 crypto assets and US stocks/ETFs (price vs the 50/200-day trend, momentum, correlation) plus a cointegration pair screener. Free terminal + JSON API.
 - [BitBank](https://bitbank.nz) | `REST API` | - AI-powered crypto forecasting and predictions API with machine learning models for price movement analysis.
 - [AgentServices](https://github.com/vbkotecha/aiservices-api) | `REST API`, `MCP`, `x402` | - Crypto & market data API platform with 54 services, 97 endpoints, and 37 MCP tools. On-chain payments via x402 (USDC on Base). Covers prices, OHLCV, on-chain metrics, DeFi data, and technical indicators. [Server](https://agentservices.to)
+- [WealthVille](https://wealthville.net/api/v1) | `REST API`, `MCP` | - DeFi liquidity-pool scoring for LP/yield strategies. Covers ~68,800 Solana pools (Meteora DLMM, Orca Whirlpool, Raydium AMM/CLMM/CPMM) and 575 EVM pools across Ethereum, Arbitrum, Base, Optimism, Polygon and BSC. Returns a 0-100 pool score plus an ENTER/HOLD/EXIT/REDUCE/AVOID verdict with per-protocol calibrated confidence, and publishes a miss-inclusive 30-day track record so the signal can be evaluated before it is used. No API key required. Endpoints: `/pools/top`, `/evm/pools`, `/signals/feed`, `/track-record`. [Website](https://wealthville.net/developers)
 
 ### Prediction Markets
 
