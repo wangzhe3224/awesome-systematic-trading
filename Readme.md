@@ -459,6 +459,7 @@ Note: the one marked as `Live Trading` has reasonable live trading support for a
 
 ### Prediction Markets
 
+- [DepthFeed](https://depthfeed.com) | `REST API`, `WebSocket`, `MCP` | - Historical and live order-book data for prediction markets across Polymarket, Kalshi, Limitless, and Predict.fun, with backtesting-ready depth and liquidity analytics. [Docs](https://depthfeed.com/docs) [MCP](https://github.com/vcorp-dev/depthfeed-mcp)
 - [Parsec](https://github.com/parsecular/parsec-mcp) | `Rust`, `TypeScript`, `Python` | - Prediction market data, execution, and live streams across all major exchanges. [Website](https://parsecapi.com)
 - [ProfitPlay Agent Arena](https://github.com/jarvismaximum-hue/profitplay-starter) | `Python`, `JavaScript` | - Open prediction market arena where AI agents compete in real-time BTC/ETH/SOL prediction games. Python and Node.js SDKs, 9 live markets, REST + WebSocket APIs. [(Demo)](https://profitplay-1066795472378.us-east1.run.app)
 - [pykalshi](https://github.com/ArshKA/kalshi-client) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/ArshKA/kalshi-client/main) ![GitHub Repo stars](https://img.shields.io/github/stars/ArshKA/kalshi-client?style=social) | `Python` | - Feature-rich Python client for Kalshi prediction markets with WebSocket streaming, automatic retries, rate limiting, pandas integration, Jupyter rendering, and local orderbook management.
