@@ -182,6 +182,7 @@ Note: 如果标有`Live Trading` 表示具有实时交易功能（至少一个�
 ### 指标计算 Metrics computation
 
 - [ffn](https://github.com/pmorissette/ffn) | `Python` | - Python的金融函数库
+- [Jacobian](https://github.com/morluto/jacobian) | `Python`、`MCP`、`CLI` | - 面向 Agent 的可组合数学工具，为量化研究提供跨多项式映射、线性代数和图算法的精确计算与猜想测试。
 - [quantstats](https://github.com/ranaroussi/quantstats) | `Python` | - 用 Python 编写的量化投资组合分析
 
 ### 指标 Indicators
