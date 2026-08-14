@@ -468,6 +468,7 @@ Note: the one marked as `Live Trading` has reasonable live trading support for a
 - [TurbineFi](https://turbinefi.com) | `Web` | - Build, backtest, and deploy automated trading strategies for prediction markets including Kalshi and Polymarket.
 - [TBD Predict](https://github.com/ego-protocol/tbd-vote-cli) | `TypeScript` | - Solana-based prediction market for human opinions with an agent CLI (`@tbd-vote/cli`) and AGENTS.md spec for AI agents to authenticate, list opinion campaigns, and place bets via JSON-friendly commands. [Website](https://www.tbd.vote)
 - [PolyMind](https://polyminds.netlify.app/) | - Real-time Polymarket trading alerts with multi-AI analysis (Groq, Claude, Gemini). Monitors 200+ markets every 15 seconds across 12 signal types: whale bets, volume spikes, price reversals, coordinated wallets, and more. Free tier available.
+- [marketlens](https://marketlens.trade) | `Python`, `REST API` | - Tick-level Polymarket L2 order book history covering the whole catalog (crypto, sports, weather, economics) from March 2026, served as REST or parquet exports, with a backtesting engine that models queue position, latency, slippage and settlement delay. Free tier, then from $39/mo. [GitHub](https://github.com/marketlenstrade/marketlens-python)
 
 ## Broker APIs
 
