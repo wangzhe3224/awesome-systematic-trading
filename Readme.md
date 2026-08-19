@@ -231,6 +231,7 @@ Note: the one marked as `Live Trading` has reasonable live trading support for a
 - [Blackbird](https://github.com/butor/blackbird) | `C++` | - Blackbird Bitcoin Arbitrage: a long/short market-neutral strategy
 - [bitcoin-arbitrage](https://github.com/maxme/bitcoin-arbitrage) | `Python` | - Bitcoin arbitrage - opportunity detector
 - [R2 Bitcoin Arbitrager](https://github.com/bitrinjani/r2) | `TypeScript` | - R2 Bitcoin Arbitrager is an automatic arbitrage trading system powered by Node.js + TypeScript.
+- [polymm](https://github.com/kachence/polymm) ![GitHub last commit](https://img.shields.io/github/last-commit/kachence/polymm/main) ![GitHub Repo stars](https://img.shields.io/github/stars/kachence/polymm?style=social) | `Python` | - Market-making and arbitrage bot for Polymarket sports markets. De-vigs sportsbook odds to a fair price, quotes passively on the CLOB, and hedges the opposite side. Includes wallet analytics scripts that run against any public Polymarket wallet.
 
 ## Basic Components
 
