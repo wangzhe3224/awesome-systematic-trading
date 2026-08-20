@@ -32,3 +32,4 @@
 - [FillBench](https://fillbench.com) | `Data` | - Reproducible latency benchmarks for crypto exchange REST APIs (p50/p95/p99 and TLS connect time), measured every 2 hours from a fixed US-East host. Open JSON, documented methodology, and a public data mirror on [GitHub](https://github.com/sircharli3/fillbench-data). Also benchmarks trading fees and tool pricing.
 
 - [FundingRadar](https://github.com/economic-agent/fundingradar) | `Python` | - Keyless CLI that ranks perp funding rates across Hyperliquid, Binance and Bybit (hourly-normalized, annualized %, premium, open interest) with cron-friendly threshold exit codes and JSON/CSV snapshots. Stdlib only.
+- [RektCalc](https://rektcalc.com/calculators.html) | `Free` | - 300+ free crypto risk & trading calculators: liquidation price, position sizing, funding rate carry, DCA backtesting, options greeks and more. No signup.
