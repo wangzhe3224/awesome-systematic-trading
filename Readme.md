@@ -319,6 +319,7 @@ Note: the one marked as `Live Trading` has reasonable live trading support for a
 - [ffn](https://github.com/pmorissette/ffn) | `Python` | - A financial function library for Python
 - [honest-signals](https://github.com/MarvinRey7879/honest-signals) | `Python` | - Scores detected chart patterns against the pattern-free baseline for the same market and timeframe, reporting lift with cluster-robust confidence intervals instead of a hit rate against 50%
 - [Jacobian](https://github.com/morluto/jacobian) | `Python`, `MCP`, `CLI` | - Composable mathematics for agent-driven quant research, with exact computation and conjecture testing across polynomial maps, linear algebra, and graph algorithms.
+- [Lacuna](https://github.com/eyenoticeall/Lacuna) | `Python`, `Rust` | - Engine-agnostic quantitative research validation for leakage, overfitting, robustness, costs, and point-in-time evidence.
 - [quantstats](https://github.com/ranaroussi/quantstats) | `Python` | - Portfolio analytics for quants, written in Python
 
 ### Indicators
