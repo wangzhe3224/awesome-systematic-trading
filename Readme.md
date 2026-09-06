@@ -420,6 +420,7 @@ Note: the one marked as `Live Trading` has reasonable live trading support for a
 - [FXMacroData](https://github.com/fxmacrodata/fxmacrodata) |`Python`| - Real-time forex macroeconomic data API serving central bank announcements, policy rates, inflation, employment, and GDP for 18 currencies. Includes MCP server and OAuth support.
 - [yfinance](https://github.com/ranaroussi/yfinance) |`Python`| - yfinance offers a threaded and Pythonic way to download market data from Yahoo!Ⓡ finance.
 - [pandas-datareader](https://github.com/pydata/pandas-datareader) |`Python`| - Up to date remote data access for pandas, works for multiple versions of pandas.
+- [itch-book](https://github.com/groovg/itch-book) |`Python`| - NASDAQ TotalView-ITCH 5.0 day files to Parquet: BBO, trades, order-by-order messages with the resting side resolved, and MBP depth; C++23 core, downloads and verifies the free emi.nasdaq.com samples.
 - [Wallstreet](https://github.com/mcdallas/wallstreet) |`Python`| - Wallstreet: Real time Stock and Option tools
 - [TuShare](https://github.com/waditu/tushare) |`Python`| - TuShare is a utility for crawling historical data of China stocks
 - [Investpy](https://github.com/alvarobartt/investpy) - Financial Data Extraction from Investing.com with Python
