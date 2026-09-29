@@ -347,6 +347,7 @@ Note: the one marked as `Live Trading` has reasonable live trading support for a
 - [FinancePy](https://github.com/domokane/FinancePy) | `Python` | - A Python Finance Library that focuses on the pricing and risk-management of Financial Derivatives, including fixed-income, equity, FX and credit derivatives.
 - [tf-quant-finance](https://github.com/google/tf-quant-finance) - High-performance TensorFlow library for quantitative finance from Google
 - [vollib](https://github.com/vollib/vollib) | `Python` | - Fundamentally a swig/python wrapper around Peter Jaeckel's lets_be_rational. lets_be_rational focuses exclusively on Black76, while Vollib extends this to add support for Black-Scholes and Black-Scholes-Merton.
+- [vanna](https://github.com/heykav/vanna) | `Python` | - Black-Scholes and CRR-binomial options pricing with Greek-attributed P&L: every trade decomposed into delta/gamma/theta/vega/vanna/volga via a second-order Taylor expansion, with Greeks cross-checked against finite differences and a live in-browser demo running the real engine via Pyodide.
 
 ### Risk
 
