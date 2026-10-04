@@ -163,6 +163,7 @@ Note: the one marked as `Live Trading` has reasonable live trading support for a
 
 ### Crypto currency focus
 
+- [DefiTier](https://defitier.com) - Real-time Web3 perpetual DEX screener, multi-protocol funding rate arbitrage matrix, and airdrop points valuation calculator across 80+ protocols. Free, no sign-up required.
 - [basana](https://github.com/gbeced/basana) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/gbeced/basana/master) ![GitHub Repo stars](https://img.shields.io/github/stars/gbeced/basana?style=social) | Python | - A Python async and event driven framework for algorithmic trading, with a focus on crypto currencies.
 - [c-binance-future-quant](https://github.com/Melelery/c-binance-future-quant/tree/main) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/Melelery/c-binance-future-quant/main) ![GitHub Repo stars](https://img.shields.io/github/stars/Melelery/c-binance-future-quant?style=social) | Python | - 低成本，高效率，简单实现的币安合约量化系统架构
 - [triangular-arbitrage2](https://github.com/zlq4863947/triangular-arbitrage2) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/zlq4863947/triangular-arbitrage2/main) ![GitHub Repo stars](https://img.shields.io/github/stars/zlq4863947/triangular-arbitrage2?style=social) | TypeScript | - a server side application for perform triangular arbitrage.
