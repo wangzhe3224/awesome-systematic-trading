@@ -410,6 +410,7 @@ Note: the one marked as `Live Trading` has reasonable live trading support for a
 - [AltData Atlas](https://altdataatlas.com) - Open directory of alternative data providers for systematic and fundamental investors.
 - [SiftingIO](https://sifting.io/product/forex) - Multi-asset market data API covering forex, crypto, stocks, DEX, commodities, and fundamentals through unified REST and WebSocket interfaces. Free tier available with no card required.
 - [polymarket-canary-tape](https://huggingface.co/datasets/oraclemangle/polymarket-canary-tape) - Free CC-BY-4.0 prediction-market microstructure tape: 271M CEX trades + 61M Polymarket order-book WebSocket events (Apr-Jul 2026), including a dual-vantage overlap window for latency studies. Companion open-source bot lab: [polymarket-bot-lab](https://github.com/oraclemangle/polymarket-bot-lab).
+- [Prop-Firm Rules Census](https://propsurvival.com/research/prop-firm-rules-census-2026) - Sourced, dated registry of published prop-trading-firm evaluation-program rules (profit targets, daily loss limits, drawdown mechanics, consistency rules, payout terms), each field transcribed from the firm's own published documentation and periodically re-verified. Covers 60 firm rule sets across 247 account-size configurations. Free CSV/JSON download, CC-BY-4.0. Companion GitHub showcase with five firms in full field-level detail plus tracking metadata for the rest: [prop-firm-rules](https://github.com/casestudies/prop-firm-rules).
 
 ### Stocks and General
 
