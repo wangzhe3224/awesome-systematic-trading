@@ -82,13 +82,13 @@ Note: 如果标有`Live Trading` 表示具有实时交易功能（至少一个�
 - [backtrader](https://github.com/mementum/backtrader) | `Python`, `Live Trading` | - 用于交易策略的事件驱动 Python 回测库
 - [FlashFunk](https://github.com/HFQR/FlashFunk) | `Rust` | -  High Performance Runtime in Rust
 - [finmarketpy](https://github.com/cuemacro/finmarketpy) | `Python` | - 用于回测交易策略和分析金融市场的 Python 库(formerly pythalesians)
-- [FinClaw](https://github.com/NeuZhou/finclaw) | `Python` | - AI原生量化金融引擎，内置遗传算法策略进化。484个内置因子、Walk-Forward验证、多市场支持（A股、美股、加密货币）。策略通过GA自动进化，无需手动调参。
+- [FinClaw](https://github.com/NeuZhou/stratevo) | `Python` | - AI原生量化金融引擎，内置遗传算法策略进化。484个内置因子、Walk-Forward验证、多市场支持（A股、美股、加密货币）。策略通过GA自动进化，无需手动调参。
 - [gobacktest](https://github.com/gobacktest/gobacktest) | `Go` | - 基于Go的事件驱动回测框架
 - [lumibot](https://github.com/Lumiwealth/lumibot/tree/8da88cadfe9ee35399dd69c94aa5ed3cf995f417) | `Python` | - 一个非常简单但有用的回测和基于样本的实时交易框架（运行起来有点慢......）
 - [nautilus_trader](https://github.com/nautechsystems/nautilus_trader) | `Python`, `Cython`, `Rust`, `Live Trading` | - 高性能算法交易平台和事件驱动回测器
 - [QuantConnect](https://github.com/QuantConnect/Lean) | `C#`, `.NET`, `Live Trading` | - Lean 算法交易引擎 by QuantConnect (Python, C#)
 - [PineForge](https://github.com/pineforge-4pass/pineforge-engine) | `C++`, `PineScript` | - 确定性的 PineScript v6 离线回测引擎：把 Pine 转译成 C++ 在本机运行，与 TradingView 逐笔对齐校验（246 套参考策略中 245 套严格通过，0 引擎 bug）。一个 Docker 容器、免 API key，AI agent 可通过内置 MCP server 直接调用。
-- [QUANTAXIS](https://github.com/QUANTAXIS/QUANTAXIS) | `Python`, `Rust`, `Live Trading` | - QUANTAXIS 支持任务调度 分布式部署的 股票/期货/期权/港股/虚拟货币 数据/回测/模拟/交易/可视化/多账户 纯本地量化解决方案
+- [QUANTAXIS](https://github.com/yutiansut/QUANTAXIS) | `Python`, `Rust`, `Live Trading` | - QUANTAXIS 支持任务调度 分布式部署的 股票/期货/期权/港股/虚拟货币 数据/回测/模拟/交易/可视化/多账户 纯本地量化解决方案
 - [Rqalpha](https://github.com/ricequant/rqalpha) | `Python` | - 一个可扩展、可替换的 Python 算法回测 && 交易框架，支持多种证券
 - [quanttrader](https://github.com/letianzj/quanttrader) | `Python` | - 一个完全的基于python的事件驱动回测和量化交易者的实时交易库。
 - [sdoosa-algo-trade-python](https://github.com/sreenivasdoosa/sdoosa-algo-trade-python) | `Python` | - 该项目主要面向有兴趣学习使用 python 解释器编写自己的交易算法的算法交易新手。
@@ -100,7 +100,7 @@ Note: 如果标有`Live Trading` 表示具有实时交易功能（至少一个�
 > Vector Based Frameworks
 
 - [bt](https://github.com/pmorissette/bt) | `Python` | -  bt是一个基于Python的灵活回测框架，用于Algo和策略树中。
-- [pysystemtrade](https://github.com/robcarver17/pysystemtrade) | `Python`, `Live Trading` | - <Systematic Trading> by Rob Carver这本书的系统交易代码实现
+- [pysystemtrade](https://github.com/pst-group/pysystemtrade) | `Python`, `Live Trading` | - <Systematic Trading> by Rob Carver这本书的系统交易代码实现
 - [vectorbt](https://github.com/polakowo/vectorbt) | `Python`, `numba` | - vectorbt 采用了一种新颖的回测方法：它完全在 pandas 和 NumPy 对象上运行，并由 Numba 加速对大规模的数据进行分析，这使得于几秒钟内测试数千种策略。
 
 ### 加密货币相关
@@ -162,7 +162,7 @@ Note: 如果标有`Live Trading` 表示具有实时交易功能（至少一个�
 - [Incremental (JaneStreet)](https://github.com/janestreet/incremental) | `Ocaml` | -  Incremental 是一个库，它为您提供了一种构建复杂计算的方法，该计算可以有效地更新以响应输入的变化，灵感来自 Umut Acar et. al。关于自调整计算。 incremental在许多应用程序中都很有用
 - [GraphKit](https://github.com/yahoo/graphkit) | `Python` | - 用于创建和运行有序计算图的轻量级 Python 模块。
 - [Man MDF](https://github.com/man-group/mdf) | `Python` | - Python数据流编程工具包
-- [Tributary](https://github.com/timkpaine/tributary) | `Python` | - Python 流式处理反应式和数据流图
+- [Tributary](https://github.com/1kbgz/tributary) | `Python` | - Python 流式处理反应式和数据流图
 
 ### 其他可用的库 libraries
 
@@ -188,7 +188,7 @@ Note: 如果标有`Live Trading` 表示具有实时交易功能（至少一个�
 ### 指标 Indicators
 
 - [TA-Lib](https://ta-lib.org) | `C` | - 对金融市场数据进行技术分析
-  - [Python Wrapper](https://github.com/mrjbq7/ta-lib) | `Python` |
+  - [Python Wrapper](https://github.com/TA-Lib/ta-lib-python) | `Python` |
   - [Go Port](https://github.com/markcheno/go-talib) | `Go` |
   - [Rust Wrapper](https://github.com/CLevasseur/ta-lib-rust) | `Rust` |
 - [ta-rust](https://github.com/greyblake/ta-rs) | `Rust` | - Rust金融分析库
@@ -210,9 +210,9 @@ Note: 如果标有`Live Trading` 表示具有实时交易功能（至少一个�
 ### 优化 Optimization
 
 - [Deepdow](https://github.com/jankrepl/deepdow) | `Python` | - Python package connecting portfolio optimization and deep learning. Its goal is to facilitate research of networks that perform weight allocation in one forward pass.
-- [PyPortfolioOpt](https://github.com/robertmartin8/PyPortfolioOpt) | `Python` | - python 中的金融投资组合优化，包括经典有效前缘、Black-Litterman、分层风险平价策略
+- [PyPortfolioOpt](https://github.com/PyPortfolio/PyPortfolioOpt) | `Python` | - python 中的金融投资组合优化，包括经典有效前缘、Black-Litterman、分层风险平价策略
 - [Riskfolio-Lib](https://github.com/dcajasn/Riskfolio-Lib) | `Python` | - Python 投资组合优化和量化战略资产配置
-- [empyrial](https://github.com/ssantoshp/Empyrial) | `Python` | - Empyrial 是一个基于 Python 的开源量化投资库，致力于金融机构和散户投资者，于 2021 年 3 月正式发布。
+- [empyrial](https://github.com/santoshlite/EigenLedger) | `Python` | - Empyrial 是一个基于 Python 的开源量化投资库，致力于金融机构和散户投资者，于 2021 年 3 月正式发布。
 - [spectre](https://github.com/Heerozh/spectre) | `Python` | - Spectre 是一个 GPU 加速的并行量化交易库，专注于性能。
 
 ### 时间序列分析 TimeSeries Analysis
@@ -246,7 +246,7 @@ Note: 如果标有`Live Trading` 表示具有实时交易功能（至少一个�
 - [TuShare](https://github.com/waditu/tushare) |`Python`| - TuShare是一个用于抓取中国股票历史数据的实用程序
 - [Investpy](https://github.com/alvarobartt/investpy) - 使用 Python 从 Investing.com 提取财务数据
 - [AkShare](https://github.com/akfamily/akshare) |`Python`| - AKShare 是一个优雅简洁的 Python 金融数据接口库，专为人类打造！ 开源财经数据接口库
-- [Fundamental Analysis Data](https://github.com/JerBouma/FundamentalAnalysis) | `Python` | - 是一个成熟的基本面分析库，能够收集 20.000 多家公司的 20 年公司简介、财务报表、比率和股票数据。
+- [Fundamental Analysis Data](https://github.com/JerBouma/FinanceToolkit) | `Python` | - 是一个成熟的基本面分析库，能够收集 20.000 多家公司的 20 年公司简介、财务报表、比率和股票数据。
 - [Adanos Market Sentiment API](https://api.adanos.org/docs/) | `REST API` | - 跨平台股票市场情绪 API，结合 Reddit、X/Twitter 和 Polymarket 信号，提供 trending tickers、buzz scores 和情绪指标，适合量化研究工作流。
 
 ### Crypto
@@ -267,7 +267,7 @@ Note: 如果标有`Live Trading` 表示具有实时交易功能（至少一个�
 - [Quantitative Portfolio Management: The Art and Science of Statistical Arbitrage (2021)](https://www.amazon.co.uk/Quantitative-Portfolio-Management-Statistical-Arbitrage/dp/1119821320/ref=asc_df_1119821320/?tag=googshopuk-21&linkCode=df0&hvadid=534858257189&hvpos=&hvnetw=g&hvrand=3040398248892159445&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9044954&hvtargid=pla-919734400242&psc=1&th=1&psc=1)
 - [Algorithmic Trading with Python (2020) by Chris Conlan](https://github.com/chrisconlan/algorithmic-trading-with-python)
 - [Python for Algorithmic Trading (2020) by Dr. Yves J. Hilpisch](https://github.com/yhilpisch/py4at)
-- [Systematic Trading: A unique new method for designing trading and investing systems by Robert Carver](https://github.com/robcarver17/pysystemtrade)
+- [Systematic Trading: A unique new method for designing trading and investing systems by Robert Carver](https://github.com/pst-group/pysystemtrade)
 - [Machine Learning for Algorithmic Trading: Predictive models to extract signals from market and alternative data for systematic trading strategies with Python](https://github.com/stefan-jansen/machine-learning-for-trading)
 - [Advances in Financial Machine Learning](https://github.com/BlackArbsCEO/Adv_Fin_ML_Exercises)
 - [Machine Learning for Asset Managers](https://github.com/emoen/Machine-Learning-for-Asset-Managers)
