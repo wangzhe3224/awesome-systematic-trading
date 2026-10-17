@@ -546,6 +546,7 @@ Note: the one marked as `Live Trading` has reasonable live trading support for a
 - [大富翁量化](https://github.com/zillionare/zillionare)
 - [Proof Engineering: The Algorithmic Trading Platform](https://medium.com/prooftrading/proof-engineering-the-algorithmic-trading-platform-b9c2f195433d)
 - [KeepRule](https://keeprule.com) - Free investment principles knowledge base with 500+ rules from Buffett, Munger, Graham and more, organized by investing scenarios.
+- [YuRa Trading](https://yuratrading.com/blogs) - Backtests of strategies sold to retail traders (ICT Silver Bullet, opening range breakout, Gotobi, FX carry) with rules fixed before testing and trading costs included, publishing the failures as well as the survivors.
 
 ### Tutorials
 
