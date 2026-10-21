@@ -290,6 +290,7 @@ Note: 如果标有`Live Trading` 表示具有实时交易功能（至少一个�
 
 - [量化交易知识集 @ 泛程序员](https://github.com/wangzhe3224/systematic-trading-knowledge-collection) - 收集有关系统交易的知识，包括软件设计、交易策略、统计技能. 量化交易/系统化交易知识集
 - [Awesome Quant 中文](https://github.com/thuquant/awesome-quant) -  中国的Quant相关资源索引
+- [AI 量化导航](https://aiquantnav.com/) - 中文的开源量化与 AI 交易工具导航，收录 1,200 多个 GitHub / Hugging Face 项目，每天更新 star 走势、最近提交时间和是否归档，并做同类工具对比
 - [awesome-deep-trading](https://github.com/cbailes/awesome-deep-trading) - 机器学习的算法交易的资源列表
 - [Awesome Crypto Trading Bots](https://github.com/botcrypto-io/awesome-crypto-trading-bots)
 
