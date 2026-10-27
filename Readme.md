@@ -192,6 +192,7 @@ Note: the one marked as `Live Trading` has reasonable live trading support for a
 ## Alpha Collections
 
 ### General Alpha
+- [Alphanume Strategy Lab](https://github.com/alphanume-markets/Alphanume-Strategy-Lab) | `Python` | - Quantitative research examples for event-driven equities, cross-sectional strategies, and risk-regime modeling using Alphanume APIs; API access is required.
 
 - [Python quantitative trading strategies including VIX Calculator, Pattern Recognition, Commodity Trading Advisor, Monte Carlo, Options Straddle, Shooting Star, London Breakout, Heikin-Ashi, Pair Trading, RSI, Bollinger Bands, Parabolic SAR, Dual Thrust, Awesome, MACD](https://github.com/je-suis-tm/quant-trading#15-vix-calculator)
 - [analyzingalpha](https://github.com/leosmigel/analyzingalpha)
