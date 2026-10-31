@@ -411,6 +411,7 @@ Note: the one marked as `Live Trading` has reasonable live trading support for a
 - [SiftingIO](https://sifting.io/product/forex) - Multi-asset market data API covering forex, crypto, stocks, DEX, commodities, and fundamentals through unified REST and WebSocket interfaces. Free tier available with no card required.
 - [polymarket-canary-tape](https://huggingface.co/datasets/oraclemangle/polymarket-canary-tape) - Free CC-BY-4.0 prediction-market microstructure tape: 271M CEX trades + 61M Polymarket order-book WebSocket events (Apr-Jul 2026), including a dual-vantage overlap window for latency studies. Companion open-source bot lab: [polymarket-bot-lab](https://github.com/oraclemangle/polymarket-bot-lab).
 - [Convex Lake](https://convexlake.com) - Unified REST API for prediction market and crypto derivatives data: batch and real-time trades, order books, and volatility surface across Kalshi, Polymarket, Predict.fun, Limitless, Deribit, and Binance options. Free academic-research tier on request.
+- [Signal Lab](https://signal-lab-jet.vercel.app) | `JSON`, `CSV`, `MCP` | - Free catalog of free and free-tier data sources (financial markets, global macro, weather, news & RSS, OSINT) with access requirements, published limits, license notes and last-verified dates. Download catalog.json or catalog.csv, or connect agents to the keyless read-only MCP server. No signup. [MCP](https://signal-lab-jet.vercel.app/mcp)
 
 ### Stocks and General
 
