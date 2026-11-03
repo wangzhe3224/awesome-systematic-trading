@@ -539,6 +539,7 @@ Note: the one marked as `Live Trading` has reasonable live trading support for a
 - [Machine Learning for Algorithmic Trading: Predictive models to extract signals from market and alternative data for systematic trading strategies with Python](https://github.com/stefan-jansen/machine-learning-for-trading)
 - [Advances in Financial Machine Learning](https://github.com/BlackArbsCEO/Adv_Fin_ML_Exercises)
 - [Machine Learning for Asset Managers](https://github.com/emoen/Machine-Learning-for-Asset-Managers)
+- [Portfolio Optimization: Theory and Application (Cambridge University Press, 2025) by Daniel P. Palomar](https://portfoliooptimizationbook.com/)
 
 ### Blogs
 
