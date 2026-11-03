@@ -496,6 +496,7 @@ Note: the one marked as `Live Trading` has reasonable live trading support for a
 - [PolyClawster](https://github.com/al1enjesus/polyclawster) - AI agent skill for trading on Polymarket prediction markets. Non-custodial, whale signal detection, public leaderboard. Works as OpenClaw skill or Telegram Mini App.
 - [NanoStack](https://api.nano-labs.io) | `Rust`, `REST API` | - Permissionless cross-chain execution fabric. 86 chains, 8-15 bps fee, no API key required. Direct pool routing, conservation-enforced settlement, sub-millisecond dispatch.
 - [TickerAll](https://tickerall.com) | `REST`, `WebSocket` | - Hosted MetaTrader 5 & MT4 broker API. Place trades, stream live ticks, and pull historical candles from your code with no MetaTrader terminal — Python & TypeScript SDKs. Permanent free tier on demo accounts.
+- [Clear Street](https://docs.clearstreet.com/?utm_source=github&utm_medium=developer&utm_campaign=api_listings&utm_content=awesome_systematic_trading) | `REST API`, `FIX`, `Python`, `TypeScript`, `Go`, `Java` | - Low-latency broker API for US equities and options: orders, positions, balances, market data, and fundamentals, with official SDKs. [Python SDK](https://github.com/clear-street/clear-street-python)
 - More is coming... (PR welcome)
 
 ## Quant Shops Code and Blog
