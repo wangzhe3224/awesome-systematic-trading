@@ -565,6 +565,7 @@ Note: the one marked as `Live Trading` has reasonable live trading support for a
 - [Awesome Quant 中文](https://github.com/thuquant/awesome-quant) -  中国的Quant相关资源索引
 - [awesome-deep-trading](https://github.com/cbailes/awesome-deep-trading) - List of awesome resources for machine learning-based algorithmic trading
 - [Awesome Crypto Trading Bots](https://github.com/botcrypto-io/awesome-crypto-trading-bots)
+- [awesome-finance-ai-tools](https://github.com/skyboundropship-code/awesome-finance-ai-tools) - Curated list of MCP servers, agent skills and APIs for finance and trading, re-verified weekly.
 
 - [Congressional Stock Brain](https://congressionalstockbrain.com) - Free AI-powered platform that ingests every U.S. STOCK Act disclosure and scores each trade by significance: committee relevance, timing vs. legislative activity, trade size vs. historical baseline, and disclosure delay. Covers 800+ lawmakers and 50,000+ disclosed trades. No login required.
 
