@@ -256,6 +256,7 @@ Note: 如果标有`Live Trading` 表示具有实时交易功能（至少一个�
 ## Broker APIs
 
 - [Ib_insync](https://github.com/erdewit/ib_insync) | `Python` | - P盈透证券API的同步/异步python框架
+- [ibkr-flex-trades](https://github.com/sohayli/ibkr-flex-trades) | `Python` | - 通过 Flex Web Service 导出盈透证券成交记录为 CSV，并计算胜率/期望值/盈亏比
 - [ccxt](https://github.com/ccxt/ccxt) | `Python`, `JavaScript` | - 一个 JavaScript / Python / PHP 加密货币交易 API，支持 100 多个比特币/山寨币交易所
 - [Coinnect](https://github.com/hugues31/coinnect) | `Rust` | - Coinnect 是一个 Rust 库，旨在通过 REST API 提供对主要加密货币交易所的完整访问。
 - More is coming... (欢迎PR)
