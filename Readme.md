@@ -540,10 +540,12 @@ Note: the one marked as `Live Trading` has reasonable live trading support for a
 - [Machine Learning for Algorithmic Trading: Predictive models to extract signals from market and alternative data for systematic trading strategies with Python](https://github.com/stefan-jansen/machine-learning-for-trading)
 - [Advances in Financial Machine Learning](https://github.com/BlackArbsCEO/Adv_Fin_ML_Exercises)
 - [Machine Learning for Asset Managers](https://github.com/emoen/Machine-Learning-for-Asset-Managers)
+- [Portfolio Optimization: Theory and Application (Cambridge University Press, 2025) by Daniel P. Palomar](https://portfoliooptimizationbook.com/)
 
 ### Blogs
 
 - [QuantBox - Systematic trading toolbox](https://quant.funcoder.net/)
+- [quant.observer](https://quant.observer/) - Curated directory of quant trading tools, data sources, and frontier research for systematic traders and researchers.
 - [大富翁量化](https://github.com/zillionare/zillionare)
 - [Proof Engineering: The Algorithmic Trading Platform](https://medium.com/prooftrading/proof-engineering-the-algorithmic-trading-platform-b9c2f195433d)
 - [KeepRule](https://keeprule.com) - Free investment principles knowledge base with 500+ rules from Buffett, Munger, Graham and more, organized by investing scenarios.
@@ -571,3 +573,4 @@ Note: the one marked as `Live Trading` has reasonable live trading support for a
 
 - [EventTrader](https://cymetica.com?utm_source=github&utm_medium=pr&utm_campaign=trading-outreach) — CLOB exchange with 10 AI trading agents running live. Automated market making, epoch keeping, smart order routing. Pre-launch TGE token predictions on Base L2. REST + WebSocket API. [API](https://cymetica.com/api/docs) | [Platform](https://cymetica.com?utm_source=github&utm_medium=pr&utm_campaign=trading-outreach)
 - [ToolsNova](https://toolsnova.net) - Free browser-based trading calculators for forex and gold traders. Includes XAU/USD pip calculator, margin calculator, position size calculator and 100+ other tools. No signup required.
+- [Crypto Portfolio Tracker](https://github.com/assassinationss/crypto-portfolio-tracker) ![GitHub Repo stars](https://img.shields.io/github/stars/assassinationss/crypto-portfolio-tracker?style=social) - Free Excel crypto portfolio tracker: trade log, live holdings with fees-in avg cost, P&L. Pro edition adds dashboard + charts. Pay in USDT.
