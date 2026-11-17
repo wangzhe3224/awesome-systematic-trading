@@ -337,6 +337,7 @@ Note: the one marked as `Live Trading` has reasonable live trading support for a
 - [ChartScout](https://chartscout.io) - Real-time crypto chart pattern detection and alerts
 - [Wickra](https://github.com/wickra-lib/wickra) | `Rust` & `Python` & `JavaScript` & `C++` & `C#` & `Go` & `Java` & `R` | - Streaming-first technical-analysis library with 514 O(1)-per-tick indicators across 24 families; bit-exact batch and streaming from one Rust core.
 - [QuantWave](https://github.com/lavs9/quantwave) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/lavs9/quantwave/main) ![GitHub Repo stars](https://img.shields.io/github/stars/lavs9/quantwave?style=social) | `Python` `Rust` `Polars` | - Polars-native technical analysis and backtesting with bit-identical batch and streaming parity, plus an agent skill for consistent research-to-live strategy code.
+- [fin-primitives](https://github.com/Mattbusel/fin-primitives) | `Rust` & `Python` | - 743 streaming technical indicators in exact decimal arithmetic, with a pandas-ta style pandas accessor, a Polars namespace and a float64 fast path for whole-series backtests.
 
 
 ### Pricing
