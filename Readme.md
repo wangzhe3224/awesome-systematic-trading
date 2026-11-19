@@ -318,6 +318,7 @@ Note: the one marked as `Live Trading` has reasonable live trading support for a
 
 - [alphalens (Fork)](https://github.com/wangzhe3224/alphalens) | `Python` | - Performance analysis of predictive (alpha) stock factors
 - [ffn](https://github.com/pmorissette/ffn) | `Python` | - A financial function library for Python
+- [goodbye-fuffaguru](https://github.com/proof-over-hype/goodbye-fuffaguru) | `Python` | - Tests the trades and rules shown by social-media trading educators against chance: random entries at the same instants, fake levels, real costs, preregistered verdicts
 - [honest-signals](https://github.com/MarvinRey7879/honest-signals) | `Python` | - Scores detected chart patterns against the pattern-free baseline for the same market and timeframe, reporting lift with cluster-robust confidence intervals instead of a hit rate against 50%
 - [Jacobian](https://github.com/morluto/jacobian) | `Python`, `MCP`, `CLI` | - Composable mathematics for agent-driven quant research, with exact computation and conjecture testing across polynomial maps, linear algebra, and graph algorithms.
 - [Lacuna](https://github.com/eyenoticeall/Lacuna) | `Python`, `Rust` | - Engine-agnostic quantitative research validation for leakage, overfitting, robustness, costs, and point-in-time evidence.
