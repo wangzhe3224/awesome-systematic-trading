@@ -558,6 +558,7 @@ Note: the one marked as `Live Trading` has reasonable live trading support for a
 ### Courses
 
 - [Hudson and Thames Quantitative Research](https://github.com/hudson-and-thames) - Our mission is to promote the scientific method within investment management by codifying frameworks, algorithms, and best practices.
+- [eStockes Academy — Backtesting and Validation](https://estockes.com/education/backtesting-and-validation) - Free course on backtest assumptions, trading costs, out-of-sample testing, and common sources of leakage.
 - More is coming... (PR welcome)
 
 ## Relevant Projects
