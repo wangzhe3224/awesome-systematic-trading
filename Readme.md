@@ -441,6 +441,7 @@ Note: the one marked as `Live Trading` has reasonable live trading support for a
 
 ### Alternative
 
+- [BeliefState](https://beliefstate.ai/) | `REST API`, `MCP` | - Dated, source-linked investor theses, catalysts, risks, and recorded revisions. Published and observed dates are separate. Ticker coverage is public and keyless; detailed research uses paid access. [Coverage and API examples](https://beliefstate.ai/about#investor-thesis-coverage).
 - [Adanos Market Sentiment API](https://api.adanos.org/docs/) | `REST API` | - Cross-platform market sentiment API for equities using Reddit, X/Twitter, and Polymarket signals; returns trending tickers, buzz scores, and sentiment snapshots for quant workflows.
 - [13F Insight](https://13finsight.com/?utm_source=github&utm_medium=referral&utm_campaign=seo_outreach_20260422&utm_content=wangzhe3224_awesome-systematic-trading) - AI-powered platform for tracking institutional investor 13F holdings; covers 5,000+ managers with position change alerts, concentration analysis, and quarterly filing summaries. Free tier available.
 - [SEC EDGAR Filing API](https://github.com/janlukasschroeder/sec-api-python)
