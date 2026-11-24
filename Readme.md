@@ -322,6 +322,7 @@ Note: the one marked as `Live Trading` has reasonable live trading support for a
 - [Jacobian](https://github.com/morluto/jacobian) | `Python`, `MCP`, `CLI` | - Composable mathematics for agent-driven quant research, with exact computation and conjecture testing across polynomial maps, linear algebra, and graph algorithms.
 - [Lacuna](https://github.com/eyenoticeall/Lacuna) | `Python`, `Rust` | - Engine-agnostic quantitative research validation for leakage, overfitting, robustness, costs, and point-in-time evidence.
 - [quantstats](https://github.com/ranaroussi/quantstats) | `Python` | - Portfolio analytics for quants, written in Python
+- [Rigor](https://rigorscore.com/en) | `Python`, `Web` | - Audits an exported backtest or track record (MT4/MT5, TradingView, NinjaTrader, QuantConnect, backtesting.py, vectorbt or CSV): deflated Sharpe for the configurations tried, break-even cost, in-sample vs out-of-sample and data-quality checks, graded A to D with red flags. [Code](https://github.com/Sergiovalle3121/quant-trade)
 
 ### Indicators
 
