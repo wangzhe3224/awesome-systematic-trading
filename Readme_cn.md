@@ -79,6 +79,7 @@ Note: 如果标有`Live Trading` 表示具有实时交易功能（至少一个�
 - [aat](https://github.com/AsyncAlgoTrading/aat) | `Python`, `C++`, `Live Trading`| - 一个异步的、事件驱动的框架，主要用于编写Python算法交易策略（可以选择C++作为加速）。其具有模块化，可扩展性，支持多种工具和策略的特点，同时支持多个交易所之间进行实时交易。
 - [barter-rs](https://gitlab.com/open-source-keir/financial-modelling/trading/barter-rs) | `Rust` | - 开源Rust框架，用于建立事件驱动实时交易&回测系统。Open-source Rust framework for building event-driven live-trading & backtesting systems. Algorithmic trade with the peace of mind that comes from knowing your strategies have been backtested with a near-identical trading Engine.
 - [backtesting.py](https://github.com/kernc/backtesting.py) | `Python` | - Backtesting.py 是一个 Python 框架，用于根据历史（过去）数据推断交易策略的可行性。 在 Backtrader 的基础上进行了改进，且与其他的替代方案相比，Backtesting.py 是轻量级的、快速的、用户友好的、直观的、交互式的、智能的，并且有望面向未来。
+- [OpenBacktesting](https://github.com/lucidcog/openbacktesting) | `Python` | - 单资产历史回测框架，支持交易明细、pandas 统计、技术指标，以及网格或 SAMBO 参数优化。
 - [backtrader](https://github.com/mementum/backtrader) | `Python`, `Live Trading` | - 用于交易策略的事件驱动 Python 回测库
 - [FlashFunk](https://github.com/HFQR/FlashFunk) | `Rust` | -  High Performance Runtime in Rust
 - [finmarketpy](https://github.com/cuemacro/finmarketpy) | `Python` | - 用于回测交易策略和分析金融市场的 Python 库(formerly pythalesians)
