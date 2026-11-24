@@ -355,6 +355,7 @@ Note: the one marked as `Live Trading` has reasonable live trading support for a
 - [curistat](https://github.com/moxiespirit/MyClone/tree/main/volatility_platform) | `Python` | - Futures volatility forecasting for ES/NQ. Daily CVN rating (1-10), regime detection (CRC composite), directional signals, economic event impact analytics. Includes MCP server for AI agent integration.
 - [System R](https://agents.systemr.ai) | `Python` | - Risk intelligence API for trading agents. Pre-trade gate with position sizing (G-formula/Kelly), drawdown analysis, Monte Carlo simulation, regime detection. REST API and MCP server.
 - [QuantDojo Tools Hub](https://quantdojo.ai/tools/) – Free, no-login web calculators for position sizing, Kelly criterion, risk/reward, drawdown recovery, Sharpe ratio, and trading expectancy.
+- [Viktury trading calculators](https://viktury.com/tools/) - Free, no-login calculators: position size with entry and exit fees counted inside the risk, funding fee cost of a perpetual futures position over a hold, and how much to add when scaling into an open position.
 
 ### Optimization
 
