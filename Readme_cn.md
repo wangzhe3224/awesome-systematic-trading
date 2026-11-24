@@ -87,6 +87,7 @@ Note: 如果标有`Live Trading` 表示具有实时交易功能（至少一个�
 - [lumibot](https://github.com/Lumiwealth/lumibot/tree/8da88cadfe9ee35399dd69c94aa5ed3cf995f417) | `Python` | - 一个非常简单但有用的回测和基于样本的实时交易框架（运行起来有点慢......）
 - [nautilus_trader](https://github.com/nautechsystems/nautilus_trader) | `Python`, `Cython`, `Rust`, `Live Trading` | - 高性能算法交易平台和事件驱动回测器
 - [QuantConnect](https://github.com/QuantConnect/Lean) | `C#`, `.NET`, `Live Trading` | - Lean 算法交易引擎 by QuantConnect (Python, C#)
+- [OpenPineScript](https://github.com/be-thomas/OpenPineScript) | `TypeScript`, `JavaScript`, `Python`, `PineScript` | - 开源 Pine Script 编译器与运行时，支持 v1 至 v6 全部版本：在 Node.js、浏览器或 Python 中用自有 OHLCV 数据运行指标与策略回测。
 - [PineForge](https://github.com/pineforge-4pass/pineforge-engine) | `C++`, `PineScript` | - 确定性的 PineScript v6 离线回测引擎：把 Pine 转译成 C++ 在本机运行，与 TradingView 逐笔对齐校验（246 套参考策略中 245 套严格通过，0 引擎 bug）。一个 Docker 容器、免 API key，AI agent 可通过内置 MCP server 直接调用。
 - [QUANTAXIS](https://github.com/QUANTAXIS/QUANTAXIS) | `Python`, `Rust`, `Live Trading` | - QUANTAXIS 支持任务调度 分布式部署的 股票/期货/期权/港股/虚拟货币 数据/回测/模拟/交易/可视化/多账户 纯本地量化解决方案
 - [Rqalpha](https://github.com/ricequant/rqalpha) | `Python` | - 一个可扩展、可替换的 Python 算法回测 && 交易框架，支持多种证券
