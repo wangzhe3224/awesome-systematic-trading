@@ -455,6 +455,7 @@ Note: the one marked as `Live Trading` has reasonable live trading support for a
 
 - [Cryptofeed](https://github.com/bmoscon/cryptofeed) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/bmoscon/cryptofeed/master)|`Python`| - Cryptocurrency Exchange Websocket Data Feed Handler with Asyncio
 - [Orderflow](https://github.com/focus1691/orderflow) | `TypeScript`, `NestJS`, `TimescaleDB` | - Builds real-time Footprint Candles from WebSocket trade data across crypto exchanges.
+- [PerpSpread](https://perpspread.com) | `REST API`, `MCP` | - Free 7-venue crypto perpetual funding rate arbitrage terminal & JSON/CSV/MCP data API across OKX, Binance, Bybit, Bitget, Gate.io, Hyperliquid, and Aster, with 7D/30D settled funding history and Top-20 L2 orderbook slippage audits.
 - [Agent Gateway](https://agent-gateway-kappa.vercel.app) | `REST API` | - Free unified REST API providing real-time prices for 500+ crypto tokens via Hyperliquid. No API key required for price data. OpenAPI spec at `/openapi.json`.
 - [tessera-api](https://github.com/tesseralytics/python-client) | `Python` | - Official client for Tessera: order-flow-enriched OHLCV, funding-rate, and positioning datasets built from raw Hyperliquid trades, read straight into Polars or DuckDB over a REST API. [Website](https://tesseralytics.dev)
 - [CoinPaprika](https://api.coinpaprika.com) | `REST API` | - Crypto market data API with prices, volume, market cap, OHLCV, and exchange data for 12,000+ coins. No API key required; free tier is 20,000 calls/month.
