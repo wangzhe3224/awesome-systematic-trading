@@ -528,6 +528,7 @@ Note: the one marked as `Live Trading` has reasonable live trading support for a
 
 - [RevenPack - Insight](https://www.ravenpack.com/insights/research/)
 - [Alexandria Technology - Insight](https://www.alexandriatechnology.com/insights)
+- [Matana Labs Research](https://github.com/matanalabs/research) - Methodology and aggregated results (CSV, charts, CC BY 4.0) of studies run on second-level market data. The first measures how bar backtests overstate results: on US stocks and ETFs, 51% of profitable daily-bar "target first" backtests and 60% of profitable intraday 1-minute-bar backtests were not profitable once stops filled at the price of the second they triggered.
 
 ### Books
 
