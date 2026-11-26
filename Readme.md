@@ -386,6 +386,7 @@ Note: the one marked as `Live Trading` has reasonable live trading support for a
 - [mplfinance](https://github.com/matplotlib/mplfinance) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/matplotlib/mplfinance/master) ![GitHub Repo stars](https://img.shields.io/github/stars/matplotlib/mplfinance?style=social) | Python | - Financial Markets Data Visualization using Matplotlib
 - [KLinePic](https://klinepic.com/) | `TypeScript` | - Converts broker and exchange trade records into annotated candlestick review charts with buy/sell markers, batch PNG/ZIP export, and an Agent API. [Examples](https://github.com/sher1096/klinepic-agent-api-examples)
 - [btplotting](https://github.com/happydasch/btplotting) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/happydasch/btplotting/master) ![GitHub Repo stars](https://img.shields.io/github/stars/happydasch/btplotting?style=social) | Python, bokeh | - btplotting provides plotting for backtests, optimization results and live data from backtrader.
+- [VisualHFT](https://visualhft.com/docs/) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/visualHFT/VisualHFT/master) ![GitHub Repo stars](https://img.shields.io/github/stars/visualHFT/VisualHFT?style=social) | `C#` | - Windows desktop app for live limit order book analysis: Level 2 books and trades from seven crypto exchanges, with order book imbalance, VPIN, market resilience and order-to-trade ratio studies. [GitHub](https://github.com/visualHFT/VisualHFT)
 
 ## Message Queues
 
